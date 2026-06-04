@@ -1,5 +1,11 @@
 import { auth } from "@workspace/auth"
-import { canAccessRoute, getRequiredAdminPermission, getRouteArea } from "@workspace/permissions"
+import {
+  ROLES,
+  canAccessRoute,
+  getRequiredAdminPermission,
+  getRouteArea,
+  type Role,
+} from "@workspace/permissions"
 import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
 
@@ -67,6 +73,10 @@ function isApiRoute(pathname: string) {
   return pathname.startsWith("/api/")
 }
 
+function isKnownRole(role: unknown): role is Role {
+  return typeof role === "string" && Object.values(ROLES).includes(role as Role)
+}
+
 function withSecurityHeaders(
   response: NextResponse,
   options?: { private?: boolean; nonce?: string }
@@ -89,18 +99,40 @@ function withSecurityHeaders(
   return response
 }
 
-function unauthorized(pathname: string, nextUrl: URL, nonce: string) {
+function clearSessionCookies(response: NextResponse) {
+  for (const name of [
+    "authjs.session-token",
+    "__Secure-authjs.session-token",
+    "next-auth.session-token",
+    "__Secure-next-auth.session-token",
+  ]) {
+    response.cookies.delete(name)
+  }
+
+  return response
+}
+
+function unauthorized(
+  pathname: string,
+  nextUrl: URL,
+  nonce: string,
+  options?: { clearSession?: boolean }
+) {
   if (isApiRoute(pathname)) {
-    return withSecurityHeaders(
+    const response = withSecurityHeaders(
       NextResponse.json({ error: "Não autenticado." }, { status: 401 }),
       { private: true, nonce }
     )
+
+    return options?.clearSession ? clearSessionCookies(response) : response
   }
 
-  return withSecurityHeaders(NextResponse.redirect(new URL("/login", nextUrl)), {
+  const response = withSecurityHeaders(NextResponse.redirect(new URL("/login", nextUrl)), {
     private: true,
     nonce,
   })
+
+  return options?.clearSession ? clearSessionCookies(response) : response
 }
 
 function forbidden(pathname: string, nextUrl: URL, nonce: string) {
@@ -111,7 +143,16 @@ function forbidden(pathname: string, nextUrl: URL, nonce: string) {
     )
   }
 
-  return withSecurityHeaders(NextResponse.redirect(new URL("/dashboard", nextUrl)), {
+  const redirectUrl = new URL("/dashboard", nextUrl)
+
+  if (pathname === redirectUrl.pathname) {
+    return withSecurityHeaders(new NextResponse("Permissão insuficiente.", { status: 403 }), {
+      private: true,
+      nonce,
+    })
+  }
+
+  return withSecurityHeaders(NextResponse.redirect(redirectUrl), {
     private: true,
     nonce,
   })
@@ -139,10 +180,15 @@ export async function proxy(req: NextRequest) {
   }
 
   const session = await auth()
-  const isLoggedIn = !!session
   const userRole = session?.user?.role
+  const hasValidSession = Boolean(session?.user?.id && isKnownRole(userRole))
 
-  if (isLoggedIn && pathname === "/login") {
+  if (session && !hasValidSession) {
+    console.warn(`[SECURITY] Sessão inválida em ${pathname}: role ausente ou desconhecida.`)
+    return unauthorized(pathname, nextUrl, nonce, { clearSession: true })
+  }
+
+  if (hasValidSession && pathname === "/login") {
     return withSecurityHeaders(NextResponse.redirect(new URL("/dashboard", nextUrl)), {
       private: true,
       nonce,
@@ -160,7 +206,7 @@ export async function proxy(req: NextRequest) {
     )
   }
 
-  if (!isLoggedIn) {
+  if (!hasValidSession) {
     return unauthorized(pathname, nextUrl, nonce)
   }
 
