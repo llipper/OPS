@@ -15,6 +15,7 @@ type LoginBucket = {
 const loginBuckets = new Map<string, LoginBucket>()
 let upstashLoginLimiter: Ratelimit | null = null
 const authSecret = process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET
+const authUrl = process.env.AUTH_URL || process.env.NEXTAUTH_URL
 
 function assertStrongAuthSecret(secret: string | undefined) {
   if (!secret || secret.length < 32) {
@@ -22,7 +23,21 @@ function assertStrongAuthSecret(secret: string | undefined) {
   }
 }
 
+function assertProductionAuthUrl(url: string | undefined) {
+  if (process.env.NODE_ENV !== "production" || !url) return
+
+  const parsedUrl = new URL(url)
+  if (["localhost", "127.0.0.1", "::1"].includes(parsedUrl.hostname)) {
+    throw new Error("AUTH_URL/NEXTAUTH_URL não pode apontar para localhost em produção.")
+  }
+
+  if (parsedUrl.protocol !== "https:") {
+    throw new Error("AUTH_URL/NEXTAUTH_URL precisa usar HTTPS em produção.")
+  }
+}
+
 assertStrongAuthSecret(authSecret)
+assertProductionAuthUrl(authUrl)
 
 function hasUpstashEnv() {
   return Boolean(
@@ -102,7 +117,10 @@ export const authConfig = {
     maxAge: 12 * 60 * 60,
     updateAge: 60 * 60,
   },
-  trustHost: process.env.NODE_ENV !== "production" || process.env.AUTH_TRUST_HOST === "true",
+  trustHost:
+    process.env.NODE_ENV !== "production" ||
+    process.env.AUTH_TRUST_HOST === "true" ||
+    process.env.VERCEL === "1",
 
   pages: {
     signIn: "/login",

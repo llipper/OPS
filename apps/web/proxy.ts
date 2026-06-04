@@ -22,9 +22,8 @@ const SECURITY_HEADERS = {
 // Domínios Vercel da aplicação (produção + previews)
 const VERCEL_DOMAINS = [
   "https://ops-web-beta.vercel.app",
-  "https://ops-web-llipper-devs-projects.vercel.app",
   "https://ops-web-git-main-llipper-devs-projects.vercel.app",
-  "https://ops-7659aj8a2-llipper-devs-projects.vercel.app",
+  "https://ops-nassnhqc9-llipper-devs-projects.vercel.app",
 ]
 
 function getAllowedOrigins(): string {
