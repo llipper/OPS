@@ -5,18 +5,25 @@ node_modules
 .pnp
 .pnp.js
 
-# Local env files
+# Sensitive files - NUNCA commitar
+CREDENCIAIS.md
+credenciais.md
+*.credentials.*
+secrets/
+banca.json
+
+# Local env files - NUNCA commitar
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+!.env.example
+!.env.*.example
 
 # Testing
 coverage
 
 # Turbo
 .turbo
+.cache
 
 # Vercel
 .vercel
@@ -26,6 +33,7 @@ coverage
 out/
 build
 dist
+downloads/
 
 
 # Debug

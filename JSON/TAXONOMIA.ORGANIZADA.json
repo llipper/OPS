@@ -1,0 +1,2129 @@
+{
+  "Língua Portuguesa": {
+    "Fonética e Fonologia": {
+      "Classificação": [
+        "Dissílaba",
+        "Monossílaba",
+        "Polissílaba",
+        "Sílaba tônica",
+        "Trissílaba"
+      ],
+      "Fonemas": [
+        "Dígrafo",
+        "Encontro consonantal",
+        "Encontro vocálico",
+        "Fonema",
+        "Letra"
+      ]
+    },
+    "Interpretação e Compreensão de Textos": {
+      "Coesão e Coerência": [
+        "Coerência argumentativa",
+        "Coesão referencial",
+        "Coesão sequencial",
+        "Conectivos",
+        "Progressão textual"
+      ],
+      "Compreensão Textual": [
+        "Argumentação",
+        "Conclusão textual",
+        "Ideia principal",
+        "Ideia secundária",
+        "Inferência",
+        "Pressuposição",
+        "Progressão textual",
+        "Subentendido",
+        "Tema",
+        "Tese"
+      ],
+      "Gêneros Textuais": [
+        "Artigo",
+        "Crônica",
+        "Editorial",
+        "Memorando",
+        "Notícia",
+        "Ofício",
+        "Relatório",
+        "Texto jurídico"
+      ],
+      "Tipologia Textual": [
+        "Descritivo",
+        "Dissertativo",
+        "Expositivo",
+        "Injuntivo",
+        "Narrativo"
+      ]
+    },
+    "Literatura": {
+      "Escolas Literárias": [
+        "Arcadismo",
+        "Barroco",
+        "Modernismo",
+        "Naturalismo",
+        "Parnasianismo",
+        "Quinhentismo",
+        "Realismo",
+        "Romantismo",
+        "Simbolismo"
+      ]
+    },
+    "Morfologia": {
+      "Classes de Palavras": [
+        "Adjetivo",
+        "Advérbio",
+        "Artigo",
+        "Conjunção",
+        "Interjeição",
+        "Numeral",
+        "Preposição",
+        "Pronome",
+        "Substantivo",
+        "Verbo"
+      ],
+      "Estrutura das Palavras": [
+        "Desinência",
+        "Prefixo",
+        "Radical",
+        "Sufixo",
+        "Tema",
+        "Vogal temática"
+      ],
+      "Flexões": [
+        "Flexão nominal",
+        "Flexão verbal",
+        "Gênero",
+        "Grau",
+        "Modo verbal",
+        "Número",
+        "Pessoa",
+        "Tempo verbal"
+      ],
+      "Formação das Palavras": [
+        "Abreviação",
+        "Composição",
+        "Derivação prefixal",
+        "Derivação sufixal",
+        "Hibridismo",
+        "Onomatopeia",
+        "Parassíntese"
+      ]
+    },
+    "Ortografia Oficial": {
+      "Acentuação Gráfica": [
+        "Ditongos",
+        "Hiatos",
+        "Oxítonas",
+        "Paroxítonas",
+        "Proparoxítonas"
+      ],
+      "Ortografia": [
+        "Emprego do hífen",
+        "Novo acordo ortográfico",
+        "Uso do ch",
+        "Uso do s",
+        "Uso do x",
+        "Uso do z"
+      ]
+    },
+    "Redação Oficial": {
+      "Documentos Oficiais": [
+        "Ata",
+        "Despacho",
+        "Memorando",
+        "Ofício",
+        "Relatório",
+        "Requerimento"
+      ],
+      "Manual de Redação": [
+        "Clareza",
+        "Concisão",
+        "Formalidade",
+        "Impessoalidade",
+        "Padronização"
+      ]
+    },
+    "Reescrita e Equivalência": {
+      "Equivalência de Estruturas": [
+        "Conectores equivalentes",
+        "Discurso direto e indireto",
+        "Orações desenvolvidas e reduzidas",
+        "Relações lógico-semânticas",
+        "Voz ativa e voz passiva"
+      ],
+      "Reescrita de Frases": [
+        "Correção gramatical",
+        "Manutenção de sentido",
+        "Paráfrase",
+        "Substituição de termos",
+        "Transformação de períodos"
+      ]
+    },
+    "Semântica": {
+      "Figuras de Linguagem": [
+        "Antítese",
+        "Eufemismo",
+        "Hipérbole",
+        "Ironia",
+        "Metáfora",
+        "Metonímia",
+        "Pleonasmo",
+        "Prosopopeia"
+      ],
+      "Sentido": [
+        "Ambiguidade",
+        "Conotação",
+        "Denotação"
+      ],
+      "Significação das Palavras": [
+        "Antonímia",
+        "Homonímia",
+        "Paronímia",
+        "Polissemia",
+        "Sinonímia"
+      ]
+    },
+    "Sintaxe": {
+      "Colocação Pronominal": [
+        "Colocação em locuções verbais",
+        "Ênclise",
+        "Fatores de atração",
+        "Mesóclise",
+        "Próclise"
+      ],
+      "Concordância": [
+        "Casos especiais de concordância",
+        "Concordância com expressões partitivas",
+        "Concordância com sujeito composto",
+        "Concordância nominal",
+        "Concordância verbal"
+      ],
+      "Crase": [
+        "Crase antes de pronomes",
+        "Locuções femininas",
+        "Uso facultativo",
+        "Uso facultativo da crase",
+        "Uso obrigatório",
+        "Uso obrigatório da crase",
+        "Uso proibido",
+        "Uso proibido da crase"
+      ],
+      "Frase Oração e Período": [
+        "Frase",
+        "Oração",
+        "Período composto",
+        "Período simples"
+      ],
+      "Período Composto": [
+        "Coordenação",
+        "Orações coordenadas",
+        "Orações subordinadas adjetivas",
+        "Orações subordinadas adverbiais",
+        "Orações subordinadas substantivas",
+        "Subordinação"
+      ],
+      "Pontuação": [
+        "Aspas",
+        "Dois pontos",
+        "Dois-pontos",
+        "Parênteses",
+        "Ponto e vírgula",
+        "Travessão",
+        "Vírgula"
+      ],
+      "Regência": [
+        "Complemento nominal",
+        "Objeto direto",
+        "Objeto indireto",
+        "Regência nominal",
+        "Regência verbal",
+        "Transitividade verbal"
+      ],
+      "Termos da Oração": [
+        "Adjunto adnominal",
+        "Adjunto adverbial",
+        "Aposto",
+        "Complemento nominal",
+        "Objeto direto",
+        "Objeto indireto",
+        "Predicado",
+        "Sujeito",
+        "Vocativo"
+      ],
+      "Tipos de Predicado": [
+        "Nominal",
+        "Verbal",
+        "Verbo-nominal"
+      ],
+      "Tipos de Sujeito": [
+        "Determinado",
+        "Indeterminado",
+        "Inexistente",
+        "Oculto"
+      ]
+    }
+  },
+  "Redação Oficial": {
+    "Comunicação Oficial": {
+      "Características da Redação Oficial": [
+        "Clareza",
+        "Coerência",
+        "Coesão",
+        "Concisão",
+        "Formalidade",
+        "Impessoalidade",
+        "Objetividade",
+        "Padronização",
+        "Precisão"
+      ],
+      "Documentos Oficiais": [
+        "Ata",
+        "Despacho",
+        "Memorando",
+        "Ofício",
+        "Ordem de serviço",
+        "Portaria",
+        "Relatório",
+        "Requerimento"
+      ],
+      "Pronomes de Tratamento": [
+        "Concordância",
+        "Emprego correto",
+        "Endereçamento",
+        "Vocativos"
+      ]
+    }
+  },
+  "Matemática": {
+    "Álgebra": {
+      "Equações": [
+        "Equação do primeiro grau",
+        "Equação do segundo grau",
+        "Sistemas lineares"
+      ],
+      "Funções": [
+        "Função afim",
+        "Função quadrática",
+        "Gráficos"
+      ]
+    },
+    "Aritmética": {
+      "Múltiplos e Divisores": [
+        "Divisibilidade",
+        "MDC",
+        "MMC",
+        "Números primos"
+      ],
+      "Operações Fundamentais": [
+        "Adição",
+        "Divisão",
+        "Multiplicação",
+        "Potenciação",
+        "Radiciação",
+        "Subtração"
+      ],
+      "Razão e Proporção": [
+        "Porcentagem",
+        "Proporção",
+        "Razão",
+        "Regra de três composta",
+        "Regra de três simples"
+      ]
+    },
+    "Geometria": {
+      "Geometria Espacial": [
+        "Cilindros",
+        "Cones",
+        "Esferas",
+        "Prismas",
+        "Volumes"
+      ],
+      "Geometria Plana": [
+        "Ângulos",
+        "Áreas",
+        "Circunferência",
+        "Perímetros",
+        "Quadriláteros",
+        "Triângulos"
+      ]
+    }
+  },
+  "Raciocínio Lógico": {
+    "Argumentação": {
+      "Argumentos": [
+        "Falácias",
+        "Validade"
+      ]
+    },
+    "Lógica Proposicional": {
+      "Proposições": [
+        "Conectivos",
+        "Equivalência",
+        "Negação",
+        "Tabela verdade"
+      ]
+    },
+    "Probabilidade e Estatística": {
+      "Estatística": [
+        "Média",
+        "Mediana",
+        "Moda",
+        "Probabilidade"
+      ]
+    }
+  },
+  "Informática": {
+    "Banco de Dados": {
+      "Conceitos Básicos": [
+        "Campo",
+        "Chave estrangeira",
+        "Chave primária",
+        "Dado",
+        "Informação",
+        "Registro",
+        "Tabela"
+      ],
+      "Modelagem": [
+        "Modelo conceitual",
+        "Modelo lógico",
+        "Normalização",
+        "Relacionamentos"
+      ],
+      "SQL": [
+        "DELETE",
+        "Filtros",
+        "INSERT",
+        "JOIN",
+        "SELECT",
+        "UPDATE"
+      ]
+    },
+    "IA e Transformação Digital": {
+      "Inteligência Artificial": [
+        "Aprendizado de máquina",
+        "Automação",
+        "Conceitos básicos de IA",
+        "Ética em IA",
+        "IA generativa"
+      ],
+      "Transformação Digital": [
+        "Assinatura digital",
+        "Digitalização de processos",
+        "Governo digital",
+        "Processo eletrônico",
+        "Serviços digitais"
+      ]
+    },
+    "Internet e Navegadores": {
+      "Correio Eletrônico": [
+        "Anexos",
+        "Assinatura eletrônica",
+        "Cc e Cco",
+        "E-mail",
+        "Phishing",
+        "Spam"
+      ],
+      "Internet": [
+        "Cache",
+        "Cookies",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "URL",
+        "World Wide Web"
+      ],
+      "Navegadores": [
+        "Extensões",
+        "Favoritos",
+        "Google Chrome",
+        "Histórico",
+        "Microsoft Edge",
+        "Mozilla Firefox"
+      ]
+    },
+    "Internet e Redes": {
+      "Protocolos": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "TCP/IP"
+      ]
+    },
+    "Pacote Office": {
+      "Excel": [
+        "Filtros",
+        "Funções",
+        "Gráficos"
+      ],
+      "Word": [
+        "Estilos",
+        "Formatação"
+      ]
+    },
+    "Pacote Office e LibreOffice": {
+      "Apresentações": [
+        "Animações",
+        "LibreOffice Impress",
+        "Microsoft PowerPoint",
+        "Slides",
+        "Transições"
+      ],
+      "Editor de Texto": [
+        "Formatação",
+        "LibreOffice Writer",
+        "Mala direta",
+        "Microsoft Word",
+        "Revisão",
+        "Tabelas"
+      ],
+      "Planilhas": [
+        "Fórmulas",
+        "Funções",
+        "Gráficos",
+        "LibreOffice Calc",
+        "Microsoft Excel",
+        "Tabelas dinâmicas"
+      ]
+    },
+    "Redes de Computadores": {
+      "Conceitos de Redes": [
+        "Endereço IP",
+        "LAN",
+        "MAN",
+        "Protocolos",
+        "Topologias",
+        "WAN"
+      ],
+      "Equipamentos de Rede": [
+        "Access point",
+        "Firewall",
+        "Modem",
+        "Roteador",
+        "Switch"
+      ],
+      "Redes Sem Fio": [
+        "Bluetooth",
+        "Criptografia de rede",
+        "SSID",
+        "Wi-Fi"
+      ]
+    },
+    "Segurança da Informação": {
+      "Ameaças Digitais": [
+        "Ataque de força bruta",
+        "Engenharia social",
+        "Malware",
+        "Phishing",
+        "Ransomware",
+        "Vírus"
+      ],
+      "Princípios": [
+        "Autenticidade",
+        "Confidencialidade",
+        "Disponibilidade",
+        "Integridade",
+        "Não repúdio"
+      ],
+      "Proteção": [
+        "Antivírus",
+        "Atualizações de segurança",
+        "Autenticação multifator",
+        "Backup",
+        "Criptografia",
+        "Senhas fortes"
+      ],
+      "Segurança": [
+        "Backup",
+        "Criptografia",
+        "Firewall",
+        "Malware",
+        "Phishing"
+      ]
+    },
+    "Sistemas Operacionais": {
+      "Dispositivos Móveis": [
+        "Android",
+        "Aplicativos",
+        "iOS",
+        "Segurança em dispositivos móveis",
+        "Sincronização"
+      ],
+      "Linux": [
+        "Comandos básicos",
+        "Distribuições",
+        "Permissões",
+        "Processos",
+        "Sistema de arquivos",
+        "Terminal"
+      ],
+      "Windows": [
+        "Área de trabalho",
+        "Atalhos",
+        "Configurações",
+        "Gerenciador de arquivos",
+        "Gerenciamento de arquivos",
+        "Painel de controle",
+        "Permissões"
+      ]
+    }
+  },
+  "Atualidades": {
+    "Brasil Contemporâneo": {
+      "Economia": [
+        "Desenvolvimento regional",
+        "Emprego e renda",
+        "Inflação",
+        "Setor público"
+      ],
+      "Política e Sociedade": [
+        "Cidadania",
+        "Democracia",
+        "Desigualdade social",
+        "Políticas públicas",
+        "Violência urbana"
+      ]
+    },
+    "Mundo Contemporâneo": {
+      "Meio Ambiente": [
+        "Crise hídrica",
+        "Desastres ambientais",
+        "Mudanças climáticas",
+        "Sustentabilidade"
+      ],
+      "Relações Internacionais": [
+        "Conflitos internacionais",
+        "Direitos humanos no cenário internacional",
+        "Globalização",
+        "Organismos internacionais"
+      ]
+    }
+  },
+  "História do Ceará": {
+    "Cultura Cearense": {
+      "Identidade Cultural": [
+        "Artesanato",
+        "Festas populares",
+        "Literatura de cordel",
+        "Religiosidade popular"
+      ],
+      "Personalidades Históricas": [
+        "Dragão do Mar",
+        "Padre Cícero",
+        "Rachel de Queiroz"
+      ]
+    },
+    "Formação Histórica": {
+      "Colonização": [
+        "Capitanias",
+        "Economia colonial",
+        "Ocupação do território",
+        "Populações indígenas"
+      ],
+      "Império e República": [
+        "Abolicionismo no Ceará",
+        "Coronelismo",
+        "Modernização urbana",
+        "Movimentos políticos"
+      ]
+    }
+  },
+  "Geografia do Ceará": {
+    "Aspectos Físicos": {
+      "Clima e Relevo": [
+        "Litoral",
+        "Semiárido",
+        "Serras úmidas",
+        "Sertões"
+      ],
+      "Hidrografia": [
+        "Açudes",
+        "Bacias hidrográficas",
+        "Recursos hídricos",
+        "Transposição"
+      ]
+    },
+    "Aspectos Humanos e Econômicos": {
+      "Economia": [
+        "Agropecuária",
+        "Comércio e serviços",
+        "Indústria",
+        "Turismo"
+      ],
+      "População": [
+        "Distribuição populacional",
+        "Migração",
+        "Região Metropolitana de Fortaleza",
+        "Urbanização"
+      ]
+    }
+  },
+  "Direito Constitucional": {
+    "Controle de Constitucionalidade": {
+      "Controle Concentrado": [
+        "ADC",
+        "ADI",
+        "ADO",
+        "ADPF",
+        "Legitimados"
+      ],
+      "Controle Difuso": [
+        "Caso concreto",
+        "Efeitos da decisão",
+        "Reserva de plenário"
+      ]
+    },
+    "Defesa do Estado e das Instituições": {
+      "Estados de Exceção": [
+        "Estado de defesa",
+        "Estado de sítio"
+      ],
+      "Forças Armadas": [
+        "Aeronáutica",
+        "Exército",
+        "Marinha"
+      ]
+    },
+    "Defesa do Estado e das Instituições Democráticas": {
+      "Forças Armadas": [
+        "Aeronáutica",
+        "Exército",
+        "Garantia da lei e da ordem",
+        "Hierarquia e disciplina",
+        "Marinha"
+      ],
+      "Segurança Pública": [
+        "Corpos de bombeiros militares",
+        "Guardas municipais",
+        "Órgãos de segurança pública",
+        "Polícia penal",
+        "Polícias civis",
+        "Polícias militares"
+      ]
+    },
+    "Direitos e Garantias Fundamentais": {
+      "Direitos Individuais e Coletivos": [
+        "Ato jurídico perfeito",
+        "Coisa julgada",
+        "Direito adquirido",
+        "Direito de associação",
+        "Direito de propriedade",
+        "Direito de reunião",
+        "Inviolabilidade domiciliar",
+        "Legalidade",
+        "Liberdade de expressão",
+        "Liberdade religiosa",
+        "Princípio da igualdade",
+        "Sigilo de correspondência"
+      ],
+      "Direitos Políticos": [
+        "Elegibilidade",
+        "Inelegibilidade",
+        "Sufrágio",
+        "Voto"
+      ],
+      "Direitos Sociais": [
+        "Direito à educação",
+        "Direito à saúde",
+        "Direito à segurança",
+        "Direitos trabalhistas"
+      ],
+      "Nacionalidade": [
+        "Brasileiro nato",
+        "Brasileiro naturalizado",
+        "Perda da nacionalidade"
+      ],
+      "Remédios Constitucionais": [
+        "Ação popular",
+        "Habeas corpus",
+        "Habeas data",
+        "Mandado de injunção",
+        "Mandado de segurança"
+      ]
+    },
+    "Organização do Estado": {
+      "Competências": [
+        "Competência comum",
+        "Competência concorrente",
+        "Competência privativa"
+      ],
+      "Intervenção": [
+        "Intervenção estadual",
+        "Intervenção federal"
+      ],
+      "Organização Político-Administrativa": [
+        "Distrito Federal",
+        "Estados",
+        "Municípios",
+        "União"
+      ]
+    },
+    "Poder Executivo": {
+      "Chefia do Executivo": [
+        "Governador",
+        "Prefeito",
+        "Presidente da República"
+      ],
+      "Responsabilidade": [
+        "Crimes de responsabilidade",
+        "Impeachment"
+      ]
+    },
+    "Poder Judiciário": {
+      "Funções Essenciais à Justiça": [
+        "Advocacia Pública",
+        "Defensoria Pública",
+        "Ministério Público"
+      ],
+      "Órgãos do Judiciário": [
+        "Justiça Militar",
+        "STF",
+        "STJ",
+        "TJ",
+        "TRFs"
+      ]
+    },
+    "Poder Legislativo": {
+      "Congresso Nacional": [
+        "Câmara dos Deputados",
+        "Senado Federal",
+        "Sessões legislativas"
+      ],
+      "Fiscalização": [
+        "CPIs",
+        "Tribunal de Contas"
+      ],
+      "Processo Legislativo": [
+        "Decreto legislativo",
+        "Emenda constitucional",
+        "Lei complementar",
+        "Lei ordinária",
+        "Medida provisória",
+        "Resolução"
+      ]
+    },
+    "Segurança Pública": {
+      "Órgãos de Segurança": [
+        "Corpo de Bombeiros",
+        "Guardas Municipais",
+        "Polícia Civil",
+        "Polícia Federal",
+        "Polícia Ferroviária Federal",
+        "Polícia Militar",
+        "Polícia Penal",
+        "Polícia Rodoviária Federal"
+      ]
+    },
+    "Teoria da Constituição": {
+      "Constituição": [
+        "Aplicabilidade das normas constitucionais",
+        "Classificação",
+        "Conceito",
+        "Elementos da Constituição",
+        "Interpretação constitucional",
+        "Poder constituinte",
+        "Supremacia constitucional"
+      ]
+    }
+  },
+  "Direitos Humanos": {
+    "Direitos Humanos e Segurança Pública": {
+      "Atuação Policial": [
+        "Legalidade",
+        "Proporcionalidade",
+        "Uso progressivo da força"
+      ]
+    },
+    "Grupos Vulneráveis": {
+      "Igualdade Racial": [
+        "Ações afirmativas",
+        "Discriminação racial",
+        "Racismo",
+        "Racismo institucional"
+      ],
+      "Proteção Especial": [
+        "Comunidades quilombolas",
+        "Crianças e adolescentes",
+        "Mulheres",
+        "Pessoas com deficiência",
+        "Pessoas idosas",
+        "População em situação de rua",
+        "População LGBTQIA+",
+        "Povos indígenas"
+      ]
+    },
+    "Sistema Internacional": {
+      "Proteção Internacional": [
+        "ONU",
+        "Pacto de San José da Costa Rica"
+      ]
+    },
+    "Sistema Internacional de Proteção": {
+      "Sistema Global": [
+        "Declaração Universal dos Direitos Humanos",
+        "ONU",
+        "Pactos internacionais",
+        "Tratados internacionais"
+      ],
+      "Sistema Interamericano": [
+        "Comissão Interamericana de Direitos Humanos",
+        "Convenção Americana de Direitos Humanos",
+        "Corte Interamericana de Direitos Humanos"
+      ]
+    },
+    "Teoria Geral": {
+      "Direitos Humanos": [
+        "Características",
+        "Dimensões",
+        "Princípios"
+      ]
+    },
+    "Uso da Força e Atividade Policial": {
+      "Parâmetros de Atuação": [
+        "Legalidade",
+        "Necessidade",
+        "Prestação de contas",
+        "Proporcionalidade",
+        "Proteção da vida"
+      ]
+    }
+  },
+  "Direito Administrativo": {
+    "Administração Pública": {
+      "Organização Administrativa": [
+        "Administração direta",
+        "Administração indireta",
+        "Autarquia",
+        "Empresa pública",
+        "Fundação pública",
+        "Sociedade de economia mista"
+      ],
+      "Princípios": [
+        "Eficiência",
+        "Impessoalidade",
+        "Legalidade",
+        "Moralidade",
+        "Publicidade"
+      ]
+    },
+    "Agentes Públicos": {
+      "Regime Jurídico": [
+        "Acumulação de cargos",
+        "Cargo público",
+        "Emprego público",
+        "Função pública",
+        "Provimento",
+        "Remuneração",
+        "Vacância"
+      ],
+      "Responsabilidade do Agente Público": [
+        "Processo administrativo disciplinar",
+        "Responsabilidade administrativa",
+        "Responsabilidade civil",
+        "Responsabilidade penal",
+        "Sindicância"
+      ],
+      "Servidores Públicos": [
+        "Acumulação de cargos",
+        "Cargo público",
+        "Emprego público",
+        "Estabilidade",
+        "Função pública",
+        "Responsabilidade disciplinar"
+      ]
+    },
+    "Atos Administrativos": {
+      "Atributos": [
+        "Autoexecutoriedade",
+        "Imperatividade",
+        "Presunção de legitimidade"
+      ],
+      "Elementos do Ato": [
+        "Competência",
+        "Finalidade",
+        "Forma",
+        "Motivo",
+        "Objeto"
+      ],
+      "Extinção": [
+        "Anulação",
+        "Cassação",
+        "Revogação"
+      ]
+    },
+    "Improbidade Administrativa": {
+      "Lei de Improbidade Administrativa": [
+        "Acordo de não persecução cível",
+        "Dano ao erário",
+        "Dolo",
+        "Enriquecimento ilícito",
+        "Sanções",
+        "Sujeitos ativo e passivo",
+        "Violação a princípios"
+      ]
+    },
+    "Licitações e Contratos": {
+      "Contratos Administrativos": [
+        "Alteração contratual",
+        "Cláusulas exorbitantes",
+        "Execução",
+        "Extinção do contrato",
+        "Fiscalização",
+        "Inexecução",
+        "Rescisão",
+        "Sanções"
+      ],
+      "Lei 14.133/2021": [
+        "Agentes de contratação",
+        "Contratação direta",
+        "Matriz de riscos",
+        "Plano de contratações anual",
+        "Portal Nacional de Contratações Públicas"
+      ],
+      "Licitações": [
+        "Concorrência",
+        "Critérios de julgamento",
+        "Dispensa",
+        "Fases da licitação",
+        "Inexigibilidade",
+        "Modalidades",
+        "Pregão",
+        "Princípios",
+        "Princípios da licitação"
+      ]
+    },
+    "Poderes Administrativos": {
+      "Espécies": [
+        "Poder de polícia",
+        "Poder disciplinar",
+        "Poder hierárquico",
+        "Poder regulamentar"
+      ]
+    },
+    "Processo Administrativo": {
+      "Atos Processuais": [
+        "Anulação",
+        "Decisão",
+        "Instauração",
+        "Instrução",
+        "Recurso administrativo",
+        "Revisão"
+      ],
+      "Lei 9.784/1999": [
+        "Competência",
+        "Deveres dos administrados",
+        "Direitos dos administrados",
+        "Impedimento",
+        "Princípios do processo administrativo",
+        "Suspeição"
+      ]
+    },
+    "Responsabilidade Civil do Estado": {
+      "Responsabilidade": [
+        "Ação regressiva",
+        "Excludentes",
+        "Responsabilidade objetiva"
+      ],
+      "Responsabilidade Extracontratual": [
+        "Dano",
+        "Excludentes de responsabilidade",
+        "Nexo causal",
+        "Responsabilidade objetiva",
+        "Responsabilidade subjetiva",
+        "Teoria do risco administrativo"
+      ],
+      "Responsabilidade por Omissão": [
+        "Culpa do serviço",
+        "Dever de indenizar",
+        "Omissão específica",
+        "Omissão genérica"
+      ]
+    }
+  },
+  "Administração Pública": {
+    "Gestão de Pessoas": {
+      "Comportamento Organizacional": [
+        "Clima organizacional",
+        "Comunicação",
+        "Liderança",
+        "Motivação",
+        "Trabalho em equipe"
+      ]
+    },
+    "Organização Administrativa": {
+      "Administração Direta e Indireta": [
+        "Autarquias",
+        "Empresas públicas",
+        "Fundações públicas",
+        "Órgãos públicos",
+        "Sociedades de economia mista"
+      ],
+      "Modelos de Gestão": [
+        "Gestão burocrática",
+        "Gestão gerencial",
+        "Gestão por resultados",
+        "Governança pública"
+      ]
+    },
+    "Planejamento e Controle": {
+      "Controle Administrativo": [
+        "Accountability",
+        "Controle externo",
+        "Controle interno",
+        "Transparência"
+      ],
+      "Planejamento Estratégico": [
+        "Indicadores",
+        "Missão",
+        "Objetivos",
+        "Valores",
+        "Visão"
+      ]
+    }
+  },
+  "Administração Financeira e Orçamentária": {
+    "Orçamento Público": {
+      "Ciclo Orçamentário": [
+        "Aprovação",
+        "Avaliação",
+        "Controle",
+        "Discussão",
+        "Elaboração",
+        "Execução"
+      ],
+      "Instrumentos de Planejamento": [
+        "Créditos adicionais",
+        "Lei de Diretrizes Orçamentárias",
+        "Lei Orçamentária Anual",
+        "Plano Plurianual"
+      ],
+      "Princípios Orçamentários": [
+        "Anualidade",
+        "Equilíbrio",
+        "Exclusividade",
+        "Legalidade",
+        "Publicidade",
+        "Unidade",
+        "Universalidade"
+      ]
+    },
+    "Receita e Despesa Pública": {
+      "Despesa Pública": [
+        "Despesas correntes",
+        "Despesas de capital",
+        "Empenho",
+        "Liquidação",
+        "Pagamento",
+        "Restos a pagar"
+      ],
+      "Receita Pública": [
+        "Classificação da receita",
+        "Estágios da receita",
+        "Receitas correntes",
+        "Receitas de capital"
+      ]
+    },
+    "Responsabilidade Fiscal": {
+      "Lei de Responsabilidade Fiscal": [
+        "Dívida pública",
+        "Limites de despesa com pessoal",
+        "Metas fiscais",
+        "Riscos fiscais",
+        "Transparência fiscal"
+      ]
+    }
+  },
+  "Contabilidade Pública": {
+    "Demonstrações Contábeis": {
+      "Demonstrações Aplicadas ao Setor Público": [
+        "Balanço financeiro",
+        "Balanço orçamentário",
+        "Balanço patrimonial",
+        "Demonstração das variações patrimoniais",
+        "Demonstração dos fluxos de caixa"
+      ]
+    },
+    "Fundamentos de Contabilidade Pública": {
+      "Patrimônio Público": [
+        "Ativo",
+        "Passivo",
+        "Patrimônio líquido",
+        "Variações patrimoniais"
+      ],
+      "Plano de Contas Aplicado ao Setor Público": [
+        "Contas de controle",
+        "Contas orçamentárias",
+        "Contas patrimoniais",
+        "Natureza da informação contábil"
+      ],
+      "Regimes Contábeis": [
+        "Despesa pública",
+        "Receita pública",
+        "Regime orçamentário",
+        "Regime patrimonial"
+      ]
+    }
+  },
+  "Ética no Serviço Público": {
+    "Fundamentos de Ética": {
+      "Ética e Moral": [
+        "Conceitos",
+        "Conduta profissional",
+        "Princípios",
+        "Valores"
+      ],
+      "Ética na Administração Pública": [
+        "Decoro",
+        "Eficiência",
+        "Interesse público",
+        "Probidade",
+        "Urbanidade"
+      ]
+    },
+    "Integridade Pública": {
+      "Prevenção a Desvios": [
+        "Assédio moral",
+        "Assédio sexual",
+        "Canal de denúncia",
+        "Conflito de interesses",
+        "Nepotismo"
+      ]
+    }
+  },
+  "Direito Penal": {
+    "Parte Especial": {
+      "Crimes Contra a Administração Pública": [
+        "Concussão",
+        "Corrupção passiva",
+        "Peculato"
+      ],
+      "Crimes Contra a Pessoa": [
+        "Feminicídio",
+        "Homicídio",
+        "Lesão corporal"
+      ],
+      "Crimes Contra o Patrimônio": [
+        "Extorsão",
+        "Furto",
+        "Latrocínio",
+        "Roubo"
+      ]
+    },
+    "Parte Geral": {
+      "Concurso de Pessoas": [
+        "Autoria",
+        "Participação"
+      ],
+      "Extinção da Punibilidade": [
+        "Decadência",
+        "Perdão",
+        "Prescrição"
+      ],
+      "Lei Penal": [
+        "Aplicação da lei penal",
+        "Conflito aparente de normas",
+        "Lugar do crime",
+        "Tempo do crime"
+      ],
+      "Penas": [
+        "Multa",
+        "Privativa de liberdade",
+        "Restritiva de direitos"
+      ],
+      "Teoria do Crime": [
+        "Conduta",
+        "Culpabilidade",
+        "Fato típico",
+        "Ilicitude",
+        "Nexo causal",
+        "Resultado",
+        "Tipicidade"
+      ]
+    }
+  },
+  "Processo Penal": {
+    "Ação Penal": {
+      "Espécies": [
+        "Privada",
+        "Pública condicionada",
+        "Pública incondicionada"
+      ]
+    },
+    "Investigação Criminal": {
+      "Inquérito Policial": [
+        "Arquivamento",
+        "Características",
+        "Indiciamento"
+      ]
+    },
+    "Prisões": {
+      "Prisão Cautelar": [
+        "Flagrante",
+        "Preventiva",
+        "Temporária"
+      ]
+    },
+    "Procedimentos": {
+      "Ritos Processuais": [
+        "Ordinário",
+        "Sumário",
+        "Sumaríssimo"
+      ]
+    },
+    "Provas": {
+      "Meios de Prova": [
+        "Documental",
+        "Pericial",
+        "Reconhecimento de pessoas",
+        "Testemunhal"
+      ]
+    }
+  },
+  "Direito Penal Militar": {
+    "Parte Especial": {
+      "Crimes contra a Administração Militar": [
+        "Concussão",
+        "Corrupção passiva",
+        "Peculato",
+        "Prevaricação",
+        "Violação de sigilo funcional"
+      ],
+      "Crimes contra a Autoridade ou Disciplina Militar": [
+        "Aliciação para motim",
+        "Desrespeito a superior",
+        "Motim",
+        "Recusa de obediência",
+        "Revolta",
+        "Violência contra superior"
+      ],
+      "Crimes contra o Serviço Militar e o Dever Militar": [
+        "Abandono de posto",
+        "Descumprimento de missão",
+        "Deserção",
+        "Dormir em serviço"
+      ]
+    },
+    "Parte Geral": {
+      "Aplicação da Lei Penal Militar": [
+        "Crime militar",
+        "Extraterritorialidade",
+        "Lugar do crime",
+        "Tempo do crime",
+        "Territorialidade"
+      ],
+      "Penas": [
+        "Detenção",
+        "Impedimento",
+        "Pena de morte",
+        "Reclusão",
+        "Reforma",
+        "Suspensão do exercício do posto"
+      ],
+      "Teoria do Crime Militar": [
+        "Culpa",
+        "Culpabilidade",
+        "Dolo",
+        "Erro",
+        "Ilicitude",
+        "Tipicidade"
+      ]
+    }
+  },
+  "Processo Penal Militar": {
+    "Ação Penal Militar": {
+      "Competência": [
+        "Conselho de Justiça",
+        "Juiz de Direito do Juízo Militar",
+        "Justiça Militar da União",
+        "Justiça Militar Estadual"
+      ],
+      "Processo": [
+        "Citação",
+        "Denúncia",
+        "Instrução",
+        "Interrogatório",
+        "Recebimento",
+        "Sentença"
+      ]
+    },
+    "Inquérito Policial Militar": {
+      "IPM": [
+        "Arquivamento",
+        "Encarregado",
+        "Finalidade",
+        "Instauração",
+        "Prazos",
+        "Relatório"
+      ],
+      "Polícia Judiciária Militar": [
+        "Atribuições",
+        "Autoridades",
+        "Competência"
+      ]
+    },
+    "Prisões e Medidas Cautelares": {
+      "Restrição de Liberdade": [
+        "Liberdade provisória",
+        "Menagem",
+        "Prisão em flagrante",
+        "Prisão preventiva"
+      ]
+    }
+  },
+  "Direito Civil": {
+    "Obrigações e Responsabilidade Civil": {
+      "Obrigações": [
+        "Adimplemento",
+        "Inadimplemento",
+        "Obrigação de dar",
+        "Obrigação de fazer",
+        "Obrigação de não fazer"
+      ],
+      "Responsabilidade Civil": [
+        "Conduta",
+        "Dano",
+        "Nexo causal",
+        "Responsabilidade objetiva",
+        "Responsabilidade subjetiva"
+      ]
+    },
+    "Parte Geral": {
+      "Bens": [
+        "Bens consumíveis",
+        "Bens fungíveis",
+        "Bens imóveis",
+        "Bens móveis",
+        "Bens públicos"
+      ],
+      "Fatos Jurídicos": [
+        "Ato ilícito",
+        "Ato jurídico lícito",
+        "Decadência",
+        "Negócio jurídico",
+        "Prescrição"
+      ],
+      "Pessoas Jurídicas": [
+        "Associações",
+        "Classificação",
+        "Conceito",
+        "Fundações",
+        "Responsabilidade"
+      ],
+      "Pessoas Naturais": [
+        "Capacidade",
+        "Direitos da personalidade",
+        "Domicílio",
+        "Incapacidade",
+        "Personalidade"
+      ]
+    }
+  },
+  "Direito Processual Civil": {
+    "Procedimento Comum": {
+      "Atos Processuais": [
+        "Citação",
+        "Contestação",
+        "Petição inicial",
+        "Provas",
+        "Sentença"
+      ],
+      "Recursos": [
+        "Agravo de instrumento",
+        "Apelação",
+        "Embargos de declaração",
+        "Recurso especial",
+        "Recurso extraordinário"
+      ]
+    },
+    "Teoria Geral do Processo": {
+      "Jurisdição e Ação": [
+        "Ação",
+        "Competência",
+        "Condições da ação",
+        "Jurisdição",
+        "Pressupostos processuais"
+      ],
+      "Princípios Processuais": [
+        "Ampla defesa",
+        "Contraditório",
+        "Devido processo legal",
+        "Duração razoável do processo",
+        "Juiz natural"
+      ]
+    }
+  },
+  "Direito Eleitoral": {
+    "Eleições e Partidos": {
+      "Crimes Eleitorais": [
+        "Boca de urna",
+        "Coação eleitoral",
+        "Corrupção eleitoral",
+        "Falsidade eleitoral"
+      ],
+      "Direitos Políticos": [
+        "Alistamento eleitoral",
+        "Elegibilidade",
+        "Filiação partidária",
+        "Inelegibilidade"
+      ],
+      "Processo Eleitoral": [
+        "Apuração",
+        "Convenções partidárias",
+        "Diplomação",
+        "Propaganda eleitoral",
+        "Registro de candidatura",
+        "Votação"
+      ]
+    },
+    "Organização da Justiça Eleitoral": {
+      "Competência Eleitoral": [
+        "Competência administrativa",
+        "Competência jurisdicional",
+        "Poder de polícia"
+      ],
+      "Órgãos da Justiça Eleitoral": [
+        "Juízes eleitorais",
+        "Juntas eleitorais",
+        "Tribunais Regionais Eleitorais",
+        "Tribunal Superior Eleitoral"
+      ]
+    }
+  },
+  "Direito Ambiental": {
+    "Princípios e Política Ambiental": {
+      "Política Nacional do Meio Ambiente": [
+        "Estudo de impacto ambiental",
+        "Instrumentos",
+        "Licenciamento ambiental",
+        "Objetivos",
+        "SISNAMA"
+      ],
+      "Princípios Ambientais": [
+        "Desenvolvimento sustentável",
+        "Poluidor-pagador",
+        "Precaução",
+        "Prevenção",
+        "Usuário-pagador"
+      ]
+    },
+    "Responsabilidade Ambiental": {
+      "Crimes Ambientais": [
+        "Crimes contra a fauna",
+        "Crimes contra a flora",
+        "Infrações administrativas ambientais",
+        "Poluição"
+      ],
+      "Responsabilidade por Dano Ambiental": [
+        "Reparação integral",
+        "Responsabilidade administrativa",
+        "Responsabilidade civil",
+        "Responsabilidade penal"
+      ]
+    }
+  },
+  "Direito Tributário": {
+    "Administração Tributária": {
+      "Crédito Tributário": [
+        "Exclusão",
+        "Extinção",
+        "Garantias e privilégios",
+        "Lançamento",
+        "Suspensão"
+      ]
+    },
+    "Sistema Tributário Nacional": {
+      "Competência Tributária": [
+        "Competência da União",
+        "Competência do Distrito Federal",
+        "Competência dos Estados",
+        "Competência dos Municípios",
+        "Limitações ao poder de tributar"
+      ],
+      "Obrigação Tributária": [
+        "Crédito tributário",
+        "Fato gerador",
+        "Responsabilidade tributária",
+        "Sujeito ativo",
+        "Sujeito passivo"
+      ],
+      "Tributo": [
+        "Conceito",
+        "Contribuição de melhoria",
+        "Contribuições especiais",
+        "Empréstimos compulsórios",
+        "Impostos",
+        "Taxas"
+      ]
+    }
+  },
+  "Direito Previdenciário": {
+    "Benefícios Previdenciários": {
+      "Benefícios do RGPS": [
+        "Aposentadoria por incapacidade permanente",
+        "Aposentadoria programada",
+        "Auxílio por incapacidade temporária",
+        "Auxílio-reclusão",
+        "Pensão por morte",
+        "Salário-maternidade"
+      ],
+      "Custeio": [
+        "Arrecadação",
+        "Contribuição da empresa",
+        "Contribuição do segurado",
+        "Salário de contribuição"
+      ]
+    },
+    "Seguridade Social": {
+      "Princípios da Seguridade Social": [
+        "Diversidade da base de financiamento",
+        "Equidade no custeio",
+        "Irredutibilidade",
+        "Seletividade",
+        "Uniformidade",
+        "Universalidade"
+      ],
+      "Regime Geral de Previdência Social": [
+        "Carência",
+        "Dependentes",
+        "Filiação",
+        "Inscrição",
+        "Segurados facultativos",
+        "Segurados obrigatórios"
+      ]
+    }
+  },
+  "Legislação Penal Especial": {
+    "Abuso de Autoridade": {
+      "Lei 13869": [
+        "Condutas abusivas",
+        "Sujeito ativo"
+      ],
+      "Lei de Abuso de Autoridade": [
+        "Crimes em espécie",
+        "Efeitos da condenação",
+        "Finalidade específica",
+        "Sujeitos do crime"
+      ]
+    },
+    "Criança e Adolescente": {
+      "Estatuto da Criança e do Adolescente": [
+        "Ato infracional",
+        "Crimes e infrações administrativas",
+        "Direitos fundamentais",
+        "Medidas socioeducativas"
+      ]
+    },
+    "Crimes Hediondos": {
+      "Lei 8072": [
+        "Crimes hediondos",
+        "Equiparados"
+      ],
+      "Lei dos Crimes Hediondos": [
+        "Equiparados",
+        "Fiança e graça",
+        "Progressão de regime",
+        "Rol legal"
+      ]
+    },
+    "Drogas": {
+      "Lei de Drogas": [
+        "Associação para o tráfico",
+        "Porte para consumo",
+        "Procedimento penal",
+        "Tráfico"
+      ]
+    },
+    "Estatuto do Desarmamento": {
+      "Armas de Fogo": [
+        "Porte ilegal",
+        "Posse irregular",
+        "Tráfico internacional"
+      ]
+    },
+    "Lavagem de Dinheiro": {
+      "Lei 9613": [
+        "Fases da lavagem",
+        "Ocultação de bens"
+      ]
+    },
+    "Lei de Drogas": {
+      "Crimes": [
+        "Associação para o tráfico",
+        "Tráfico",
+        "Usuário"
+      ]
+    },
+    "Organização Criminosa": {
+      "Lei 12850": [
+        "Ação controlada",
+        "Colaboração premiada",
+        "Infiltração"
+      ]
+    },
+    "Violência Doméstica e Familiar": {
+      "Lei Maria da Penha": [
+        "Atendimento pela autoridade policial",
+        "Competência",
+        "Formas de violência",
+        "Medidas protetivas"
+      ]
+    }
+  },
+  "Legislação Institucional": {
+    "Estatuto dos Militares Estaduais": {
+      "Regime Jurídico": [
+        "Deveres",
+        "Direitos",
+        "Disciplina",
+        "Hierarquia",
+        "Ingresso",
+        "Prerrogativas"
+      ],
+      "Responsabilidade Disciplinar": [
+        "Processo administrativo disciplinar",
+        "Sanções disciplinares",
+        "Sindicância",
+        "Transgressões disciplinares"
+      ]
+    },
+    "Organização da Polícia Militar": {
+      "Estrutura Institucional": [
+        "Comando",
+        "Policiamento ostensivo",
+        "Preservação da ordem pública",
+        "Unidades administrativas",
+        "Unidades operacionais"
+      ]
+    }
+  },
+  "Legislação Estadual": {
+    "Normas Estaduais": {
+      "Constituição Estadual": [
+        "Administração pública estadual",
+        "Organização do Estado",
+        "Segurança pública estadual",
+        "Servidores públicos estaduais"
+      ],
+      "Legislação Específica por UF": [
+        "Código de ética",
+        "Estatuto dos servidores",
+        "Lei orgânica da carreira",
+        "Regulamento disciplinar"
+      ],
+      "Regime Jurídico Estadual": [
+        "Deveres",
+        "Direitos",
+        "Processo administrativo disciplinar",
+        "Provimento",
+        "Responsabilidades"
+      ]
+    }
+  },
+  "Legislação Municipal": {
+    "Normas Municipais": {
+      "Guarda Municipal": [
+        "Competências",
+        "Estatuto Geral das Guardas Municipais",
+        "Patrulhamento preventivo",
+        "Poder de polícia administrativa",
+        "Uso progressivo da força"
+      ],
+      "Lei Orgânica Municipal": [
+        "Administração pública municipal",
+        "Competências municipais",
+        "Organização do Município",
+        "Segurança urbana municipal"
+      ],
+      "Regime Jurídico Municipal": [
+        "Deveres",
+        "Direitos",
+        "Estágio probatório",
+        "Ingresso",
+        "Processo disciplinar"
+      ]
+    }
+  },
+  "Legislação da Polícia Civil": {
+    "Organização da Polícia Civil": {
+      "Estatuto da Polícia Civil": [
+        "Carreira",
+        "Deveres",
+        "Direitos",
+        "Ingresso",
+        "Regime disciplinar"
+      ],
+      "Estrutura e Competências": [
+        "Agentes e escrivães",
+        "Apuração de infrações penais",
+        "Delegacia de polícia",
+        "Delegado de polícia",
+        "Função de polícia judiciária"
+      ],
+      "Inquérito Policial": [
+        "Arquivamento",
+        "Diligências",
+        "Indiciamento",
+        "Instauração",
+        "Relatório"
+      ]
+    }
+  },
+  "Legislação da Polícia Penal": {
+    "Execução Penal e Polícia Penal": {
+      "Lei de Execução Penal": [
+        "Assistência ao preso",
+        "Estabelecimentos penais",
+        "Faltas disciplinares",
+        "Finalidade da execução penal",
+        "Órgãos da execução penal"
+      ],
+      "Polícia Penal": [
+        "Competências",
+        "Custódia de presos",
+        "Escolta",
+        "Monitoração eletrônica",
+        "Segurança prisional"
+      ],
+      "Sistema Penitenciário": [
+        "Livramento condicional",
+        "Progressão de regime",
+        "Regimes de cumprimento de pena",
+        "Regressão de regime",
+        "Remição"
+      ]
+    }
+  },
+  "Legislação da Polícia Federal": {
+    "Organização da Polícia Federal": {
+      "Competências Constitucionais": [
+        "Contrabando e descaminho",
+        "Infrações contra bens da União",
+        "Polícia aeroportuária",
+        "Polícia de fronteiras",
+        "Polícia judiciária da União",
+        "Polícia marítima",
+        "Tráfico ilícito de entorpecentes"
+      ],
+      "Investigação Federal": [
+        "Cooperação internacional",
+        "Crimes cibernéticos",
+        "Inquérito policial federal",
+        "Lavagem de dinheiro",
+        "Organizações criminosas"
+      ]
+    }
+  },
+  "Legislação da Polícia Rodoviária Federal": {
+    "Organização da PRF": {
+      "Competências da PRF": [
+        "Atendimento a acidentes",
+        "Combate a crimes nas rodovias federais",
+        "Educação para o trânsito",
+        "Fiscalização de trânsito",
+        "Patrulhamento ostensivo das rodovias federais"
+      ],
+      "Trânsito Rodoviário": [
+        "Autuação",
+        "Fiscalização",
+        "Medidas administrativas",
+        "Normas gerais de circulação",
+        "Sistema Nacional de Trânsito"
+      ]
+    }
+  },
+  "Segurança Pública": {
+    "Cadeia de Custódia": {
+      "Etapas da Cadeia de Custódia": [
+        "Acondicionamento",
+        "Armazenamento",
+        "Coleta",
+        "Descarte",
+        "Fixação",
+        "Isolamento",
+        "Processamento",
+        "Recebimento",
+        "Reconhecimento",
+        "Transporte"
+      ],
+      "Rastreabilidade": [
+        "Integridade da prova",
+        "Lacres",
+        "Registro de custódia",
+        "Responsáveis pela custódia"
+      ]
+    },
+    "Gestão Integrada de Segurança Pública": {
+      "Integração Operacional": [
+        "Atuação integrada",
+        "Centros integrados de comando",
+        "Compartilhamento de informações",
+        "Operações conjuntas"
+      ],
+      "Políticas de Segurança": [
+        "Avaliação de resultados",
+        "Metas e indicadores",
+        "Planejamento estratégico",
+        "Prevenção social da violência"
+      ]
+    },
+    "Inteligência e Informação": {
+      "Atividade de Inteligência": [
+        "Análise criminal",
+        "Contrainteligência",
+        "Fontes de informação",
+        "Produção de conhecimento"
+      ]
+    },
+    "Inteligência Policial": {
+      "Análise Criminal": [
+        "Georreferenciamento",
+        "Indicadores criminais",
+        "Mapeamento criminal",
+        "Padrões criminais"
+      ],
+      "Contrainteligência": [
+        "Ameaças internas",
+        "Proteção de dados sensíveis",
+        "Segurança orgânica",
+        "Vazamento de informação"
+      ],
+      "Produção de Conhecimento": [
+        "Ciclo de inteligência",
+        "Conhecimento",
+        "Dado",
+        "Informação",
+        "Informe",
+        "Relatório de inteligência"
+      ]
+    },
+    "Polícia Comunitária": {
+      "Estratégias Comunitárias": [
+        "Conselhos comunitários",
+        "Diagnóstico local",
+        "Mediação de conflitos",
+        "Patrulhamento orientado"
+      ],
+      "Filosofia de Polícia Comunitária": [
+        "Confiança institucional",
+        "Parceria com a comunidade",
+        "Prevenção",
+        "Proximidade",
+        "Resolução de problemas"
+      ]
+    },
+    "Preservação de Local de Crime": {
+      "Primeiro Interventor": [
+        "Comunicação à perícia",
+        "Controle de acesso",
+        "Isolamento do local",
+        "Preservação de vestígios",
+        "Registro inicial"
+      ],
+      "Vestígios": [
+        "Acondicionamento",
+        "Coleta",
+        "Documentação",
+        "Identificação",
+        "Proteção"
+      ]
+    },
+    "Sistema de Segurança Pública": {
+      "Policiamento": [
+        "Abordagem policial",
+        "Patrulhamento",
+        "Policiamento comunitário",
+        "Policiamento ostensivo",
+        "Policiamento preventivo"
+      ],
+      "SUSP": [
+        "Dados e informações",
+        "Diretrizes",
+        "Integração operacional",
+        "Princípios"
+      ]
+    },
+    "Sistema Prisional": {
+      "Administração Prisional": [
+        "Assistência ao preso",
+        "Classificação de presos",
+        "Custódia",
+        "Disciplina prisional",
+        "Estabelecimentos penais"
+      ],
+      "Execução Penal": [
+        "Faltas disciplinares",
+        "Progressão de regime",
+        "Regimes de cumprimento de pena",
+        "Regressão de regime",
+        "Remição"
+      ],
+      "Polícia Penal": [
+        "Escolta",
+        "Monitoração eletrônica",
+        "Muralha",
+        "Revista",
+        "Segurança interna"
+      ]
+    },
+    "Uso Diferenciado da Força": {
+      "Técnica e Legalidade": [
+        "Arma de fogo",
+        "Controle físico",
+        "Instrumentos de menor potencial ofensivo",
+        "Níveis de força",
+        "Verbalização"
+      ]
+    }
+  },
+  "Criminologia": {
+    "Controle Social": {
+      "Controle": [
+        "Formal",
+        "Informal"
+      ]
+    },
+    "Teorias Criminológicas": {
+      "Escolas": [
+        "Chicago",
+        "Clássica",
+        "Positivista"
+      ]
+    },
+    "Vitimologia": {
+      "Vítima": [
+        "Classificação da vítima",
+        "Prevenção vitimal"
+      ]
+    }
+  },
+  "Medicina Legal": {
+    "Sexologia Forense": {
+      "Crimes Sexuais": [
+        "Estupro",
+        "Vestígios biológicos"
+      ]
+    },
+    "Tanatologia": {
+      "Morte": [
+        "Cronotanatognose",
+        "Fenômenos cadavéricos"
+      ]
+    },
+    "Toxicologia": {
+      "Substâncias": [
+        "Envenenamento",
+        "Intoxicação"
+      ]
+    },
+    "Traumatologia Forense": {
+      "Lesões Corporais": [
+        "Contundentes",
+        "Perfurocontundentes",
+        "Perfurocortantes"
+      ]
+    }
+  },
+  "Legislação de Trânsito": {
+    "Código de Trânsito Brasileiro": {
+      "Crimes de Trânsito": [
+        "Embriaguez ao volante",
+        "Homicídio culposo"
+      ],
+      "Infrações": [
+        "Graves",
+        "Gravíssimas",
+        "Leves"
+      ],
+      "Normas Gerais": [
+        "Circulação",
+        "Condutores",
+        "Veículos"
+      ]
+    }
+  },
+  "Arquivologia": {
+    "Avaliação e Preservação": {
+      "Conservação de Documentos": [
+        "Acondicionamento",
+        "Digitalização",
+        "Microfilmagem",
+        "Preservação",
+        "Restauração"
+      ],
+      "Protocolo": [
+        "Autuação",
+        "Expedição",
+        "Recebimento",
+        "Registro",
+        "Tramitação"
+      ],
+      "Tabela de Temporalidade": [
+        "Destinação final",
+        "Eliminação documental",
+        "Prazo de guarda",
+        "Recolhimento"
+      ]
+    },
+    "Gestão de Documentos": {
+      "Ciclo de Vida dos Documentos": [
+        "Arquivo corrente",
+        "Arquivo intermediário",
+        "Arquivo permanente",
+        "Teoria das três idades"
+      ],
+      "Classificação e Ordenação": [
+        "Código de classificação",
+        "Métodos de arquivamento",
+        "Ordenação alfabética",
+        "Ordenação cronológica",
+        "Ordenação numérica",
+        "Plano de classificação"
+      ],
+      "Conceitos Arquivísticos": [
+        "Arquivo",
+        "Documento",
+        "Fundo documental",
+        "Informação",
+        "Princípio da organicidade",
+        "Princípio da proveniência",
+        "Suporte documental"
+      ]
+    }
+  },
+  "Estatística": {
+    "Estatística Descritiva": {
+      "Medidas de Dispersão": [
+        "Amplitude",
+        "Coeficiente de variação",
+        "Desvio padrão",
+        "Variância"
+      ],
+      "Medidas de Posição": [
+        "Média aritmética",
+        "Média ponderada",
+        "Mediana",
+        "Moda",
+        "Percentis",
+        "Quartis"
+      ],
+      "Representação de Dados": [
+        "Distribuição de frequências",
+        "Gráficos",
+        "Histograma",
+        "Tabelas"
+      ]
+    },
+    "Probabilidade": {
+      "Conceitos Básicos": [
+        "Espaço amostral",
+        "Evento",
+        "Eventos independentes",
+        "Experimento aleatório",
+        "Probabilidade condicional"
+      ],
+      "Distribuições": [
+        "Distribuição binomial",
+        "Distribuição de Poisson",
+        "Distribuição normal"
+      ]
+    }
+  }
+}

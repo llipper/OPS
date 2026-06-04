@@ -1,0 +1,642 @@
+[
+  {
+    "disciplinaId": "8d936de8-402d-46f1-b92f-eb38e1b89c09",
+    "assuntoId": "95d006f9-131a-44e6-9e9a-a83c92ca1b6d",
+    "topicoId": "aa022846-1a56-4326-b613-fbcfc52fb55f",
+    "subtopicoId": "ca86d1e5-dea8-42a1-b1b5-04b26655ecb2",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "845142f1-6608-4a5b-a4ea-713067e53ca7",
+    "carreiraId": "0e4a7a65-3ea4-4e2c-adbc-92fafdaeebab",
+    "nivelEducacionalId": "003df22a-91d3-4370-ae78-66bab4e2f576",
+    "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "b650effa-bd25-4ba4-a7d9-d64c3378977a",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Durante reunião de alinhamento operacional em unidade prisional estadual, discutiu-se a natureza constitucional da polícia penal. À luz da Constituição Federal, assinale a alternativa correta.",
+    "textoApoio": "A Emenda Constitucional n. 104/2019 incluiu as polícias penais federal, estaduais e distrital no rol constitucional dos órgãos de segurança pública.",
+    "resolucao": "O gabarito é a letra B. A Constituição Federal prevê a polícia penal como órgão de segurança pública e estabelece que ela se vincula ao órgão administrador do sistema penal da unidade federativa a que pertence, cabendo-lhe a segurança dos estabelecimentos penais.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "LEI_SECA",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A polícia penal integra a estrutura da polícia civil e exerce, como atribuição principal, a apuração de infrações penais comuns cometidas no interior dos presídios.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A polícia penal é órgão próprio de segurança pública, distinto da polícia civil, e não tem como função constitucional principal a apuração de infrações penais comuns.",
+        "referencia": "Art. 144, caput e § 5º-A, da Constituição Federal",
+        "dica": "Polícia penal não é polícia judiciária."
+      },
+      {
+        "letra": "B",
+        "texto": "A polícia penal vincula-se ao órgão administrador do sistema penal e destina-se à segurança dos estabelecimentos penais.",
+        "isCorreta": true,
+        "explicacao": "Correta. A assertiva reproduz o núcleo da previsão constitucional da polícia penal.",
+        "referencia": "Art. 144, § 5º-A, da Constituição Federal",
+        "dica": "A chave é: vínculo com o sistema penal e segurança dos estabelecimentos penais."
+      },
+      {
+        "letra": "C",
+        "texto": "A polícia penal é órgão exclusivamente federal, sendo vedada sua instituição pelos Estados e pelo Distrito Federal.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A Constituição menciona polícias penais federal, estaduais e distrital.",
+        "referencia": "Art. 144, caput, VI, da Constituição Federal",
+        "dica": "O texto constitucional inclui União, Estados e Distrito Federal."
+      },
+      {
+        "letra": "D",
+        "texto": "A segurança de estabelecimentos penais é função constitucional reservada às polícias militares, por se tratar de preservação da ordem pública.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A segurança dos estabelecimentos penais é atribuída constitucionalmente à polícia penal.",
+        "referencia": "Art. 144, § 5º-A, da Constituição Federal",
+        "dica": "Não confunda ordem pública externa com segurança prisional."
+      },
+      {
+        "letra": "E",
+        "texto": "A polícia penal somente pode atuar mediante requisição judicial, pois não exerce atividade administrativa própria.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A atuação de segurança dos estabelecimentos penais decorre diretamente da atribuição constitucional e administrativa do órgão.",
+        "referencia": "Art. 144, § 5º-A, da Constituição Federal",
+        "dica": "A atividade é permanente e institucional."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+    "assuntoId": "00105a84-81e5-4ebe-9600-0aab117062f1",
+    "topicoId": "db51f55a-53cb-424b-b740-f91456a9808a",
+    "subtopicoId": "ba073e53-efd0-4bd8-af5e-03a2c6d582af",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+    "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+    "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+    "dificuldadeId": "a85404df-5bc5-4ffd-9a9e-77b96252e25f",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Um servidor público responsável pela guarda de bens apreendidos em investigação policial apropria-se de aparelho celular que estava sob sua custódia funcional. Considerando o Código Penal, assinale a alternativa correta.",
+    "textoApoio": "",
+    "resolucao": "O gabarito é a letra C. O crime de peculato-apropriação ocorre quando o funcionário público se apropria de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "CASO_CONCRETO",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A conduta configura corrupção passiva, pois o servidor obteve vantagem indevida relacionada à função pública.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Na corrupção passiva há solicitação, recebimento ou aceitação de promessa de vantagem indevida; no caso, houve apropriação de bem sob posse funcional.",
+        "referencia": "Arts. 312 e 317 do Código Penal",
+        "dica": "Vantagem recebida de terceiro aponta para corrupção; apropriação de bem sob posse funcional aponta para peculato."
+      },
+      {
+        "letra": "B",
+        "texto": "A conduta é furto qualificado pelo abuso de confiança, pois o bem pertencia a particular.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O peculato pode recair sobre bem público ou particular, desde que o agente tenha posse em razão do cargo.",
+        "referencia": "Art. 312 do Código Penal",
+        "dica": "Bem particular também pode ser objeto material do peculato."
+      },
+      {
+        "letra": "C",
+        "texto": "A conduta configura peculato-apropriação, pois o servidor se apropriou de bem móvel particular de que tinha posse em razão do cargo.",
+        "isCorreta": true,
+        "explicacao": "Correta. A posse funcional do bem apreendido é o elemento que desloca o fato para o peculato.",
+        "referencia": "Art. 312, caput, do Código Penal",
+        "dica": "Posse em razão do cargo é elemento decisivo."
+      },
+      {
+        "letra": "D",
+        "texto": "A conduta é concussão, porque o servidor exigiu vantagem indevida da vítima indireta da apreensão.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A concussão exige que o funcionário público exija vantagem indevida; a situação descreve apropriação de bem custodiado.",
+        "referencia": "Art. 316 do Código Penal",
+        "dica": "Concussão envolve exigência."
+      },
+      {
+        "letra": "E",
+        "texto": "A conduta é atípica se o bem apreendido não integrar formalmente o patrimônio público.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O tipo penal alcança bem particular quando a posse decorre do cargo público.",
+        "referencia": "Art. 312 do Código Penal",
+        "dica": "O patrimônio público não é o único protegido no peculato."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "457f9d1f-fd6d-4e37-9a84-a02122c58377",
+    "assuntoId": "9b35a221-2dd6-4e28-9f53-d7975b1e8a4d",
+    "topicoId": "430864f3-0528-4054-9961-e4bf8bf4615b",
+    "subtopicoId": "ac66d791-d1e1-4b3a-898b-f0ae5dcbfb6f",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "17d6794a-b000-4e58-9f69-19c4cdcb73ee",
+    "carreiraId": "5727b505-d4b7-4c0f-8c6a-e7215c16fbe9",
+    "nivelEducacionalId": "003df22a-91d3-4370-ae78-66bab4e2f576",
+    "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "2accb611-5055-4adf-b0da-fa1f0cb40716",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Um policial militar, escalado para serviço de guarda em instalação da corporação, afasta-se do posto por vontade própria, sem autorização superior, deixando temporariamente desguarnecido o local. Em relação ao Código Penal Militar, assinale a alternativa correta.",
+    "textoApoio": "",
+    "resolucao": "O gabarito é a letra A. O abandono de posto, no Código Penal Militar, tutela a regularidade do serviço militar e se caracteriza pelo abandono, sem ordem superior, do posto ou lugar de serviço designado.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "CASO_CONCRETO",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A conduta pode configurar abandono de posto, pois houve afastamento não autorizado do lugar de serviço para o qual o militar estava designado.",
+        "isCorreta": true,
+        "explicacao": "Correta. O núcleo típico envolve abandonar, sem ordem superior, o posto ou local de serviço.",
+        "referencia": "Art. 195 do Código Penal Militar",
+        "dica": "Posto designado + saída sem autorização = atenção ao abandono de posto."
+      },
+      {
+        "letra": "B",
+        "texto": "A conduta configura deserção, ainda que o afastamento tenha sido temporário e sem lapso temporal legalmente relevante.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Deserção exige ausência por prazo legal próprio; o caso trata de afastamento do posto durante o serviço.",
+        "referencia": "Arts. 187 e 195 do Código Penal Militar",
+        "dica": "Deserção não se confunde com abandono momentâneo de posto."
+      },
+      {
+        "letra": "C",
+        "texto": "A conduta é apenas transgressão disciplinar, pois crimes militares contra o serviço exigem violência ou grave ameaça.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O abandono de posto é crime militar próprio e não exige violência ou grave ameaça.",
+        "referencia": "Art. 195 do Código Penal Militar",
+        "dica": "Nem todo crime militar exige violência."
+      },
+      {
+        "letra": "D",
+        "texto": "A conduta configura motim, porque a ausência do militar comprometeu a disciplina da fração.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Motim pressupõe atuação coletiva ou ajuste entre militares; o caso descreve conduta individual de afastamento do posto.",
+        "referencia": "Arts. 149 e 195 do Código Penal Militar",
+        "dica": "Motim tem traço coletivo."
+      },
+      {
+        "letra": "E",
+        "texto": "A conduta é atípica quando não houver dano efetivo ao patrimônio público ou lesão corporal a terceiro.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O tipo protege a regularidade e segurança do serviço militar, não exigindo dano patrimonial ou físico.",
+        "referencia": "Art. 195 do Código Penal Militar",
+        "dica": "O perigo à regularidade do serviço já é juridicamente relevante."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "79598e72-7696-43ff-9ad6-adadfa6d0ec0",
+    "assuntoId": "06004609-98f0-4a83-a734-32dba616e8b4",
+    "topicoId": "219fe8af-a6c1-4225-802d-803aff39039d",
+    "subtopicoId": "1a4ad3e1-610f-4e42-959e-c709151144b0",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+    "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+    "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+    "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "No exercício de fiscalização administrativa, agente público determina a interdição imediata de estabelecimento que apresenta risco concreto à segurança de frequentadores. Sobre o poder de polícia, assinale a alternativa correta.",
+    "textoApoio": "A Administração Pública pode condicionar e restringir o exercício de direitos individuais em benefício do interesse público, observados os limites legais.",
+    "resolucao": "O gabarito é a letra D. O poder de polícia permite a limitação administrativa de atividades privadas em razão do interesse público, podendo, em hipóteses previstas em lei e diante de urgência, manifestar autoexecutoriedade.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "DOUTRINA",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O poder de polícia autoriza restrições administrativas mesmo sem previsão legal, desde que o agente fundamente a conveniência da medida.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A atuação de polícia administrativa deve observar legalidade, competência e finalidade pública.",
+        "referencia": "Poder de polícia administrativa",
+        "dica": "Poder de polícia não elimina o princípio da legalidade."
+      },
+      {
+        "letra": "B",
+        "texto": "A interdição administrativa somente pode ocorrer após ordem judicial, ainda que haja risco imediato à coletividade.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Em situações legais e urgentes, a Administração pode agir diretamente, sem prévia ordem judicial.",
+        "referencia": "Atributo da autoexecutoriedade",
+        "dica": "Autoexecutoriedade dispensa autorização judicial prévia em certas hipóteses."
+      },
+      {
+        "letra": "C",
+        "texto": "O poder de polícia confunde-se com o poder disciplinar, pois ambos incidem apenas sobre servidores públicos.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O poder disciplinar incide sobre vínculos especiais; o poder de polícia alcança particulares em geral.",
+        "referencia": "Poderes administrativos",
+        "dica": "Polícia administrativa alcança particulares."
+      },
+      {
+        "letra": "D",
+        "texto": "O poder de polícia permite condicionar ou restringir atividades particulares em benefício do interesse público, nos limites da lei.",
+        "isCorreta": true,
+        "explicacao": "Correta. A assertiva apresenta a noção central do poder de polícia administrativa.",
+        "referencia": "Poder de polícia administrativa",
+        "dica": "Interesse público + limitação legal de direitos privados."
+      },
+      {
+        "letra": "E",
+        "texto": "A polícia administrativa atua exclusivamente de forma repressiva, sendo incompatível com medidas preventivas de fiscalização.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O poder de polícia pode ser preventivo ou repressivo, como ocorre em licenças, fiscalizações e sanções.",
+        "referencia": "Poder de polícia administrativa",
+        "dica": "Polícia administrativa também previne riscos."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "0828cbf9-a5f5-4a6f-a331-2940fa7220a2",
+    "assuntoId": "4511ed69-bc74-4df0-ab6d-d14095327a37",
+    "topicoId": "d4619e9a-5bf6-4711-9dac-b1f8b68b7c6f",
+    "subtopicoId": "8f157200-fb82-465d-b91c-ad64475c72a6",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "845142f1-6608-4a5b-a4ea-713067e53ca7",
+    "carreiraId": "0e4a7a65-3ea4-4e2c-adbc-92fafdaeebab",
+    "nivelEducacionalId": "003df22a-91d3-4370-ae78-66bab4e2f576",
+    "dificuldadeId": "edee8263-7a84-4588-876b-e92b8d397332",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "b650effa-bd25-4ba4-a7d9-d64c3378977a",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Um agente público utiliza sua função para favorecer conhecido em procedimento interno, sem observar critérios objetivos de atendimento. Sob a perspectiva da ética na Administração Pública, assinale a alternativa correta.",
+    "textoApoio": "",
+    "resolucao": "O gabarito é a letra E. A ética pública exige atuação impessoal, orientada ao interesse público, sem favorecimentos privados ou tratamento privilegiado injustificado.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "INTERPRETACAO",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A conduta é aceitável se não houver recebimento de vantagem econômica direta pelo agente público.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A violação ética pode ocorrer por favorecimento, quebra de impessoalidade e desvio do interesse público, mesmo sem vantagem econômica.",
+        "referencia": "Ética na Administração Pública",
+        "dica": "Ética pública vai além de dinheiro."
+      },
+      {
+        "letra": "B",
+        "texto": "A ética administrativa admite preferência pessoal quando o agente mantém boa reputação funcional.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Boa reputação não autoriza afastar impessoalidade, igualdade e interesse público.",
+        "referencia": "Ética na Administração Pública",
+        "dica": "Reputação não substitui regra objetiva."
+      },
+      {
+        "letra": "C",
+        "texto": "A atuação ética exige lealdade ao superior hierárquico acima do interesse público primário.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A lealdade institucional não pode superar a finalidade pública nem legitimar favorecimentos.",
+        "referencia": "Ética e interesse público",
+        "dica": "O interesse público é o eixo."
+      },
+      {
+        "letra": "D",
+        "texto": "O favorecimento é eticamente neutro quando praticado em procedimento meramente administrativo.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Procedimentos administrativos também devem observar ética, impessoalidade, probidade e transparência.",
+        "referencia": "Ética na Administração Pública",
+        "dica": "O dever ético alcança atos administrativos cotidianos."
+      },
+      {
+        "letra": "E",
+        "texto": "A conduta viola o interesse público e a impessoalidade, pois substitui critérios objetivos por preferência pessoal.",
+        "isCorreta": true,
+        "explicacao": "Correta. O favorecimento pessoal é incompatível com a ética pública e com a finalidade administrativa.",
+        "referencia": "Ética na Administração Pública",
+        "dica": "Favorecimento pessoal é sinal clássico de desvio ético."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "eb86a5c1-7fbc-443c-bf0f-cfff57c59543",
+    "assuntoId": "1f385bea-084d-4b25-a9a0-d5030bdf916c",
+    "topicoId": "39f91d85-e3ef-4b48-8f68-36b21f28ea95",
+    "subtopicoId": "80c9b3a4-ff26-4e68-82c7-bd40361fb29e",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+    "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+    "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+    "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Uma secretaria de segurança pública institui indicadores, matriz de riscos, prestação de contas e mecanismos de integridade para orientar decisões administrativas. Em Administração Pública, essa prática se relaciona mais diretamente com:",
+    "textoApoio": "A governança pública envolve mecanismos de liderança, estratégia e controle para avaliar, direcionar e monitorar a gestão.",
+    "resolucao": "O gabarito é a letra A. Governança pública envolve liderança, estratégia, controle, integridade, transparência, gerenciamento de riscos e prestação de contas para aprimorar decisões públicas.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "DOUTRINA",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Governança pública, por envolver direção, monitoramento, controle, integridade e responsabilização institucional.",
+        "isCorreta": true,
+        "explicacao": "Correta. Os elementos citados são característicos da governança pública moderna.",
+        "referencia": "Administração Pública - Governança pública",
+        "dica": "Governança conecta direção, controle e accountability."
+      },
+      {
+        "letra": "B",
+        "texto": "Patrimonialismo, por aproximar a gestão pública de interesses pessoais do dirigente.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Patrimonialismo é a confusão entre público e privado, oposta à governança transparente e controlada.",
+        "referencia": "Modelos de gestão pública",
+        "dica": "Patrimonialismo é problema, não solução."
+      },
+      {
+        "letra": "C",
+        "texto": "Burocracia disfuncional, por substituir finalidade pública por controles formais inúteis.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O enunciado descreve controles úteis para decisão, risco e prestação de contas, não disfunção burocrática.",
+        "referencia": "Modelos de gestão pública",
+        "dica": "Controle com finalidade pública não é disfunção por si só."
+      },
+      {
+        "letra": "D",
+        "texto": "Clientelismo administrativo, por criar canais preferenciais de atendimento a grupos estratégicos.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Clientelismo envolve favorecimento e troca política, incompatíveis com integridade e transparência.",
+        "referencia": "Administração Pública",
+        "dica": "Clientelismo não combina com accountability."
+      },
+      {
+        "letra": "E",
+        "texto": "Desconcentração administrativa, por transferir titularidade de serviço público a entidade externa.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Desconcentração distribui competências internamente; a descrição trata de governança e controle.",
+        "referencia": "Organização administrativa",
+        "dica": "Não confunda estrutura administrativa com governança."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "8faf47c4-d957-4899-bc94-e5efd7104c49",
+    "assuntoId": "f6e409fb-0664-4520-bf80-5e2851217c95",
+    "topicoId": "8d40aafd-df0e-4966-89d8-9c8e3ee234d7",
+    "subtopicoId": "15db36ca-0faa-4156-ad16-173566c6f691",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "845142f1-6608-4a5b-a4ea-713067e53ca7",
+    "carreiraId": "0e4a7a65-3ea4-4e2c-adbc-92fafdaeebab",
+    "nivelEducacionalId": "003df22a-91d3-4370-ae78-66bab4e2f576",
+    "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "b650effa-bd25-4ba4-a7d9-d64c3378977a",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Considerando a coesão sequencial do texto, assinale a alternativa em que o conector indicado preserva corretamente a relação lógico-semântica entre as ideias.",
+    "textoApoio": "A unidade prisional ampliou os procedimentos de revista; reduziu-se, consequentemente, a entrada de objetos proibidos.",
+    "resolucao": "O gabarito é a letra B. O termo 'consequentemente' estabelece relação de consequência entre a ampliação dos procedimentos e a redução da entrada de objetos proibidos.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "INTERPRETACAO",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Substituir 'consequentemente' por 'embora' preserva a ideia de consequência.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. 'Embora' introduz concessão, não consequência.",
+        "referencia": "Coesão sequencial",
+        "dica": "Embora = contraste/concessão."
+      },
+      {
+        "letra": "B",
+        "texto": "Substituir 'consequentemente' por 'por isso' mantém a relação de consequência.",
+        "isCorreta": true,
+        "explicacao": "Correta. 'Por isso' também indica consequência ou resultado.",
+        "referencia": "Coesão sequencial",
+        "dica": "Consequentemente = por isso = logo."
+      },
+      {
+        "letra": "C",
+        "texto": "Substituir 'consequentemente' por 'contudo' mantém a relação conclusiva.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. 'Contudo' indica oposição ou contraste.",
+        "referencia": "Coesão sequencial",
+        "dica": "Contudo quebra a ideia de resultado."
+      },
+      {
+        "letra": "D",
+        "texto": "Substituir 'consequentemente' por 'ao passo que' intensifica a causa apresentada.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. 'Ao passo que' costuma indicar comparação ou oposição simultânea, não intensificação causal.",
+        "referencia": "Coesão sequencial",
+        "dica": "Ao passo que aproxima ideias em paralelo ou contraste."
+      },
+      {
+        "letra": "E",
+        "texto": "Substituir 'consequentemente' por 'ainda que' preserva a progressão causal do período.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. 'Ainda que' introduz concessão, alterando a relação entre as ideias.",
+        "referencia": "Coesão sequencial",
+        "dica": "Ainda que = concessão."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+    "assuntoId": "4aba9175-b561-4434-abbc-fc3ae2475a51",
+    "topicoId": "249bd672-7dea-4da6-8741-2b0fbcb02e14",
+    "subtopicoId": "f3a19f2a-5aba-45b1-b320-2b13d95da3f5",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+    "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+    "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+    "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Durante investigação, apura-se que o agente praticou a conduta em janeiro, mas o resultado naturalístico ocorreu apenas em fevereiro. Para fins de tempo do crime, segundo o Código Penal, assinale a alternativa correta.",
+    "textoApoio": "",
+    "resolucao": "O gabarito é a letra D. O Código Penal adota, quanto ao tempo do crime, a teoria da atividade: considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "LEI_SECA",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Considera-se praticado o crime no momento do resultado, pois o Código Penal adota a teoria do resultado para tempo do crime.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Para tempo do crime, o Código Penal adota a teoria da atividade.",
+        "referencia": "Art. 4º do Código Penal",
+        "dica": "Tempo = atividade."
+      },
+      {
+        "letra": "B",
+        "texto": "Considera-se praticado o crime no momento em que a autoridade policial instaura o inquérito.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A instauração do inquérito é ato de persecução penal e não define o tempo do crime.",
+        "referencia": "Art. 4º do Código Penal",
+        "dica": "Investigação não fixa tempo do crime."
+      },
+      {
+        "letra": "C",
+        "texto": "Considera-se praticado o crime no momento em que o Ministério Público oferece denúncia.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O oferecimento da denúncia não interfere na definição legal do tempo do crime.",
+        "referencia": "Art. 4º do Código Penal",
+        "dica": "Denúncia é posterior ao fato."
+      },
+      {
+        "letra": "D",
+        "texto": "Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.",
+        "isCorreta": true,
+        "explicacao": "Correta. Essa é a literalidade do art. 4º do Código Penal.",
+        "referencia": "Art. 4º do Código Penal",
+        "dica": "Teoria da atividade."
+      },
+      {
+        "letra": "E",
+        "texto": "Considera-se praticado o crime no momento em que transita em julgado a sentença condenatória.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O trânsito em julgado é marco processual, não critério de tempo do crime.",
+        "referencia": "Art. 4º do Código Penal",
+        "dica": "Sentença não muda o marco do fato."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "8d936de8-402d-46f1-b92f-eb38e1b89c09",
+    "assuntoId": "4a642a68-df22-499a-8352-330f1e99c581",
+    "topicoId": "49c896a5-8041-4224-bed0-15c3f3120847",
+    "subtopicoId": "8c4af20d-6edb-4319-aafb-f115934f08c9",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+    "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+    "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+    "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Durante diligência noturna, policiais recebem notícia de que pessoa perseguida acabou de ingressar em residência, logo após praticar crime com violência. Com base na Constituição Federal, assinale a alternativa correta sobre inviolabilidade domiciliar.",
+    "textoApoio": "",
+    "resolucao": "O gabarito é a letra C. A Constituição admite ingresso domiciliar sem consentimento do morador em caso de flagrante delito, desastre, prestação de socorro ou, durante o dia, por determinação judicial.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "CASO_CONCRETO",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O ingresso é sempre vedado durante a noite, ainda que haja situação de flagrante delito.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A vedação noturna não impede ingresso em caso de flagrante delito.",
+        "referencia": "Art. 5º, XI, da Constituição Federal",
+        "dica": "Flagrante é exceção em qualquer horário."
+      },
+      {
+        "letra": "B",
+        "texto": "O ingresso noturno depende necessariamente de mandado judicial, pois o flagrante delito só autoriza entrada durante o dia.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. Mandado judicial autoriza ingresso durante o dia; flagrante delito autoriza ingresso sem essa limitação temporal.",
+        "referencia": "Art. 5º, XI, da Constituição Federal",
+        "dica": "Mandado judicial tem limite diurno; flagrante não."
+      },
+      {
+        "letra": "C",
+        "texto": "O ingresso pode ser constitucionalmente admitido em razão do flagrante delito, desde que a atuação seja justificável e controlável posteriormente.",
+        "isCorreta": true,
+        "explicacao": "Correta. Flagrante delito é uma das exceções constitucionais à inviolabilidade domiciliar.",
+        "referencia": "Art. 5º, XI, da Constituição Federal",
+        "dica": "A exceção constitucional não dispensa justificativa concreta."
+      },
+      {
+        "letra": "D",
+        "texto": "A entrada é permitida apenas se houver autorização verbal de autoridade judicial por telefone.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A hipótese constitucional descrita é o flagrante delito, não autorização judicial verbal.",
+        "referencia": "Art. 5º, XI, da Constituição Federal",
+        "dica": "A Constituição trabalha com hipóteses objetivas."
+      },
+      {
+        "letra": "E",
+        "texto": "A inviolabilidade domiciliar é absoluta e não admite exceções em atividade policial.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. O próprio texto constitucional prevê exceções expressas.",
+        "referencia": "Art. 5º, XI, da Constituição Federal",
+        "dica": "Direito fundamental pode ter exceções constitucionais."
+      }
+    ]
+  },
+  {
+    "disciplinaId": "8faf47c4-d957-4899-bc94-e5efd7104c49",
+    "assuntoId": "a8880fc1-34b0-430f-ab39-e595bc059f94",
+    "topicoId": "f5c11113-2223-4ee9-9157-058da545fcf0",
+    "subtopicoId": "5367f1fd-bea9-412c-a07f-edeed800723a",
+    "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+    "concursoId": "17d6794a-b000-4e58-9f69-19c4cdcb73ee",
+    "carreiraId": "5727b505-d4b7-4c0f-8c6a-e7215c16fbe9",
+    "nivelEducacionalId": "003df22a-91d3-4370-ae78-66bab4e2f576",
+    "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+    "tipoQuestaoId": "2b7e7bb2-3881-4ab1-80f0-6d29d3d4e3ab",
+    "cargoId": "2accb611-5055-4adf-b0da-fa1f0cb40716",
+    "ano": 2026,
+    "isUnique": true,
+    "enunciado": "Assinale a alternativa em que a reescrita mantém o sentido e a correção gramatical da frase: 'Embora a patrulha tenha chegado rapidamente, a área permaneceu isolada até a conclusão da perícia.'",
+    "textoApoio": "",
+    "resolucao": "O gabarito é a letra A. A reescrita com 'ainda que' preserva a relação concessiva e mantém a correção gramatical do período.",
+    "videoUrl": "",
+    "visibility": "publica",
+    "status": "PUBLICADA",
+    "tipoCobranca": "INTERPRETACAO",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ainda que a patrulha tenha chegado rapidamente, a área permaneceu isolada até a conclusão da perícia.",
+        "isCorreta": true,
+        "explicacao": "Correta. 'Ainda que' preserva o valor concessivo de 'embora'.",
+        "referencia": "Reescrita de frases - manutenção de sentido",
+        "dica": "Embora e ainda que são conectores concessivos."
+      },
+      {
+        "letra": "B",
+        "texto": "Como a patrulha chegou rapidamente, a área permaneceu isolada até a conclusão da perícia.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. 'Como' cria relação causal, alterando o sentido concessivo original.",
+        "referencia": "Reescrita de frases - manutenção de sentido",
+        "dica": "Causa não é concessão."
+      },
+      {
+        "letra": "C",
+        "texto": "A patrulha chegou rapidamente, portanto a área permaneceu isolada até a conclusão da perícia.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. 'Portanto' estabelece conclusão, não concessão.",
+        "referencia": "Reescrita de frases - manutenção de sentido",
+        "dica": "Portanto muda a lógica do período."
+      },
+      {
+        "letra": "D",
+        "texto": "A patrulha chegou rapidamente, pois a área permaneceu isolada até a conclusão da perícia.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. A reescrita inverte a relação lógica e cria causalidade inadequada.",
+        "referencia": "Reescrita de frases - manutenção de sentido",
+        "dica": "A relação original não explica causa."
+      },
+      {
+        "letra": "E",
+        "texto": "Desde que a patrulha chegasse rapidamente, a área permaneceria isolada até a conclusão da perícia.",
+        "isCorreta": false,
+        "explicacao": "Incorreta. 'Desde que' introduz condição e altera tempo verbal e sentido.",
+        "referencia": "Reescrita de frases - manutenção de sentido",
+        "dica": "Condição não preserva concessão."
+      }
+    ]
+  }
+]

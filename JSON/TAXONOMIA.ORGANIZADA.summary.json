@@ -1,0 +1,244 @@
+{
+  "fonte": "C:\\projetos\\ops\\TAXONOMIA.ORGANIZADA.json",
+  "arquivoGerado": "C:\\projetos\\ops\\TAXONOMIA.ORGANIZADA.json",
+  "disciplinas": 39,
+  "assuntos": 127,
+  "topicos": 266,
+  "subtopicos": 1263,
+  "porDisciplina": [
+    {
+      "disciplina": "Língua Portuguesa",
+      "assuntos": 9,
+      "topicos": 30,
+      "subtopicos": 183
+    },
+    {
+      "disciplina": "Redação Oficial",
+      "assuntos": 1,
+      "topicos": 3,
+      "subtopicos": 21
+    },
+    {
+      "disciplina": "Matemática",
+      "assuntos": 3,
+      "topicos": 7,
+      "subtopicos": 32
+    },
+    {
+      "disciplina": "Raciocínio Lógico",
+      "assuntos": 3,
+      "topicos": 3,
+      "subtopicos": 10
+    },
+    {
+      "disciplina": "Informática",
+      "assuntos": 9,
+      "topicos": 24,
+      "subtopicos": 127
+    },
+    {
+      "disciplina": "Atualidades",
+      "assuntos": 2,
+      "topicos": 4,
+      "subtopicos": 17
+    },
+    {
+      "disciplina": "História do Ceará",
+      "assuntos": 2,
+      "topicos": 4,
+      "subtopicos": 15
+    },
+    {
+      "disciplina": "Geografia do Ceará",
+      "assuntos": 2,
+      "topicos": 4,
+      "subtopicos": 16
+    },
+    {
+      "disciplina": "Direito Constitucional",
+      "assuntos": 10,
+      "topicos": 23,
+      "subtopicos": 100
+    },
+    {
+      "disciplina": "Direitos Humanos",
+      "assuntos": 6,
+      "topicos": 8,
+      "subtopicos": 32
+    },
+    {
+      "disciplina": "Direito Administrativo",
+      "assuntos": 8,
+      "topicos": 18,
+      "subtopicos": 98
+    },
+    {
+      "disciplina": "Administração Pública",
+      "assuntos": 3,
+      "topicos": 5,
+      "subtopicos": 23
+    },
+    {
+      "disciplina": "Administração Financeira e Orçamentária",
+      "assuntos": 3,
+      "topicos": 6,
+      "subtopicos": 32
+    },
+    {
+      "disciplina": "Contabilidade Pública",
+      "assuntos": 2,
+      "topicos": 4,
+      "subtopicos": 17
+    },
+    {
+      "disciplina": "Ética no Serviço Público",
+      "assuntos": 2,
+      "topicos": 3,
+      "subtopicos": 14
+    },
+    {
+      "disciplina": "Direito Penal",
+      "assuntos": 2,
+      "topicos": 8,
+      "subtopicos": 29
+    },
+    {
+      "disciplina": "Processo Penal",
+      "assuntos": 5,
+      "topicos": 5,
+      "subtopicos": 16
+    },
+    {
+      "disciplina": "Direito Penal Militar",
+      "assuntos": 2,
+      "topicos": 6,
+      "subtopicos": 32
+    },
+    {
+      "disciplina": "Processo Penal Militar",
+      "assuntos": 3,
+      "topicos": 5,
+      "subtopicos": 23
+    },
+    {
+      "disciplina": "Direito Civil",
+      "assuntos": 2,
+      "topicos": 6,
+      "subtopicos": 30
+    },
+    {
+      "disciplina": "Direito Processual Civil",
+      "assuntos": 2,
+      "topicos": 4,
+      "subtopicos": 20
+    },
+    {
+      "disciplina": "Direito Eleitoral",
+      "assuntos": 2,
+      "topicos": 5,
+      "subtopicos": 21
+    },
+    {
+      "disciplina": "Direito Ambiental",
+      "assuntos": 2,
+      "topicos": 4,
+      "subtopicos": 18
+    },
+    {
+      "disciplina": "Direito Tributário",
+      "assuntos": 2,
+      "topicos": 4,
+      "subtopicos": 21
+    },
+    {
+      "disciplina": "Direito Previdenciário",
+      "assuntos": 2,
+      "topicos": 4,
+      "subtopicos": 22
+    },
+    {
+      "disciplina": "Legislação Penal Especial",
+      "assuntos": 9,
+      "topicos": 11,
+      "subtopicos": 35
+    },
+    {
+      "disciplina": "Legislação Institucional",
+      "assuntos": 2,
+      "topicos": 3,
+      "subtopicos": 15
+    },
+    {
+      "disciplina": "Legislação Estadual",
+      "assuntos": 1,
+      "topicos": 3,
+      "subtopicos": 13
+    },
+    {
+      "disciplina": "Legislação Municipal",
+      "assuntos": 1,
+      "topicos": 3,
+      "subtopicos": 14
+    },
+    {
+      "disciplina": "Legislação da Polícia Civil",
+      "assuntos": 1,
+      "topicos": 3,
+      "subtopicos": 15
+    },
+    {
+      "disciplina": "Legislação da Polícia Penal",
+      "assuntos": 1,
+      "topicos": 3,
+      "subtopicos": 15
+    },
+    {
+      "disciplina": "Legislação da Polícia Federal",
+      "assuntos": 1,
+      "topicos": 2,
+      "subtopicos": 12
+    },
+    {
+      "disciplina": "Legislação da Polícia Rodoviária Federal",
+      "assuntos": 1,
+      "topicos": 2,
+      "subtopicos": 10
+    },
+    {
+      "disciplina": "Segurança Pública",
+      "assuntos": 9,
+      "topicos": 18,
+      "subtopicos": 88
+    },
+    {
+      "disciplina": "Criminologia",
+      "assuntos": 3,
+      "topicos": 3,
+      "subtopicos": 7
+    },
+    {
+      "disciplina": "Medicina Legal",
+      "assuntos": 4,
+      "topicos": 4,
+      "subtopicos": 9
+    },
+    {
+      "disciplina": "Legislação de Trânsito",
+      "assuntos": 1,
+      "topicos": 3,
+      "subtopicos": 8
+    },
+    {
+      "disciplina": "Arquivologia",
+      "assuntos": 2,
+      "topicos": 6,
+      "subtopicos": 31
+    },
+    {
+      "disciplina": "Estatística",
+      "assuntos": 2,
+      "topicos": 5,
+      "subtopicos": 22
+    }
+  ]
+}

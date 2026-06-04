@@ -1,0 +1,1434 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  // Se usar Supabase, descomente a linha abaixo e defina DIRECT_URL no .env
+  // (necessário porque o PgBouncer do Supabase bloqueia migrations na porta do pooler)
+  // directUrl = env("DIRECT_URL")
+}
+
+
+// =============================================================================
+// USUÁRIOS E PERFIS
+// =============================================================================
+
+enum Role {
+  SUPER_ADMIN
+  ADMIN
+  PROFESSOR
+  REVISOR
+  ALUNO
+  SUPORTE
+}
+
+model Usuario {
+  id        String  @id @default(uuid())
+  nome      String
+  email     String  @unique
+  password  String
+  avatarUrl String?
+  role      Role    @default(ALUNO)
+  ativo     Boolean @default(true)
+
+  // Financeiro
+  planoId     String?
+  plano       Plano?       @relation(fields: [planoId], references: [id])
+  assinaturas Assinatura[]
+  pedidos     Pedido[]
+  pagamentos  Pagamento[]
+
+  // Perfil e Social
+  perfil     Perfil?
+  seguindo   Seguidor[] @relation("UsuarioSeguindo")
+  seguidores Seguidor[] @relation("UsuarioSeguidores")
+  enderecos  Endereco[]
+
+  // Conteúdo
+  questoesCriadas          Questao[]                  @relation("AutorQuestao")
+  questoesRevisadas        Questao[]                  @relation("RevisorQuestao")
+  respostas                RespostaUsuario[]
+  favoritos                Favorito[]
+  denuncias                Denuncia[]
+  revisoes                 Revisao[]
+  cadernosCriados          Caderno[]
+  simuladosCriados         Simulado[]
+  tentativas               TentativaSimulado[]
+  estatisticas             EstatisticaUsuario[]
+  rankings                 Ranking[]
+  diagnosticosPlanejamento DiagnosticoPlanejamento[]
+  consentimentos           ConsentimentoPrivacidade[]
+  solicitacoesPrivacidade  SolicitacaoPrivacidade[]
+
+  // Sistema
+  notificacoes     Notificacao[]
+  ticketsCriados   Ticket[]           @relation("TicketUsuario")
+  ticketsAtendidos Ticket[]           @relation("TicketAtendente")
+  ticketMensagens  TicketMensagem[]
+  auditLogs        AuditLog[]
+  sessoes          Sessao[]
+  recuperacoes     RecuperacaoSenha[]
+  accounts         Account[]
+
+  criadoEm     DateTime @default(now())
+  atualizadoEm DateTime @updatedAt
+
+  @@map("usuarios")
+}
+
+model Perfil {
+  usuarioId    String             @id @map("usuario_id")
+  nomeExibicao String?
+  bio          String?            @db.Text
+  carreiraId   String?
+  visibilidade VisibilidadePerfil @default(PRIVADO)
+  instagram    String?
+  tiktok       String?
+  facebook     String?
+  linkedin     String?
+  atualizadoEm DateTime           @default(now()) @updatedAt
+
+  carreira Carreira? @relation(fields: [carreiraId], references: [id])
+  usuario  Usuario   @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@map("perfis")
+}
+
+model Seguidor {
+  id         String   @id @default(uuid())
+  usuarioId  String
+  seguidorId String
+  criadoEm   DateTime @default(now())
+
+  usuario  Usuario @relation("UsuarioSeguidores", fields: [usuarioId], references: [id], onDelete: Cascade)
+  seguidor Usuario @relation("UsuarioSeguindo", fields: [seguidorId], references: [id], onDelete: Cascade)
+
+  @@unique([usuarioId, seguidorId])
+  @@map("seguidores")
+}
+
+model Endereco {
+  id          String   @id @default(uuid())
+  usuarioId   String
+  cep         String
+  logradouro  String
+  numero      String
+  complemento String?
+  bairro      String
+  cidade      String
+  estado      String   @db.Char(2)
+  principal   Boolean  @default(false)
+  criadoEm    DateTime @default(now())
+
+  usuario Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  pedidos Pedido[]
+
+  @@map("enderecos")
+}
+
+// =============================================================================
+// CONTEÚDO PEDAGÓGICO
+// =============================================================================
+
+model Disciplina {
+  id        String   @id @default(uuid())
+  nome      String
+  sigla     String? // ex: DIR-ADM
+  descricao String?  @db.Text
+  cor       String?
+  iconUrl   String?
+  ordem     Int      @default(0)
+  ativo     Boolean  @default(true)
+  criadoEm  DateTime @default(now())
+
+  assuntos           Assunto[]
+  questoes           Questao[]
+  estatisticas       EstatisticaUsuario[]
+  editalDisciplinas  EditalDisciplina[]
+  provaQuestoes      ProvaConcursoQuestao[]
+  matrizesIncidencia MatrizIncidenciaTopico[]
+  diagnosticoTopicos DiagnosticoPlanejamentoTopico[]
+
+  @@map("disciplinas")
+}
+
+model Assunto {
+  id           String  @id @default(uuid())
+  disciplinaId String
+  nome         String
+  descricao    String? @db.Text
+  ordem        Int     @default(0)
+  ativo        Boolean @default(true)
+
+  disciplina         Disciplina                      @relation(fields: [disciplinaId], references: [id], onDelete: Cascade)
+  topicos            Topico[]
+  questoes           Questao[]
+  editalAssuntos     EditalAssunto[]
+  provaQuestoes      ProvaConcursoQuestao[]
+  matrizesIncidencia MatrizIncidenciaTopico[]
+  diagnosticoTopicos DiagnosticoPlanejamentoTopico[]
+
+  @@index([disciplinaId])
+  @@map("assuntos")
+}
+
+model Topico {
+  id        String  @id @default(uuid())
+  assuntoId String
+  nome      String
+  descricao String? @db.Text
+  ordem     Int     @default(0)
+  ativo     Boolean @default(true)
+
+  assunto            Assunto                         @relation(fields: [assuntoId], references: [id], onDelete: Cascade)
+  subtopicos         Subtopico[]
+  questoes           Questao[]
+  editalTopicos      EditalTopico[]
+  provaQuestoes      ProvaConcursoQuestao[]
+  matrizesIncidencia MatrizIncidenciaTopico[]
+  diagnosticoTopicos DiagnosticoPlanejamentoTopico[]
+
+  @@index([assuntoId])
+  @@map("topicos")
+}
+
+model Subtopico {
+  id        String  @id @default(uuid())
+  topicoId  String
+  nome      String
+  descricao String? @db.Text
+  ordem     Int     @default(0)
+  ativo     Boolean @default(true)
+
+  topico        Topico                 @relation(fields: [topicoId], references: [id], onDelete: Cascade)
+  questoes      Questao[]
+  provaQuestoes ProvaConcursoQuestao[]
+
+  @@index([topicoId])
+  @@map("subtopicos")
+}
+
+// =============================================================================
+// BANCO DE QUESTÕES
+// =============================================================================
+
+model TipoQuestao {
+  id                     String   @id @default(uuid())
+  nome                   String   @unique
+  slug                   String   @unique
+  formato                String   @default("ALTERNATIVAS") // "TEXTO", "ALTERNATIVAS", "CERTO_ERRADO"
+  quantidadeAlternativas Int?     @default(5)
+  descricao              String?
+  ordem                  Int      @default(0)
+  ativo                  Boolean  @default(true)
+  criadoEm               DateTime @default(now())
+  atualizadoEm           DateTime @updatedAt
+
+  questoes Questao[]
+
+  @@map("tipos_questao")
+}
+
+enum OrigemQuestao {
+  INEDITA
+  BANCA
+  ADAPTADA
+}
+
+enum StatusQuestao {
+  RASCUNHO
+  EM_REVISAO
+  APROVADA
+  PUBLICADA
+  REPROVADA
+  ARQUIVADA
+}
+
+enum TipoCobranca {
+  LEI_SECA
+  DOUTRINA
+  JURISPRUDENCIA
+  INTERPRETACAO
+}
+
+model Banca {
+  id           String   @id @default(uuid())
+  nome         String   @unique
+  sigla        String?  @unique
+  slug         String   @unique
+  logoUrl      String?
+  descricao    String?
+  cor          String?
+  ordem        Int      @default(0)
+  ativo        Boolean  @default(true)
+  criadoEm     DateTime @default(now())
+  atualizadoEm DateTime @updatedAt
+
+  questoes              Questao[]
+  provaConcursoQuestaos ProvaConcursoQuestao[]
+
+  @@map("bancas")
+}
+
+model Carreira {
+  id        String  @id @default(uuid())
+  nome      String
+  descricao String?
+  iconUrl   String?
+  ordem     Int     @default(0)
+  ativo     Boolean @default(true)
+  parentId  String?
+
+  parent                   Carreira?                 @relation("HierarquiaCarreira", fields: [parentId], references: [id])
+  children                 Carreira[]                @relation("HierarquiaCarreira")
+  questoes                 Questao[]
+  rankings                 Ranking[]
+  concursos                Concurso[]
+  perfis                   Perfil[]
+  matrizesIncidencia       MatrizIncidenciaTopico[]
+  diagnosticosPlanejamento DiagnosticoPlanejamento[]
+
+  @@map("carreiras")
+}
+
+model NivelEducacional {
+  id           String   @id @default(uuid())
+  nome         String   @unique
+  slug         String   @unique
+  descricao    String?
+  ordem        Int      @default(0)
+  ativo        Boolean  @default(true)
+  criadoEm     DateTime @default(now())
+  atualizadoEm DateTime @updatedAt
+
+  questoes  Questao[]
+  concursos Concurso[]
+
+  @@map("niveis_educacionais")
+}
+
+model Dificuldade {
+  id           String   @id @default(uuid())
+  nome         String   @unique
+  slug         String   @unique
+  descricao    String?
+  peso         Int      @default(1)
+  ordem        Int      @default(0)
+  cor          String?
+  ativo        Boolean  @default(true)
+  criadoEm     DateTime @default(now())
+  atualizadoEm DateTime @updatedAt
+
+  questoes Questao[]
+  cadernos Caderno[]
+
+  @@map("dificuldades")
+}
+
+model Concurso {
+  id        String  @id @default(uuid())
+  nome      String
+  ano       Int?
+  imagemUrl String?
+  descricao String? @db.Text
+  ativo     Boolean @default(true)
+
+  carreiraId         String?
+  nivelEducacionalId String?
+
+  carreira                 Carreira?                 @relation(fields: [carreiraId], references: [id])
+  nivelEducacional         NivelEducacional?         @relation(fields: [nivelEducacionalId], references: [id])
+  cargos                   Cargo[]
+  questoes                 Questao[]
+  editais                  EditalConcurso[]
+  provaQuestoes            ProvaConcursoQuestao[]
+  matrizesIncidencia       MatrizIncidenciaTopico[]
+  diagnosticosPlanejamento DiagnosticoPlanejamento[]
+
+  @@map("concursos")
+}
+
+model Cargo {
+  id         String  @id @default(uuid())
+  concursoId String
+  nome       String
+  descricao  String?
+  ativo      Boolean @default(true)
+
+  concurso Concurso  @relation(fields: [concursoId], references: [id], onDelete: Cascade)
+  questoes Questao[]
+
+  @@index([concursoId])
+  @@map("cargos")
+}
+
+enum StatusCoberturaEdital {
+  COBERTO
+  NAO_COBERTO
+  REVISAR
+}
+
+enum NivelDiagnostico {
+  OTIMO
+  BOM
+  MEDIO
+  FRACO
+  CRITICO
+}
+
+enum PrioridadeEstudo {
+  BAIXA
+  MEDIA
+  ALTA
+  MAXIMA
+}
+
+enum TipoConsentimentoPrivacidade {
+  TERMOS_USO
+  POLITICA_PRIVACIDADE
+  MARKETING
+  COOKIES_ANALITICOS
+}
+
+enum StatusSolicitacaoPrivacidade {
+  ABERTA
+  EM_ANALISE
+  CONCLUIDA
+  REJEITADA
+}
+
+enum TipoSolicitacaoPrivacidade {
+  ACESSO_DADOS
+  CORRECAO_DADOS
+  PORTABILIDADE
+  EXCLUSAO_DADOS
+  ANONIMIZACAO
+  REVOGACAO_CONSENTIMENTO
+  REVISAO_DECISAO_AUTOMATIZADA
+}
+
+model EditalConcurso {
+  id            String   @id @default(uuid())
+  concursoId    String
+  ano           Int
+  titulo        String
+  fonteUrl      String?
+  arquivoUrl    String?
+  totalQuestoes Int?
+  observacoes   String?  @db.Text
+  criadoEm      DateTime @default(now())
+  atualizadoEm  DateTime @updatedAt
+
+  concurso    Concurso           @relation(fields: [concursoId], references: [id], onDelete: Cascade)
+  disciplinas EditalDisciplina[]
+
+  @@unique([concursoId, ano])
+  @@index([ano])
+  @@map("editais_concurso")
+}
+
+model EditalDisciplina {
+  id                 String   @id @default(uuid())
+  editalId           String
+  disciplinaId       String?
+  nome               String
+  ordem              Int      @default(0)
+  quantidadeQuestoes Int?
+  pesoPercentual     Decimal? @db.Decimal(6, 3)
+  criadoEm           DateTime @default(now())
+
+  edital             EditalConcurso           @relation(fields: [editalId], references: [id], onDelete: Cascade)
+  disciplina         Disciplina?              @relation(fields: [disciplinaId], references: [id])
+  assuntos           EditalAssunto[]
+  provaQuestoes      ProvaConcursoQuestao[]
+  matrizesIncidencia MatrizIncidenciaTopico[]
+
+  @@unique([editalId, nome])
+  @@index([disciplinaId])
+  @@map("editais_disciplinas")
+}
+
+model EditalAssunto {
+  id                 String  @id @default(uuid())
+  editalDisciplinaId String
+  assuntoId          String?
+  nome               String
+  ordem              Int     @default(0)
+
+  editalDisciplina EditalDisciplina @relation(fields: [editalDisciplinaId], references: [id], onDelete: Cascade)
+  assunto          Assunto?         @relation(fields: [assuntoId], references: [id])
+  topicos          EditalTopico[]
+
+  @@unique([editalDisciplinaId, nome])
+  @@index([assuntoId])
+  @@map("editais_assuntos")
+}
+
+model EditalTopico {
+  id              String  @id @default(uuid())
+  editalAssuntoId String
+  topicoId        String?
+  nome            String
+  ordem           Int     @default(0)
+
+  editalAssunto EditalAssunto @relation(fields: [editalAssuntoId], references: [id], onDelete: Cascade)
+  topico        Topico?       @relation(fields: [topicoId], references: [id])
+
+  @@unique([editalAssuntoId, nome])
+  @@index([topicoId])
+  @@map("editais_topicos")
+}
+
+model ProvaConcursoQuestao {
+  id                     String                @id @default(uuid())
+  concursoId             String
+  questaoId              String?
+  bancaId                String?
+  editalDisciplinaId     String?
+  disciplinaId           String?
+  assuntoId              String?
+  topicoId               String?
+  identificadorExterno   String?
+  ano                    Int
+  numero                 Int
+  dominio                String?
+  assuntoNome            String?
+  topicoNome             String?
+  statusCoberturaEdital  StatusCoberturaEdital @default(REVISAR)
+  confiancaClassificacao String?
+  fonteArquivo           String?
+  criadoEm               DateTime              @default(now())
+
+  concurso         Concurso          @relation(fields: [concursoId], references: [id], onDelete: Cascade)
+  questao          Questao?          @relation(fields: [questaoId], references: [id])
+  banca            Banca?            @relation(fields: [bancaId], references: [id])
+  editalDisciplina EditalDisciplina? @relation(fields: [editalDisciplinaId], references: [id])
+  disciplina       Disciplina?       @relation(fields: [disciplinaId], references: [id])
+  assunto          Assunto?          @relation(fields: [assuntoId], references: [id])
+  topico           Topico?           @relation(fields: [topicoId], references: [id])
+  subtopico        Subtopico?        @relation(fields: [subtopicoId], references: [id])
+  subtopicoId      String?
+
+  @@unique([concursoId, numero])
+  @@index([ano])
+  @@index([questaoId])
+  @@index([disciplinaId, assuntoId, topicoId])
+  @@map("provas_concurso_questoes")
+}
+
+model MatrizIncidenciaTopico {
+  id                   String   @id @default(uuid())
+  carreiraId           String
+  concursoId           String?
+  editalDisciplinaId   String?
+  disciplinaId         String?
+  assuntoId            String?
+  topicoId             String?
+  dominio              String
+  assuntoNome          String
+  topicoNome           String
+  anosAnalisados       Int[]
+  totalQuestoes        Int      @default(0)
+  concursosComCobranca Int      @default(0)
+  taxaIncidencia       Decimal  @default(0) @db.Decimal(6, 3)
+  pesoPlanejamento     Decimal  @default(0) @db.Decimal(6, 3)
+  fonte                String?
+  criadoEm             DateTime @default(now())
+  atualizadoEm         DateTime @updatedAt
+
+  carreira         Carreira          @relation(fields: [carreiraId], references: [id], onDelete: Cascade)
+  concurso         Concurso?         @relation(fields: [concursoId], references: [id])
+  editalDisciplina EditalDisciplina? @relation(fields: [editalDisciplinaId], references: [id])
+  disciplina       Disciplina?       @relation(fields: [disciplinaId], references: [id])
+  assunto          Assunto?          @relation(fields: [assuntoId], references: [id])
+  topico           Topico?           @relation(fields: [topicoId], references: [id])
+
+  @@index([carreiraId])
+  @@index([concursoId])
+  @@index([disciplinaId, assuntoId, topicoId])
+  @@index([dominio, assuntoNome, topicoNome])
+  @@map("matrizes_incidencia_topicos")
+}
+
+model Questao {
+  id            String        @id @default(uuid())
+  code          String        @unique
+  tipoQuestaoId String?
+  origem        OrigemQuestao @default(BANCA)
+  status        StatusQuestao @default(RASCUNHO)
+  ano           Int?
+
+  isUnique     Boolean       @default(false)
+  access       String        @default("free")
+  visibility   String        @default("publica")
+  tipoCobranca TipoCobranca? @default(LEI_SECA)
+
+  // Autoria e revisão
+  autorId          String
+  revisorId        String?
+  autor            Usuario   @relation("AutorQuestao", fields: [autorId], references: [id])
+  revisor          Usuario?  @relation("RevisorQuestao", fields: [revisorId], references: [id])
+  revisadaEm       DateTime?
+  motivoReprovacao String?   @db.Text
+
+  // Taxonomia
+  bancaId            String?
+  concursoId         String?
+  cargoId            String?
+  carreiraId         String?
+  nivelEducacionalId String?
+  dificuldadeId      String?
+  disciplinaId       String
+  assuntoId          String?
+  topicoId           String?
+  subtopicoId        String?
+
+  tipoQuestao      TipoQuestao?      @relation(fields: [tipoQuestaoId], references: [id])
+  banca            Banca?            @relation(fields: [bancaId], references: [id])
+  concurso         Concurso?         @relation(fields: [concursoId], references: [id])
+  cargo            Cargo?            @relation(fields: [cargoId], references: [id])
+  carreira         Carreira?         @relation(fields: [carreiraId], references: [id])
+  nivelEducacional NivelEducacional? @relation(fields: [nivelEducacionalId], references: [id])
+  dificuldade      Dificuldade?      @relation(fields: [dificuldadeId], references: [id])
+  disciplina       Disciplina        @relation(fields: [disciplinaId], references: [id])
+  assunto          Assunto?          @relation(fields: [assuntoId], references: [id])
+  topico           Topico?           @relation(fields: [topicoId], references: [id])
+  subtopico        Subtopico?        @relation(fields: [subtopicoId], references: [id])
+
+  // Conteúdo
+  textoApoio String? @db.Text
+  enunciado  String  @db.Text
+  resolucao  String? @db.Text
+  videoUrl   String?
+  imagemUrl  String?
+
+  // Estatísticas agregadas (cache — atualizado via trigger/job)
+  totalRespostas Int     @default(0)
+  totalCorretas  Int     @default(0)
+  totalTempoSeg  Int     @default(0)
+  totalComTempo  Int     @default(0)
+  taxaAcerto     Decimal @default(0) @db.Decimal(5, 2)
+  tempoMedioSeg  Int     @default(0)
+  totalDenuncias Int     @default(0)
+
+  criadoEm     DateTime @default(now())
+  atualizadoEm DateTime @updatedAt
+
+  alternativas     Alternativa[]
+  respostas        RespostaUsuario[]
+  favoritos        Favorito[]
+  denuncias        Denuncia[]
+  revisoes         Revisao[]
+  cadernos         ItemCaderno[]
+  simulados        ItemSimulado[]
+  tags             QuestaoTag[]
+  comentarios      Comentario[]
+  ocorrenciasProva ProvaConcursoQuestao[]
+
+  @@index([disciplinaId])
+  @@index([status])
+  @@index([bancaId])
+  @@index([concursoId])
+  @@index([status, disciplinaId])
+  @@index([status, bancaId])
+  @@index([status, concursoId])
+  @@index([disciplinaId, assuntoId, topicoId, subtopicoId])
+  @@index([tipoCobranca])
+  @@index([dificuldadeId])
+  @@index([access])
+  @@index([criadoEm])
+  @@index([status, access])
+  @@index([status, origem])
+  @@map("questoes")
+}
+
+model Alternativa {
+  id         String  @id @default(uuid())
+  questaoId  String
+  letra      String  @db.Char(1)
+  texto      String  @db.Text
+  isCorreta  Boolean @default(false)
+  explicacao String? @db.Text
+  dica       String? @db.Text
+  referencia String? @db.Text
+  ordem      Int     @default(0)
+
+  // Estatísticas agregadas
+  totalEscolhas Int     @default(0)
+  percentual    Decimal @default(0) @db.Decimal(5, 2)
+
+  questao   Questao           @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+  respostas RespostaUsuario[]
+
+  @@index([questaoId])
+  @@map("alternativas")
+}
+
+// Tags livres para questões (ex: "pegadinha", "lei seca", "jurisprudência")
+model Tag {
+  id   String  @id @default(uuid())
+  nome String  @unique
+  slug String  @unique
+  cor  String?
+
+  questoes QuestaoTag[]
+
+  @@map("tags")
+}
+
+model QuestaoTag {
+  questaoId String
+  tagId     String
+
+  questao Questao @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+  tag     Tag     @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([questaoId, tagId])
+  @@map("questoes_tags")
+}
+
+// Comentários públicos em questões
+model Comentario {
+  id        String    @id @default(uuid())
+  questaoId String
+  usuarioId String
+  texto     String    @db.Text
+  parentId  String? // Para respostas a comentários
+  ativo     Boolean   @default(true)
+  criadoEm  DateTime  @default(now())
+  editadoEm DateTime?
+
+  questao   Questao      @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+  parent    Comentario?  @relation("RespostaComentario", fields: [parentId], references: [id])
+  respostas Comentario[] @relation("RespostaComentario")
+
+  @@index([questaoId])
+  @@map("comentarios")
+}
+
+// =============================================================================
+// INTERAÇÃO E PROGRESSO
+// =============================================================================
+
+model RespostaUsuario {
+  id            String   @id @default(uuid())
+  usuarioId     String
+  questaoId     String
+  alternativaId String
+  isCorreta     Boolean
+  tempoSeg      Int?
+  erroMotivo    String? // Tag do motivo do erro
+  respondidoEm  DateTime @default(now())
+
+  // Contexto de onde foi respondida
+  simuladoTentativaId String?
+  cadernoId           String?
+
+  usuario     Usuario     @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  questao     Questao     @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+  alternativa Alternativa @relation(fields: [alternativaId], references: [id])
+
+  @@index([usuarioId])
+  @@index([questaoId])
+  @@index([usuarioId, questaoId])
+  @@index([usuarioId, respondidoEm])
+  @@index([usuarioId, isCorreta])
+  @@index([questaoId, respondidoEm])
+  @@index([simuladoTentativaId])
+  @@index([cadernoId])
+  @@map("respostas_usuarios")
+}
+
+model EstatisticaUsuario {
+  id           String   @id @default(uuid())
+  usuarioId    String
+  disciplinaId String
+  periodo      String // "dia", "semana", "mes", "geral"
+  referencia   DateTime // data de referência do período
+
+  totalQuestoes  Int     @default(0)
+  totalCorretas  Int     @default(0)
+  totalErradas   Int     @default(0)
+  taxaAcerto     Decimal @default(0) @db.Decimal(5, 2)
+  tempoTotalSeg  Int     @default(0)
+  tempoMedioSeg  Int     @default(0)
+  sequenciaAtual Int     @default(0)
+  maiorSequencia Int     @default(0)
+
+  usuario    Usuario    @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  disciplina Disciplina @relation(fields: [disciplinaId], references: [id], onDelete: Cascade)
+
+  @@unique([usuarioId, disciplinaId, periodo, referencia])
+  @@index([usuarioId, disciplinaId])
+  @@index([usuarioId, periodo, referencia])
+  @@index([disciplinaId, periodo, referencia])
+  @@map("estatisticas_usuarios")
+}
+
+model Ranking {
+  id         String   @id @default(uuid())
+  usuarioId  String
+  carreiraId String?
+  periodo    String // "semanal", "mensal", "geral"
+  referencia DateTime
+
+  pontuacao     Int     @default(0)
+  totalQuestoes Int     @default(0)
+  taxaAcerto    Decimal @default(0) @db.Decimal(5, 2)
+  posicao       Int?
+
+  usuario  Usuario   @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  carreira Carreira? @relation(fields: [carreiraId], references: [id])
+
+  @@unique([usuarioId, carreiraId, periodo, referencia])
+  @@index([periodo, referencia])
+  @@index([carreiraId, periodo, referencia])
+  @@index([usuarioId, periodo, referencia])
+  @@index([posicao])
+  @@map("rankings")
+}
+
+// Revisão espaçada (algoritmo SM-2 ou similar)
+model Revisao {
+  id        String @id @default(uuid())
+  usuarioId String
+  questaoId String
+
+  status         String    @default("pendente") // pendente, revisada, ignorada
+  fatorEase      Decimal   @default(2.5) @db.Decimal(4, 2) // fator do algoritmo SM-2
+  intervaloDias  Int       @default(1)
+  repeticoes     Int       @default(0)
+  qualidade      Int? // 0-5: nota da última revisão
+  ultimaRevisao  DateTime?
+  proximaRevisao DateTime
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  questao Questao @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+
+  @@unique([usuarioId, questaoId])
+  @@index([usuarioId, proximaRevisao])
+  @@index([usuarioId, status, proximaRevisao])
+  @@index([questaoId])
+  @@map("revisoes")
+}
+
+model Favorito {
+  id        String   @id @default(uuid())
+  usuarioId String
+  questaoId String
+  criadoEm  DateTime @default(now())
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  questao Questao @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+
+  @@unique([usuarioId, questaoId])
+  @@index([usuarioId, criadoEm])
+  @@index([questaoId])
+  @@map("favoritos")
+}
+
+model Denuncia {
+  id          String    @id @default(uuid())
+  questaoId   String
+  usuarioId   String
+  motivo      String
+  descricao   String?   @db.Text
+  status      String    @default("pendente") // pendente, analisada, resolvida, descartada
+  resposta    String?   @db.Text // feedback dado ao denunciante
+  criadoEm    DateTime  @default(now())
+  resolvidaEm DateTime?
+
+  questao Questao @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@unique([questaoId, usuarioId])
+  @@index([status, criadoEm])
+  @@index([usuarioId, criadoEm])
+  @@map("denuncias")
+}
+
+// =============================================================================
+// CADERNOS E SIMULADOS
+// =============================================================================
+
+enum VisibilidadeCaderno {
+  PRIVADO
+  PUBLICO
+}
+
+model Caderno {
+  id            String              @id @default(uuid())
+  criadoPorId   String
+  titulo        String
+  descricao     String?
+  visibilidade  VisibilidadeCaderno @default(PRIVADO)
+  dificuldadeId String?
+  criadoEm      DateTime            @default(now())
+  atualizadoEm  DateTime            @updatedAt
+
+  criadoPor   Usuario       @relation(fields: [criadoPorId], references: [id])
+  dificuldade Dificuldade?  @relation(fields: [dificuldadeId], references: [id])
+  itens       ItemCaderno[]
+
+  @@index([criadoPorId])
+  @@map("cadernos")
+}
+
+model ItemCaderno {
+  id        String @id @default(uuid())
+  cadernoId String
+  questaoId String
+  ordem     Int    @default(0)
+
+  caderno Caderno @relation(fields: [cadernoId], references: [id], onDelete: Cascade)
+  questao Questao @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+
+  @@unique([cadernoId, questaoId])
+  @@index([cadernoId])
+  @@map("itens_caderno")
+}
+
+enum StatusSimulado {
+  RASCUNHO
+  PUBLICADO
+  ENCERRADO
+  ARQUIVADO
+}
+
+enum VisibilidadeSimulado {
+  PRIVADO
+  PUBLICO
+}
+
+model Simulado {
+  id             String               @id @default(uuid())
+  criadoPorId    String
+  titulo         String
+  descricao      String?
+  tipo           String               @default("simulado") // simulado, mini_simulado, prova_anterior
+  status         StatusSimulado       @default(RASCUNHO)
+  visibilidade   VisibilidadeSimulado @default(PRIVADO)
+  duracaoMinutos Int?
+  totalQuestoes  Int                  @default(0)
+  inicioEm       DateTime?
+  fimEm          DateTime?
+  criadoEm       DateTime             @default(now())
+  atualizadoEm   DateTime             @updatedAt
+
+  criadoPor                Usuario                   @relation(fields: [criadoPorId], references: [id])
+  itens                    ItemSimulado[]
+  tentativas               TentativaSimulado[]
+  diagnosticosPlanejamento DiagnosticoPlanejamento[]
+
+  @@index([criadoPorId])
+  @@index([status])
+  @@map("simulados")
+}
+
+model ItemSimulado {
+  id         String @id @default(uuid())
+  simuladoId String
+  questaoId  String
+  ordem      Int    @default(0)
+
+  simulado Simulado @relation(fields: [simuladoId], references: [id], onDelete: Cascade)
+  questao  Questao  @relation(fields: [questaoId], references: [id], onDelete: Cascade)
+
+  @@unique([simuladoId, questaoId])
+  @@index([simuladoId])
+  @@index([questaoId])
+  @@map("itens_simulado")
+}
+
+enum StatusTentativa {
+  EM_ANDAMENTO
+  CONCLUIDA
+  ABANDONADA
+  TEMPO_ESGOTADO
+}
+
+model TentativaSimulado {
+  id         String          @id @default(uuid())
+  simuladoId String
+  usuarioId  String
+  status     StatusTentativa @default(EM_ANDAMENTO)
+  inicioEm   DateTime        @default(now())
+  fimEm      DateTime?
+
+  pontuacao     Decimal @default(0) @db.Decimal(5, 2)
+  totalCorretas Int     @default(0)
+  totalErradas  Int     @default(0)
+  totalBranco   Int     @default(0)
+  tempoGastoSeg Int     @default(0)
+
+  simulado                 Simulado                  @relation(fields: [simuladoId], references: [id], onDelete: Cascade)
+  usuario                  Usuario                   @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  diagnosticosPlanejamento DiagnosticoPlanejamento[]
+
+  @@index([simuladoId])
+  @@index([usuarioId])
+  @@index([usuarioId, inicioEm])
+  @@index([usuarioId, status])
+  @@index([simuladoId, status])
+  @@index([fimEm])
+  @@map("tentativas_simulado")
+}
+
+model DiagnosticoPlanejamento {
+  id                  String           @id @default(uuid())
+  usuarioId           String
+  carreiraId          String?
+  concursoAlvoId      String?
+  simuladoId          String?
+  tentativaSimuladoId String?
+  matrizFonte         String?
+  totalQuestoes       Int              @default(0)
+  totalCorretas       Int              @default(0)
+  taxaAcerto          Decimal          @default(0) @db.Decimal(6, 3)
+  nivelGeral          NivelDiagnostico @default(MEDIO)
+  recomendacoes       Json?
+  criadoEm            DateTime         @default(now())
+
+  usuario           Usuario                         @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  carreira          Carreira?                       @relation(fields: [carreiraId], references: [id])
+  concursoAlvo      Concurso?                       @relation(fields: [concursoAlvoId], references: [id])
+  simulado          Simulado?                       @relation(fields: [simuladoId], references: [id])
+  tentativaSimulado TentativaSimulado?              @relation(fields: [tentativaSimuladoId], references: [id])
+  topicos           DiagnosticoPlanejamentoTopico[]
+
+  @@index([usuarioId, criadoEm])
+  @@index([carreiraId])
+  @@index([concursoAlvoId])
+  @@index([simuladoId])
+  @@index([tentativaSimuladoId])
+  @@index([nivelGeral])
+  @@map("diagnosticos_planejamento")
+}
+
+model DiagnosticoPlanejamentoTopico {
+  id               String           @id @default(uuid())
+  diagnosticoId    String
+  disciplinaId     String?
+  assuntoId        String?
+  topicoId         String?
+  disciplinaNome   String
+  assuntoNome      String
+  topicoNome       String
+  totalQuestoes    Int              @default(0)
+  totalCorretas    Int              @default(0)
+  taxaAcerto       Decimal          @default(0) @db.Decimal(6, 3)
+  taxaIncidencia   Decimal          @default(0) @db.Decimal(6, 3)
+  pesoPlanejamento Decimal          @default(0) @db.Decimal(6, 3)
+  nivel            NivelDiagnostico
+  prioridade       PrioridadeEstudo
+  criadoEm         DateTime         @default(now())
+
+  diagnostico DiagnosticoPlanejamento @relation(fields: [diagnosticoId], references: [id], onDelete: Cascade)
+  disciplina  Disciplina?             @relation(fields: [disciplinaId], references: [id])
+  assunto     Assunto?                @relation(fields: [assuntoId], references: [id])
+  topico      Topico?                 @relation(fields: [topicoId], references: [id])
+
+  @@index([diagnosticoId])
+  @@index([prioridade])
+  @@index([disciplinaId, assuntoId, topicoId])
+  @@index([diagnosticoId, prioridade])
+  @@index([nivel])
+  @@map("diagnosticos_planejamento_topicos")
+}
+
+model ConsentimentoPrivacidade {
+  id         String                       @id @default(uuid())
+  usuarioId  String
+  tipo       TipoConsentimentoPrivacidade
+  versao     String
+  finalidade String
+  aceito     Boolean
+  ipAddress  String?
+  userAgent  String?
+  criadoEm   DateTime                     @default(now())
+  revogadoEm DateTime?
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@index([usuarioId, tipo])
+  @@index([tipo, versao])
+  @@index([usuarioId, criadoEm])
+  @@index([revogadoEm])
+  @@map("consentimentos_privacidade")
+}
+
+model SolicitacaoPrivacidade {
+  id           String                       @id @default(uuid())
+  usuarioId    String
+  tipo         TipoSolicitacaoPrivacidade
+  status       StatusSolicitacaoPrivacidade @default(ABERTA)
+  descricao    String?                      @db.Text
+  resposta     String?                      @db.Text
+  arquivoUrl   String?
+  criadoEm     DateTime                     @default(now())
+  atualizadoEm DateTime                     @updatedAt
+  concluidoEm  DateTime?
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@index([usuarioId, criadoEm])
+  @@index([status])
+  @@index([tipo, status])
+  @@index([status, criadoEm])
+  @@map("solicitacoes_privacidade")
+}
+
+// =============================================================================
+// FINANCEIRO E PLANOS
+// =============================================================================
+
+enum StatusAssinatura {
+  TRIAL
+  ATIVA
+  CANCELADA
+  EXPIRADA
+  INADIMPLENTE
+}
+
+enum StatusPedido {
+  PENDENTE
+  PROCESSANDO
+  PAGO
+  CANCELADO
+  REEMBOLSADO
+}
+
+enum MetodoPagamento {
+  CARTAO_CREDITO
+  CARTAO_DEBITO
+  PIX
+  BOLETO
+}
+
+enum StatusPagamento {
+  PENDENTE
+  APROVADO
+  RECUSADO
+  REEMBOLSADO
+  CANCELADO
+  ESTORNADO
+}
+
+model Plano {
+  id            String   @id @default(uuid())
+  nome          String   @unique
+  slug          String   @unique
+  descricao     String?
+  duracaoDias   Int
+  preco         Decimal  @db.Decimal(10, 2)
+  precoOriginal Decimal? @db.Decimal(10, 2) // para mostrar desconto
+  ativo         Boolean  @default(true)
+  destaque      Boolean  @default(false)
+  ordem         Int      @default(0)
+  criadoEm      DateTime @default(now())
+  atualizadoEm  DateTime @updatedAt
+
+  usuarios    Usuario[]
+  assinaturas Assinatura[]
+  pedidoItens PedidoItem[]
+  beneficios  PlanoBeneficio[]
+
+  @@map("planos")
+}
+
+model PlanoBeneficio {
+  id      String @id @default(uuid())
+  planoId String
+  texto   String
+  ordem   Int    @default(0)
+
+  plano Plano @relation(fields: [planoId], references: [id], onDelete: Cascade)
+
+  @@map("plano_beneficios")
+}
+
+model Assinatura {
+  id                 String           @id @default(uuid())
+  usuarioId          String
+  planoId            String
+  status             StatusAssinatura @default(TRIAL)
+  inicioEm           DateTime         @default(now())
+  expiraEm           DateTime?
+  renovacaoAuto      Boolean          @default(true)
+  canceladoEm        DateTime?
+  motivoCancelamento String?
+  criadoEm           DateTime         @default(now())
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  plano   Plano   @relation(fields: [planoId], references: [id])
+
+  @@index([usuarioId])
+  @@index([status])
+  @@index([usuarioId, status])
+  @@index([status, expiraEm])
+  @@index([expiraEm])
+  @@map("assinaturas")
+}
+
+model Pedido {
+  id           String       @id @default(uuid())
+  codigo       String       @unique
+  usuarioId    String
+  enderecoId   String?
+  status       StatusPedido @default(PENDENTE)
+  descricao    String
+  total        Decimal      @db.Decimal(10, 2)
+  criadoEm     DateTime     @default(now())
+  atualizadoEm DateTime     @updatedAt
+
+  usuario    Usuario      @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  endereco   Endereco?    @relation(fields: [enderecoId], references: [id])
+  itens      PedidoItem[]
+  pagamentos Pagamento[]
+
+  @@index([usuarioId])
+  @@index([usuarioId, criadoEm])
+  @@index([status, criadoEm])
+  @@map("pedidos")
+}
+
+model PedidoItem {
+  id        String  @id @default(uuid())
+  pedidoId  String
+  planoId   String
+  descricao String
+  preco     Decimal @db.Decimal(10, 2)
+
+  pedido Pedido @relation(fields: [pedidoId], references: [id], onDelete: Cascade)
+  plano  Plano  @relation(fields: [planoId], references: [id])
+
+  @@map("pedido_itens")
+}
+
+model Pagamento {
+  id                   String          @id @default(uuid())
+  pedidoId             String
+  usuarioId            String
+  gateway              String // "stripe", "mercadopago", etc.
+  gatewayId            String?         @unique // ID da transação no gateway
+  metodo               MetodoPagamento
+  valor                Decimal         @db.Decimal(10, 2)
+  status               StatusPagamento @default(PENDENTE)
+  pixQrCode            String?         @db.Text // QR code PIX
+  pixChave             String? // chave PIX copiavel
+  boletoUrl            String?
+  boletoLinhaDigitavel String?
+  aprovadoEm           DateTime?
+  criadoEm             DateTime        @default(now())
+
+  pedido  Pedido  @relation(fields: [pedidoId], references: [id], onDelete: Cascade)
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@index([pedidoId])
+  @@index([usuarioId, criadoEm])
+  @@index([status, criadoEm])
+  @@index([gateway, gatewayId])
+  @@map("pagamentos")
+}
+
+// =============================================================================
+// SUPORTE
+// =============================================================================
+
+enum StatusTicket {
+  ABERTO
+  EM_ATENDIMENTO
+  AGUARDANDO_USUARIO
+  RESOLVIDO
+  FECHADO
+}
+
+enum CategoriaTicket {
+  FINANCEIRO
+  TECNICO
+  CONTEUDO
+  CONTA
+  OUTRO
+}
+
+model Ticket {
+  id          String          @id @default(uuid())
+  codigo      String          @unique
+  usuarioId   String
+  atendenteId String?
+  categoria   CategoriaTicket @default(OUTRO)
+  status      StatusTicket    @default(ABERTO)
+  assunto     String
+  prioridade  String          @default("normal") // baixa, normal, alta, urgente
+  criadoEm    DateTime        @default(now())
+  resolvidoEm DateTime?
+
+  usuario   Usuario          @relation("TicketUsuario", fields: [usuarioId], references: [id], onDelete: Cascade)
+  atendente Usuario?         @relation("TicketAtendente", fields: [atendenteId], references: [id])
+  mensagens TicketMensagem[]
+
+  @@index([usuarioId])
+  @@index([status])
+  @@index([usuarioId, status])
+  @@index([status, criadoEm])
+  @@index([atendenteId, status])
+  @@map("tickets")
+}
+
+model TicketMensagem {
+  id        String   @id @default(uuid())
+  ticketId  String
+  usuarioId String
+  texto     String   @db.Text
+  interno   Boolean  @default(false) // nota interna (só atendentes veem)
+  criadoEm  DateTime @default(now())
+
+  ticket  Ticket  @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@index([ticketId])
+  @@index([ticketId, criadoEm])
+  @@index([usuarioId, criadoEm])
+  @@map("ticket_mensagens")
+}
+
+// =============================================================================
+// SISTEMA E ADMIN
+// =============================================================================
+
+enum TipoNotificacao {
+  RANKING_POSICAO
+  REVISAO_PENDENTE
+  TICKET_RESPOSTA
+  ASSINATURA_VENCENDO
+  ASSINATURA_VENCIDA
+  QUESTAO_COMENTARIO
+  CONQUISTA
+  SISTEMA
+}
+
+model Notificacao {
+  id        String          @id @default(uuid())
+  usuarioId String
+  tipo      TipoNotificacao
+  titulo    String
+  mensagem  String          @db.Text
+  link      String?
+  lida      Boolean         @default(false)
+  lidaEm    DateTime?
+  criadoEm  DateTime        @default(now())
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@index([usuarioId, lida])
+  @@index([usuarioId, criadoEm])
+  @@index([usuarioId, lida, criadoEm])
+  @@index([tipo, criadoEm])
+  @@map("notificacoes")
+}
+
+model AuditLog {
+  id          String   @id @default(uuid())
+  usuarioId   String?
+  acao        String // CREATE, UPDATE, DELETE, LOGIN, etc.
+  tabela      String?
+  registroId  String?
+  dadosAntes  Json? // snapshot antes da alteração
+  dadosDepois Json? // snapshot depois
+  ipAddress   String?
+  userAgent   String?
+  criadoEm    DateTime @default(now())
+
+  usuario Usuario? @relation(fields: [usuarioId], references: [id])
+
+  @@index([tabela, registroId])
+  @@index([usuarioId])
+  @@index([usuarioId, criadoEm])
+  @@index([acao, criadoEm])
+  @@index([criadoEm])
+  @@map("audit_logs")
+}
+
+model Configuracao {
+  chave        String   @id
+  valor        String   @db.Text
+  descricao    String?
+  tipo         String   @default("string") // string, number, boolean, json
+  atualizadoEm DateTime @default(now()) @updatedAt
+
+  @@map("configuracoes")
+}
+
+// =============================================================================
+// AUTH E SESSÃO
+// =============================================================================
+
+model Sessao {
+  id           String   @id @default(uuid())
+  usuarioId    String
+  refreshToken String   @unique
+  ipAddress    String?
+  userAgent    String?
+  expiraEm     DateTime
+  criadoEm     DateTime @default(now())
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@index([usuarioId])
+  @@index([usuarioId, expiraEm])
+  @@index([expiraEm])
+  @@map("sessoes")
+}
+
+model RecuperacaoSenha {
+  id        String   @id @default(uuid())
+  usuarioId String
+  token     String   @unique
+  usado     Boolean  @default(false)
+  expiraEm  DateTime
+  criadoEm  DateTime @default(now())
+
+  usuario Usuario @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+
+  @@index([usuarioId])
+  @@index([expiraEm])
+  @@index([usado, expiraEm])
+  @@map("recuperacao_senha")
+}
+
+model Account {
+  id                String @id @default(uuid())
+  userId            String
+  provider          String // google, github, etc.
+  type              String
+  providerAccountId String
+
+  usuario Usuario @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Verification {
+  id         String   @id @default(uuid())
+  identifier String
+  value      String
+  expiresAt  DateTime
+  criadoEm   DateTime @default(now())
+
+  @@unique([identifier, value])
+  @@index([expiresAt])
+  @@map("verifications")
+}
+
+// =============================================================================
+// ENUMS RESTANTES
+// =============================================================================
+
+enum VisibilidadePerfil {
+  PRIVADO
+  BASICO_PUBLICO
+  COMPLETO_PUBLICO
+}

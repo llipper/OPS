@@ -1,0 +1,1574 @@
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "4aba9175-b561-4434-abbc-fc3ae2475a51",
+  "topicoId": "0538ec47-b1c6-44ed-bf8b-41a160089ccb",
+  "subtopicoId": "3bdf58cf-d269-49ac-b58a-c754fedf49d2",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "Para a teoria finalista da ação, adotada pelo Código Penal brasileiro, a conduta penalmente relevante exige um comportamento humano voluntário (ação ou omissão) dirigido a uma finalidade, sendo o dolo considerado elemento da culpabilidade e não do fato típico.",
+  "textoApoio": "A teoria finalista, proposta por Hans Welzel, revolucionou o direito penal ao deslocar o dolo e a culpa da culpabilidade para o fato típico.",
+  "resolucao": "A assertiva está ERRADA. No finalismo penal, adotado pelo Código Penal brasileiro, o dolo e a culpa são elementos da conduta (fato típico), não da culpabilidade. A conduta é voluntária e finalista, e o dolo (vontade consciente de realizar o tipo penal) integra o conceito de ação final. A culpabilidade passa a ser analisada apenas sob o aspecto da exigibilidade de conduta diversa, potencial consciência da ilicitude e imputabilidade. A assertiva erra ao afirmar que o dolo pertence à culpabilidade.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. No finalismo, dolo e culpa são elementos do fato típico (conduta), não da culpabilidade.",
+      "referencia": "Código Penal, arts. 18 e 20; Doutrina de Rogério Greco e Cezar Roberto Bitencourt.",
+      "dica": "Decore: no finalismo, dolo e culpa estão no fato típico; na culpabilidade, analisamos apenas imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva está errada porque inverte a posição do dolo no sistema finalista.",
+      "referencia": "Código Penal, arts. 18 e 20; Doutrina de Rogério Greco e Cezar Roberto Bitencourt.",
+      "dica": "O CEBRASPE (e sua banca OPS) adora essa pegadinha: confundir a posição do dolo entre as teorias causalista e finalista."
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "4aba9175-b561-4434-abbc-fc3ae2475a51",
+  "topicoId": "0538ec47-b1c6-44ed-bf8b-41a160089ccb",
+  "subtopicoId": "838b5555-9c62-4a67-83ba-befceb2adcce",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A coação moral irresistível e a obediência hierárquica a ordem não manifestamente ilegal são causas que excluem a ilicitude da conduta do agente, previstas no artigo 22 do Código Penal.",
+  "textoApoio": "O art. 22 do CP trata das causas de isenção de pena por coação irresistível e obediência hierárquica.",
+  "resolucao": "A assertiva está ERRADA. O art. 22 do Código Penal estabelece que a coação moral irresistível e a obediência hierárquica a ordem não manifestamente ilegal excluem a culpabilidade (são causas de isenção de pena), não a ilicitude. A conduta do agente continua sendo ilícita, mas ele não é culpável porque não se podia exigir conduta diversa. Quem exclui a ilicitude são as causas do art. 23 do CP: estado de necessidade, legítima defesa, estrito cumprimento de dever legal e exercício regular de direito.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O art. 22 exclui a CULPABILIDADE, não a ilicitude.",
+      "referencia": "Código Penal, art. 22 e art. 23.",
+      "dica": "Decore: art. 22 (coação e obediência) = exclui CULPABILIDADE. art. 23 (legítima defesa, estado de necessidade, etc.) = exclui ILICITUDE."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao afirmar que essas causas excluem a ilicitude.",
+      "referencia": "Código Penal, art. 22 e art. 23.",
+      "dica": "Pegadinha clássica do CESPE/OPS: trocar ilicitude por culpabilidade."
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "4aba9175-b561-4434-abbc-fc3ae2475a51",
+  "topicoId": "0538ec47-b1c6-44ed-bf8b-41a160089ccb",
+  "subtopicoId": "532e1818-3e0e-4db1-80ae-da2d762b2f16",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A legítima defesa, causa de exclusão da ilicitude, exige agressão atual ou iminente, injusta e dirigida a direito próprio ou de terceiro, sendo admitido o chamado 'excesso exculpante' como modalidade que exclui a ilicitude quando o agente, por escusável medo ou surpresa, vai além do necessário na defesa.",
+  "textoApoio": "O art. 25 do CP define a legítima defesa, e o parágrafo único do art. 23 trata do excesso.",
+  "resolucao": "A assertiva está ERRADA. O excesso exculpante (ou excesso culposo) não exclui a ilicitude, mas sim a culpabilidade (art. 23, parágrafo único, 1ª parte, do CP). Ele ocorre quando o agente, em situação de legítima defesa, age com dolo na defesa, mas excede por culpa (erro de avaliação, medo escusável, surpresa). Nesse caso, a conduta continua ilícita, mas o agente não é culpável. O excesso doloso (quando o agente quer exceder) exclui completamente a legítima defesa. A assertiva erra ao afirmar que o excesso exculpante exclui a ilicitude.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O excesso exculpante exclui a culpabilidade, não a ilicitude.",
+      "referencia": "Código Penal, art. 23, parágrafo único.",
+      "dica": "Excesso exculpante = excesso culposo = exclui CULPABILIDADE. Excesso doloso = exclui a própria legítima defesa."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. O erro está em afirmar que o excesso exculpante exclui a ilicitude.",
+      "referencia": "Código Penal, art. 23, parágrafo único.",
+      "dica": "Decore a hierarquia: legítima defesa → exclui ilicitude. Excesso (exculpante ou doloso) → NUNCA exclui ilicitude."
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "00105a84-81e5-4ebe-9600-0aab117062f1",
+  "topicoId": "e99a9ea8-4e59-48ae-925b-d165230fd742",
+  "subtopicoId": "eb14c894-7086-43d3-838e-4c5de55567c4",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O feminicídio, inserido como qualificadora do crime de homicídio (art. 121, §2º, VI, do CP), é crime hediondo e não admite a aplicação das causas de diminuição de pena previstas no §1º do mesmo artigo (homicídio privilegiado), ainda que presentes os requisitos do privilégio.",
+  "textoApoio": "A Lei 13.104/2015 criou a qualificadora do feminicídio no homicídio.",
+  "resolucao": "A assertiva está ERRADA. O feminicídio é, sim, crime hediondo (Lei 8.072/90, art. 1º, I). No entanto, a doutrina e a jurisprudência majoritárias (inclusive do STJ) admitem a aplicação do privilégio do §1º do art. 121 do CP (relevante valor social ou moral, ou domínio de violenta emoção logo após injusta provocação da vítima) ao feminicídio, desde que presentes os requisitos. O feminicídio não é um crime autônomo, mas uma qualificadora, portanto todas as regras do homicídio se aplicam, inclusive o privilégio.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O privilégio do homicídio pode sim ser aplicado ao feminicídio, conforme STJ.",
+      "referencia": "Art. 121, §1º e §2º, VI do CP; STJ, REsp 1.732.319.",
+      "dica": "O CEBRASPE/OPS adora essa questão. Lembre-se: feminicídio é qualificadora, não crime autônomo. Tudo que vale para homicídio vale para feminicídio, salvo disposição em contrário."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. O privilégio é aplicável ao feminicídio.",
+      "referencia": "Art. 121, §1º e §2º, VI do CP; STJ, REsp 1.732.319.",
+      "dica": "Muita atenção: feminicídio pode ser privilegiado!"
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "00105a84-81e5-4ebe-9600-0aab117062f1",
+  "topicoId": "3961753a-9643-44a0-bda6-58f7e056a491",
+  "subtopicoId": "102e4d7f-c848-46a0-8a19-0e8a14edde7f",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "No crime de furto, o elemento subjetivo é o 'animus rem sibi habendi' (vontade de ter a coisa para si), de modo que a subtração da coisa alheia móvel com a imediata intenção de restituição (furto de uso) é considerada atípica por ausência de dolo específico, conforme entendimento doutrinário tradicional.",
+  "textoApoio": "O furto está previsto no art. 155 do Código Penal.",
+  "resolucao": "A assertiva está CERTA. O furto de uso é uma figura doutrinária na qual o agente subtrai a coisa alheia móvel com a intenção de usá-la e restituí-la imediatamente. Para a doutrina majoritária (Damásio de Jesus, Fernando Capez), no furto de uso o dolo específico (animus rem sibi habendi - vontade de não restituir) está ausente, tornando a conduta atípica. A jurisprudência, no entanto, tem restringido essa tese em casos de abuso ou quando a restituição não ocorre de forma espontânea e imediata. A assertiva está correta ao reproduzir o entendimento doutrinário tradicional.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. O furto de uso é atípico por ausência do elemento subjetivo 'animus rem sibi habendi'.",
+      "referencia": "Art. 155 do CP; Doutrina de Damásio de Jesus e Fernando Capez.",
+      "dica": "O CEBRASPE cobra a diferença: furto = vontade de não restituir (animus rem sibi habendi). Furto de uso = atípico."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O entendimento doutrinário tradicional realmente considera o furto de uso como atípico.",
+      "referencia": "Art. 155 do CP; Doutrina de Damásio de Jesus e Fernando Capez.",
+      "dica": "Cuidado: a jurisprudência recente tem mitigado essa tese, mas a doutrina majoritária ainda a aceita."
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "00105a84-81e5-4ebe-9600-0aab117062f1",
+  "topicoId": "db51f55a-53cb-424b-b740-f91456a9808a",
+  "subtopicoId": "ba073e53-efd0-4bd8-af5e-03a2c6d582af",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O crime de peculato (art. 312 do CP) exige, para sua configuração, que o funcionário público tenha a posse ou disponibilidade da coisa em razão do cargo, sendo descabida a modalidade culposa, pois se trata de crime exclusivamente doloso.",
+  "textoApoio": "O peculato está previsto no art. 312 do Código Penal.",
+  "resolucao": "A assertiva está ERRADA. O peculato admite sim a modalidade culposa, prevista no §2º do art. 312 do CP: 'Se o funcionário concorre culposamente para o crime de outrem, a pena é diminuída de um a dois terços' (peculato culposo). Além disso, o peculato doloso exige que o funcionário tenha a posse ou disponibilidade da coisa em razão do cargo (elemento normativo), mas a assertiva erra ao afirmar que não há peculato culposo.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O peculato tem sim a modalidade culposa (art. 312, §2º).",
+      "referencia": "Código Penal, art. 312, caput e §2º.",
+      "dica": "Decore: peculato doloso (caput) e peculato culposo (§2º). O CEBRASPE adora essa pegadinha."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. O peculato culposo existe e está previsto no §2º do art. 312.",
+      "referencia": "Código Penal, art. 312, caput e §2º.",
+      "dica": "Cuidado: a banca pode dizer 'peculato é crime exclusivamente doloso' - isso é FALSO!"
+    }
+  ]
+}
+{
+  "disciplinaId": "79598e72-7696-43ff-9ad6-adadfa6d0ec0",
+  "assuntoId": "218f34e0-a60c-4a53-8830-65141f2d5d02",
+  "topicoId": "bc69c64d-6eac-4384-9e0a-473d728b6c29",
+  "subtopicoId": "7bbc353e-6221-4543-8622-2309defdbc85",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O princípio da legalidade administrativa, previsto no art. 37, caput, da CF/88, estabelece que a Administração Pública só pode fazer o que a lei autoriza, diferentemente do particular, que pode fazer tudo o que a lei não proíbe.",
+  "textoApoio": "O caput do art. 37 da CF/88 estabelece os princípios da Administração Pública.",
+  "resolucao": "A assertiva está CERTA. O princípio da legalidade para a Administração Pública é um princípio de subordinação (ou legalidade estrita): a Administração só pode atuar se houver previsão legal autorizativa. Já para o particular, vigora o princípio da legalidade como liberdade (o particular pode fazer tudo o que a lei não proíbe). Essa é a diferença clássica entre legalidade administrativa e legalidade civil. A assertiva está correta ao reproduzir esse entendimento.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. A Administração Pública atua sob o princípio da legalidade estrita (só o que a lei autoriza).",
+      "referencia": "Art. 37, caput, da CF/88; Doutrina de Hely Lopes Meirelles e Diogo de Figueiredo Moreira Neto.",
+      "dica": "Decore: particular → pode fazer tudo que a lei não proíbe. Administração → só pode fazer o que a lei autoriza."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está perfeitamente alinhada com a doutrina e a jurisprudência.",
+      "referencia": "Art. 37, caput, da CF/88; Doutrina de Hely Lopes Meirelles e Diogo de Figueiredo Moreira Neto.",
+      "dica": "Pegadinha: a banca pode inverter os conceitos. Fique atento!"
+    }
+  ]
+}
+{
+  "disciplinaId": "79598e72-7696-43ff-9ad6-adadfa6d0ec0",
+  "assuntoId": "218f34e0-a60c-4a53-8830-65141f2d5d02",
+  "topicoId": "cabfd043-7e30-441b-8db0-4b0199c727b7",
+  "subtopicoId": "1ef6297f-47a2-4efd-ba23-7a269b58ba0f",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "As autarquias são pessoas jurídicas de direito público, criadas por lei específica, com capacidade de autoadministração e patrimônio próprio, sendo-lhes vedado o exercício de atividades econômicas em sentido estrito, salvo quando houver autorização legal expressa.",
+  "textoApoio": "As autarquias integram a Administração Pública Indireta.",
+  "resolucao": "A assertiva está CERTA. As autarquias são pessoas jurídicas de direito público, criadas por lei específica (art. 37, XIX, CF/88), com capacidade de autoadministração, patrimônio próprio e sujeitas a controle finalístico (tutela). Via de regra, exercem atividades típicas de Estado (serviços públicos), e não atividades econômicas. A exploração de atividade econômica em sentido estrito é típica de empresas públicas e sociedades de economia mista, e mesmo assim mediante autorização legal e sob regime de direito privado. A assertiva está correta ao afirmar que é vedado às autarquias o exercício de atividades econômicas em sentido estrito, salvo autorização legal expressa (excepcionalmente, como no caso de autarquias como o DETRAN que exploram serviços de forma não econômica).",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. Autarquias são pessoas jurídicas de direito público, criadas por lei específica, e não exercem atividade econômica em sentido estrito.",
+      "referencia": "Art. 37, XIX da CF/88; Decreto-Lei 200/67, art. 5º, I.",
+      "dica": "Decore: autarquia = direito público, criada por lei, atividades típicas de Estado. Empresa pública e S.E.M. = direito privado, atividade econômica."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está correta em todos os aspectos.",
+      "referencia": "Art. 37, XIX da CF/88; Decreto-Lei 200/67, art. 5º, I.",
+      "dica": "Cuidado com a exceção: autarquias podem excepcionalmente explorar atividade econômica se houver previsão legal expressa (ex: Agências Reguladoras)."
+    }
+  ]
+}
+{
+  "disciplinaId": "79598e72-7696-43ff-9ad6-adadfa6d0ec0",
+  "assuntoId": "06004609-98f0-4a83-a734-32dba616e8b4",
+  "topicoId": "219fe8af-a6c1-4225-802d-803aff39039d",
+  "subtopicoId": "1a4ad3e1-610f-4e42-959e-c709151144b0",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O poder de polícia, atributo da Administração Pública, caracteriza-se pela discricionariedade, autoexecutoriedade e coercibilidade, sendo que a discricionariedade confere à Administração liberdade total para escolher, entre várias opções previstas em lei, a mais adequada ao caso concreto, sem qualquer controle judicial.",
+  "textoApoio": "O poder de polícia é a atividade estatal de limitação de direitos individuais em prol do interesse público.",
+  "resolucao": "A assertiva está ERRADA. Embora o poder de polícia tenha os atributos mencionados (discricionariedade, autoexecutoriedade e coercibilidade), a discricionariedade não é absoluta e não exclui o controle judicial. O Judiciário pode controlar a legalidade do ato de polícia, inclusive os aspectos discricionários, para verificar se houve desvio de finalidade, abuso de poder ou violação aos princípios da razoabilidade e proporcionalidade. O controle judicial não adentra o mérito administrativo discricionário (oportunidade e conveniência), mas pode anular o ato se houver ilegalidade. A assertiva erra ao afirmar 'sem qualquer controle judicial'.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O ato discricionário está sujeito a controle judicial quanto à legalidade (desvio de finalidade, abuso de poder, etc.).",
+      "referencia": "Doutrina de Hely Lopes Meirelles e Maria Sylvia Zanella Di Pietro; Súmula 473 do STF.",
+      "dica": "Decore: discricionariedade ≠ arbítrio. O Judiciário controla a legalidade, inclusive dos atos discricionários."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A discricionariedade não exclui o controle judicial quanto aos aspectos legais.",
+      "referencia": "Doutrina de Hely Lopes Meirelles e Maria Sylvia Zanella Di Pietro; Súmula 473 do STF.",
+      "dica": "Pegadinha clássica: a banca diz que ato discricionário não pode ser controlado pelo Judiciário = FALSO!"
+    }
+  ]
+}
+{
+  "disciplinaId": "8d936de8-402d-46f1-b92f-eb38e1b89c09",
+  "assuntoId": "84f5cb6f-0784-4d7b-bccb-592f53b061a3",
+  "topicoId": "a2c9f22f-e5eb-42fd-81f1-b83835c715b0",
+  "subtopicoId": "f5b25802-10f9-4b6b-9ac1-aadfc2bb5062",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "Nos termos do art. 144, §4º, da Constituição Federal, as polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+  "textoApoio": "O art. 144 da CF/88 trata da segurança pública.",
+  "resolucao": "A assertiva está CERTA. É a transcrição literal do §4º do art. 144 da Constituição Federal: 'Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.' A assertiva está correta e é um dos dispositivos mais cobrados em concursos policiais.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. Literalidade do art. 144, §4º da CF/88.",
+      "referencia": "Art. 144, §4º da Constituição Federal de 1988.",
+      "dica": "Decore: Polícia Civil → delegado de carreira → polícia judiciária → apura infrações penais (exceto militares)."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está literalmente correta.",
+      "referencia": "Art. 144, §4º da Constituição Federal de 1988.",
+      "dica": "O CEBRASPE adora cobrar esse dispositivo. Grave bem!"
+    }
+  ]
+}
+{
+  "disciplinaId": "8d936de8-402d-46f1-b92f-eb38e1b89c09",
+  "assuntoId": "4a642a68-df22-499a-8352-330f1e99c581",
+  "topicoId": "49c896a5-8041-4224-bed0-15c3f3120847",
+  "subtopicoId": "f1a7c86b-19ab-465c-8305-8b787cdedf29",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O princípio da igualdade, previsto no art. 5º, caput, da CF/88, veda qualquer forma de discriminação, inclusive as chamadas 'ações afirmativas', pois estas violam a isonomia ao tratar desigualmente os cidadãos com base em critérios como raça, gênero ou deficiência.",
+  "textoApoio": "O caput do art. 5º da CF/88 garante a igualdade de todos perante a lei.",
+  "resolucao": "A assertiva está ERRADA. O princípio da igualdade não é absoluto e matemático. A Constituição prevê a chamada 'igualdade material' ou 'isonomia substancial', que autoriza a discriminação positiva (ações afirmativas) para corrigir desigualdades históricas e promover a igualdade real. Exemplos: reserva de vagas para pessoas com deficiência (art. 37, VIII, CF/88), cotas raciais em universidades (STF, ADPF 186) e concursos públicos. A assertiva erra ao afirmar que as ações afirmativas violam a isonomia.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. As ações afirmativas são constitucionais e buscam promover a igualdade material.",
+      "referencia": "Art. 5º, caput e art. 37, VIII da CF/88; STF, ADPF 186.",
+      "dica": "Decore: igualdade formal ≠ igualdade material. Ações afirmativas são constitucionais!"
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. Ações afirmativas não violam a isonomia; ao contrário, a promovem.",
+      "referencia": "Art. 5º, caput e art. 37, VIII da CF/88; STF, ADPF 186.",
+      "dica": "Cuidado: a banca adora dizer que ação afirmativa é discriminação. Não caia nessa!"
+    }
+  ]
+}
+{
+  "disciplinaId": "7cbbec89-e04a-4964-9a72-a7a8d86e745e",
+  "assuntoId": "309518b5-6521-4a17-baeb-02d1c3eb95cf",
+  "topicoId": "0217c869-24f8-4606-a925-3c562e310834",
+  "subtopicoId": "fe52f591-8638-407c-ad53-b11361179493",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A Lei Maria da Penha (Lei 11.340/2006) prevê, entre as medidas protetivas de urgência, o afastamento do agressor do lar e a proibição de contato com a vítima, podendo tais medidas ser aplicadas independentemente da existência de processo criminal instaurado.",
+  "textoApoio": "A Lei 11.340/2006 (Lei Maria da Penha) protege a mulher contra a violência doméstica e familiar.",
+  "resolucao": "A assertiva está CERTA. As medidas protetivas de urgência (arts. 22 a 24 da Lei 11.340/06) podem ser concedidas pelo juiz a requerimento do Ministério Público ou da vítima, independentemente de instauração de inquérito policial ou processo criminal. O art. 19 da lei estabelece que as medidas protetivas são autônomas e não dependem da existência de ação penal. O afastamento do lar (art. 22, II) e a proibição de contato (art. 22, III) são medidas típicas. A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. As medidas protetivas são autônomas e não dependem de processo criminal.",
+      "referencia": "Lei 11.340/2006, arts. 19, 22, II e III.",
+      "dica": "Decore: medidas protetivas são URGENTES, AUTÔNOMAS e INDEPENDENTES de processo criminal."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A lei expressamente prevê a autonomia das medidas protetivas.",
+      "referencia": "Lei 11.340/2006, arts. 19, 22, II e III.",
+      "dica": "Pegadinha: a banca pode dizer que medidas protetivas dependem de IP. Não dependem!"
+    }
+  ]
+}
+{
+  "disciplinaId": "7cbbec89-e04a-4964-9a72-a7a8d86e745e",
+  "assuntoId": "c7739498-25bb-421e-8b9c-c4b2eb8d083b",
+  "topicoId": "82e3545d-e9a6-424b-bf8c-b12fe5bc1219",
+  "subtopicoId": "b35aa176-1f51-44e2-a5e6-74292f6f4477",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "Para a caracterização do crime de tráfico de drogas (art. 33 da Lei 11.343/2006), é indispensável a prova da finalidade de comércio, sendo que o porte de pequena quantidade de entorpecente, por si só, autoriza o reconhecimento do crime do art. 28 (usuário), independentemente de outras circunstâncias.",
+  "textoApoio": "A Lei 11.343/2006 diferencia o usuário (art. 28) do traficante (art. 33).",
+  "resolucao": "A assertiva está ERRADA. A diferença entre tráfico (art. 33) e uso (art. 28) não é determinada apenas pela quantidade da droga. A jurisprudência do STJ e STF (Informativo STF nº 855) estabelece que devem ser analisadas outras circunstâncias: natureza e quantidade da substância, local e condições da apreensão, antecedentes do agente, conduta social, etc. A presunção de que pequena quantidade autoriza, por si só, o reconhecimento do art. 28 é relativa, não absoluta. O STF, no RE 635.659, fixou tese de que a análise deve ser concreta e fundamentada, não se presumindo o tráfico ou o uso apenas pela quantidade.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A quantidade não é o único critério; outras circunstâncias devem ser analisadas.",
+      "referencia": "Lei 11.343/2006, arts. 28 e 33; STF, RE 635.659.",
+      "dica": "Decore: pequena quantidade ≠ automaticamente usuário. Analisar o caso concreto!"
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao afirmar que a pequena quantidade, por si só, autoriza o reconhecimento do art. 28.",
+      "referencia": "Lei 11.343/2006, arts. 28 e 33; STF, RE 635.659.",
+      "dica": "Pegadinha clássica: a banca diz 'pequena quantidade = art. 28' — isso é relativo, não absoluto."
+    }
+  ]
+}
+{
+  "disciplinaId": "a6edd91e-2c37-4d2d-9cb8-9306b2cd45d4",
+  "assuntoId": "057f2250-f7c9-466c-972a-2b809014c3ff",
+  "topicoId": "66556bc5-4ece-4cbe-9d18-8d04cd6c44c5",
+  "subtopicoId": "f25b091c-c924-40d4-9274-cbe74d96bf1e",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O princípio da proporcionalidade no uso da força por agentes de segurança pública, previsto em diretrizes internacionais e adotado pelo ordenamento brasileiro, estabelece que o agente deve empregar, gradativamente, meios menos lesivos antes de recorrer a meios potencialmente letais, salvo quando houver iminente risco de morte ou lesão grave a si ou a terceiro.",
+  "textoApoio": "O uso progressivo da força é um dos pilares dos direitos humanos na atividade policial.",
+  "resolucao": "A assertiva está CERTA. O princípio da proporcionalidade, na atuação policial, está consagrado em documentos internacionais como o Código de Conduta para os Funcionários Responsáveis pela Aplicação da Lei (ONU) e os Princípios Básicos sobre o Uso da Força e Armas de Fogo. No Brasil, é adotado pelo Manual da Força Nacional e pelas diretrizes de direitos humanos. O princípio estabelece a gradação do uso da força: primeiramente, meios de menor potencial ofensivo (verbal, contenção física, equipamentos menos letais) e, apenas diante de iminente risco de morte ou lesão grave, o uso de força letal. A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. O princípio da proporcionalidade exige a gradação do uso da força, com a força letal como último recurso.",
+      "referencia": "Princípios Básicos sobre o Uso da Força e Armas de Fogo (ONU); Manual da Força Nacional de Segurança Pública.",
+      "dica": "Decore: progressividade, necessidade, legalidade e prestação de contas são os pilares do uso da força."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva reproduz corretamente o princípio da proporcionalidade.",
+      "referencia": "Princípios Básicos sobre o Uso da Força e Armas de Fogo (ONU); Manual da Força Nacional de Segurança Pública.",
+      "dica": "Cuidado: a banca pode tentar confundir proporcionalidade com necessidade ou adequação."
+    }
+  ]
+}
+{
+  "disciplinaId": "a27fc0f0-1bb2-4131-9177-f462e7144b4b",
+  "assuntoId": "4a23029c-a85b-4119-b283-a411c433d0f0",
+  "topicoId": "6ee94576-9e33-4257-9054-56be2139c9d6",
+  "subtopicoId": "e00d43c1-af65-4108-bfe3-f369be09050b",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A Escola Clássica da Criminologia, representada por autores como Cesare Beccaria, defendia a ideia de que o crime é um fenômeno natural e que o criminoso seria um ser atávico, determinado biologicamente ao comportamento delituoso, razão pela qual pregava a aplicação de penas severas e indeterminadas.",
+  "textoApoio": "As escolas criminológicas explicam as causas do crime de diferentes perspectivas.",
+  "resolucao": "A assertiva está ERRADA. A descrição apresentada corresponde à Escola Positivista (Lombroso, Ferri, Garofalo), que defendia o determinismo biológico (criminoso atávico, nato) e penas indeterminadas. A Escola Clássica (Beccaria, Feuerbach, Carrara) tinha fundamentos iluministas: livre-arbítrio, utilidade da pena, proporcionalidade, legalidade, e combate às penas cruéis e indeterminadas. A assertiva inverte as características das duas escolas.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A descrição é da Escola Positivista, não da Clássica.",
+      "referencia": "Doutrina criminológica: Escola Clássica (Beccaria) x Escola Positivista (Lombroso).",
+      "dica": "Decore: Clássica = livre-arbítrio, iluminismo, pena proporcional. Positivista = determinismo biológico, criminoso nato."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva trocou as características das escolas Clássica e Positivista.",
+      "referencia": "Doutrina criminológica: Escola Clássica (Beccaria) x Escola Positivista (Lombroso).",
+      "dica": "Pegadinha clássica: a banca descreve o Positivismo e diz que é a Escola Clássica. Fique atento!"
+    }
+  ]
+}
+{
+  "disciplinaId": "8faf47c4-d957-4899-bc94-e5efd7104c49",
+  "assuntoId": "f6e409fb-0664-4520-bf80-5e2851217c95",
+  "topicoId": "2f589bdb-efb6-4ccf-9f04-e34c424019a5",
+  "subtopicoId": "54951369-802c-4d71-9270-3cd7a605ef6c",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A ideia central de um texto (tese) e as ideias secundárias (argumentos) que a sustentam mantêm uma relação de hierarquia, de modo que a supressão de um argumento secundário, em princípio, não compromete a compreensão global da tese, ao passo que a supressão da tese inviabiliza a identificação do propósito comunicativo do autor.",
+  "textoApoio": "A compreensão textual exige a distinção entre ideia principal e ideias secundárias.",
+  "resolucao": "A assertiva está CERTA. Na estrutura de um texto dissertativo-argumentativo, a tese (ideia principal) é o argumento central defendido pelo autor. As ideias secundárias são os argumentos que sustentam a tese. A supressão de uma ideia secundária pode enfraquecer a argumentação, mas não necessariamente impede a compreensão da tese. Já a supressão da tese inviabiliza a compreensão do propósito comunicativo do texto, pois o leitor não saberá qual é a posição defendida. A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "INTERPRETACAO",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. A tese é hierarquicamente superior aos argumentos secundários.",
+      "referencia": "Teoria da argumentação; Análise de discurso.",
+      "dica": "Para a FGV e OPS (estilo CESPE), a compreensão da hierarquia textual é fundamental."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A relação hierárquica entre tese e argumentos é correta.",
+      "referencia": "Teoria da argumentação; Análise de discurso.",
+      "dica": "Lembre-se: a tese é o 'esqueleto' do texto; os argumentos são os 'músculos'."
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "00105a84-81e5-4ebe-9600-0aab117062f1",
+  "topicoId": "db51f55a-53cb-424b-b740-f91456a9808a",
+  "subtopicoId": "f597e885-2cc1-4d68-91d9-d621c9cab99f",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "No crime de concussão (art. 316 do CP), o funcionário público exige, para si ou para outrem, vantagem indevida, utilizando-se da violência ou grave ameaça, enquanto no crime de extorsão (art. 158 do CP), o particular exige vantagem indevida valendo-se de sua função pública, sendo a distinção fundamental a qualidade do sujeito ativo.",
+  "textoApoio": "A concussão (art. 316) e a extorsão (art. 158) são crimes contra a Administração Pública e contra o patrimônio, respectivamente.",
+  "resolucao": "A assertiva está ERRADA. O crime de concussão (art. 316 do CP) é praticado por funcionário público que exige vantagem indevida, utilizando-se da sua função (sem violência ou grave ameaça). O crime de extorsão (art. 158 do CP) é praticado por qualquer pessoa (particular) que, mediante violência ou grave ameaça, constrange alguém a fazer, tolerar ou omitir algo. A assertiva inverteu: na concussão não há violência/ameaça (apenas o uso da função), e na extorsão o sujeito ativo é qualquer pessoa (não funcionário público). Além disso, a distinção fundamental não é apenas a qualidade do sujeito ativo, mas também os meios empregados.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A concussão não exige violência/ameaça (usa a função); a extorsão é crime comum, não próprio.",
+      "referencia": "Código Penal, arts. 158 e 316.",
+      "dica": "Decore: concussão = funcionário público + exige vantagem indevida + usa a função (sem violência). Extorsão = qualquer pessoa + violência/grave ameaça."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva inverteu as características da concussão e da extorsão.",
+      "referencia": "Código Penal, arts. 158 e 316.",
+      "dica": "Pegadinha clássica: confundir concussão (art. 316) com extorsão (art. 158)."
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "4aba9175-b561-4434-abbc-fc3ae2475a51",
+  "topicoId": "9e45d174-9e4a-47ee-a870-f1fb5a1ee371",
+  "subtopicoId": "fcf1ac8c-1fb0-4dd0-98d6-300d7b27d2f3",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "As penas restritivas de direitos são aplicáveis em substituição à pena privativa de liberdade quando presentes os requisitos do art. 44 do Código Penal: condenação a pena privativa de liberdade não superior a 4 (quatro) anos; crime cometido sem violência ou grave ameaça à pessoa; réu não reincidente em crime doloso; e culpabilidade, antecedentes, conduta social e personalidade favoráveis.",
+  "textoApoio": "A substituição por penas restritivas de direitos está prevista no art. 44 do CP.",
+  "resolucao": "A assertiva está CERTA. O art. 44 do Código Penal estabelece os requisitos para a substituição da pena privativa de liberdade por restritiva de direitos: (I) condenação a pena privativa de liberdade não superior a 4 anos; (II) crime cometido sem violência ou grave ameaça à pessoa; (III) réu não reincidente em crime doloso; (IV) culpabilidade, antecedentes, conduta social e personalidade favoráveis, bem como os motivos e as circunstâncias do crime indiquem que a substituição é suficiente. A assertiva está literalmente correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva transcreve os requisitos do art. 44 do CP.",
+      "referencia": "Código Penal, art. 44, incisos I, II, III e §2º.",
+      "dica": "Decore os 4 requisitos: pena ≤ 4 anos, crime sem violência/grave ameaça, não reincidente em crime doloso, condições pessoais favoráveis."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está em conformidade com o art. 44 do CP.",
+      "referencia": "Código Penal, art. 44, incisos I, II, III e §2º.",
+      "dica": "Cuidado: o limite é 4 anos. Não confunda com a suspensão condicional da pena (art. 77) que é 2 anos."
+    }
+  ]
+}
+{
+  "disciplinaId": "8d936de8-402d-46f1-b92f-eb38e1b89c09",
+  "assuntoId": "604e20e5-308f-44f6-bc1d-62d3ed9df757",
+  "topicoId": "7a8401ed-14e9-4dde-84a9-41c4f66cca96",
+  "subtopicoId": "ab4d35c0-5fdb-48e0-933c-97e9b5f2eef9",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A Ação Direta de Inconstitucionalidade (ADI) pode ser proposta pelo Conselho Seccional da Ordem dos Advogados do Brasil (OAB), pelos partidos políticos com representação no Congresso Nacional, e pelo Procurador-Geral da República, sendo este o único legitimado com capacidade para propor ADI por omissão.",
+  "textoApoio": "O art. 103 da CF/88 lista os legitimados para propor ADI.",
+  "resolucao": "A assertiva está ERRADA. O art. 103 da CF/88 estabelece que o legitimado para propor ADI é o Conselho FEDERAL da OAB, não os Conselhos Seccionais. Além disso, a ADI por omissão (art. 103, §2º) pode ser proposta pelos mesmos legitimados da ADI interventiva, não apenas pelo PGR. O Procurador-Geral da República é legitimado universal (pode propor todas as ações de controle concentrado), mas não é o único legitimado para ADI por omissão. A assertiva erra ao afirmar que o Conselho Seccional é legitimado e que apenas o PGR pode propor ADI por omissão.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O legitimado é o Conselho FEDERAL, não o Seccional. E ADI por omissão pode ser proposta por qualquer legitimado do art. 103.",
+      "referencia": "Art. 103, VI, VII e §2º da CF/88.",
+      "dica": "Decore: ADI → Conselho FEDERAL da OAB (não Seccional). ADI por omissão → mesmos legitimados da ADI."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao mencionar Conselho Seccional e ao restringir a ADI por omissão ao PGR.",
+      "referencia": "Art. 103, VI, VII e §2º da CF/88.",
+      "dica": "Pegadinha clássica: confundir Conselho Federal com Seccional."
+    }
+  ]
+}
+{
+  "disciplinaId": "79598e72-7696-43ff-9ad6-adadfa6d0ec0",
+  "assuntoId": "aed5b864-3f65-4d4d-95eb-d15092e704cc",
+  "topicoId": "edbfba6c-8d16-4f79-b537-71b20ad90948",
+  "subtopicoId": "62e20413-fa57-4478-8154-0ecad77cd457",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A responsabilidade civil do Estado, regida pela teoria do risco administrativo, dispensa a comprovação de culpa do agente público (responsabilidade objetiva), mas exige a demonstração do dano e do nexo causal, sendo admitidas excludentes como culpa exclusiva da vítima, caso fortuito ou força maior.",
+  "textoApoio": "A responsabilidade objetiva do Estado está prevista no art. 37, §6º da CF/88.",
+  "resolucao": "A assertiva está CERTA. A responsabilidade civil do Estado é objetiva (art. 37, §6º, CF/88), baseada na teoria do risco administrativo: o Estado responde independentemente de culpa do agente público, desde que presentes o dano e o nexo causal. São admitidas excludentes: culpa exclusiva da vítima, caso fortuito, força maior e fato de terceiro (desde que rompa o nexo causal). A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. A responsabilidade objetiva exige dano e nexo causal, admitindo excludentes.",
+      "referencia": "Art. 37, §6º da CF/88; Doutrina de Celso Antônio Bandeira de Mello.",
+      "dica": "Decore: responsabilidade objetiva do Estado (teoria do risco administrativo) ≠ teoria do risco integral (sem excludentes)."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está perfeitamente alinhada com o art. 37, §6º da CF/88 e a doutrina majoritária.",
+      "referencia": "Art. 37, §6º da CF/88; Doutrina de Celso Antônio Bandeira de Mello.",
+      "dica": "Cuidado: se a banca disser 'responsabilidade objetiva SEM excludentes' → isso é teoria do risco integral (ex: dano nuclear, ambiental em alguns casos)."
+    }
+  ]
+}
+{
+  "disciplinaId": "be68efdb-55ed-4b37-823c-260610cf1b11",
+  "assuntoId": "081878ce-9a40-4245-bda2-b3a1ef8a4128",
+  "topicoId": "58cebd43-9c2a-4c69-a8e0-6ba20652fb6b",
+  "subtopicoId": "5b2f22bc-57de-409b-9063-344d30725f97",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O princípio do contraditório, previsto no art. 5º, LV, da CF/88, aplica-se apenas ao processo judicial, não alcançando o inquérito policial, que é procedimento administrativo investigatório de natureza inquisitiva, no qual não há direito ao contraditório ou à ampla defesa.",
+  "textoApoio": "O inquérito policial é regulado pelo Código de Processo Penal.",
+  "resolucao": "A assertiva está ERRADA. Embora o inquérito policial seja inquisitivo e não judicial, a doutrina e a jurisprudência atuais reconhecem que alguns direitos decorrentes do contraditório e da ampla defesa devem ser observados, ainda que de forma mitigada. O investigado tem direito de acompanhar o inquérito por advogado, ter acesso aos autos (HC 71.630/RS), e apresentar defesa indireta (memoriais). A Súmula Vinculante 14 do STF garante o acesso do advogado aos autos do inquérito. A assertiva erra ao afirmar que não há qualquer direito ao contraditório.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. Existe direito mitigado ao contraditório no inquérito policial, como acesso aos autos por advogado.",
+      "referencia": "Art. 5º, LV da CF/88; Súmula Vinculante 14 do STF; HC 71.630/RS.",
+      "dica": "O CEBRASPE adora afirmar 'inquérito não tem contraditório' como absoluto. É FALSO! Há acesso aos autos e defesa indireta."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. O inquérito policial não é um processo judicial, mas garante alguns direitos ao investigado.",
+      "referencia": "Art. 5º, LV da CF/88; Súmula Vinculante 14 do STF; HC 71.630/RS.",
+      "dica": "Decore: Inquérito = inquisitivo, mas não é 'terra sem lei'. Advogado tem acesso aos autos."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "be68efdb-55ed-4b37-823c-260610cf1b11",
+  "assuntoId": "0e3147f9-119d-43d8-b042-f100611da7ea",
+  "topicoId": "edd2a236-016c-4c00-910c-5335d16c5663",
+  "subtopicoId": "3fd89a77-5171-4603-a5d5-0e8e05c536e0",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O prazo para conclusão do inquérito policial quando o indiciado estiver preso é de 10 dias, prorrogável por igual período mediante requerimento fundamentado da autoridade policial ao juiz, sendo vedada a prorrogação sucessiva.",
+  "textoApoio": "Art. 10 do Código de Processo Penal.",
+  "resolucao": "A assertiva está ERRADA. O art. 10, caput, do CPP estabelece o prazo de 10 dias para o inquérito com indiciado preso. O §2º do mesmo art. permite que o juiz prorrogue o prazo 'por mais um prazo igual' sempre que a autoridade policial justificar a necessidade de novas diligências. A lei não veda a prorrogação sucessiva; o juiz pode conceder quantas prorrogações forem necessárias, desde que devidamente fundamentadas. A assertiva erra ao afirmar 'vedada a prorrogação sucessiva'.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A prorrogação sucessiva é permitida, desde que fundamentada.",
+      "referencia": "CPP, art. 10, caput e §2º.",
+      "dica": "Decore: prazo de 10 dias para preso, 30 dias para solto. Prorrogação pode ser sucessiva, desde que justificada."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A lei não veda a prorrogação sucessiva do inquérito policial.",
+      "referencia": "CPP, art. 10, caput e §2º.",
+      "dica": "Pegadinha clássica: 'prorrogação por uma única vez' = FALSO."
+    }
+  ]
+}
+{
+  "disciplinaId": "be68efdb-55ed-4b37-823c-260610cf1b11",
+  "assuntoId": "081878ce-9a40-4245-bda2-b3a1ef8a4128",
+  "topicoId": "1959a566-4917-4a82-bb29-e8dac0eed82e",
+  "subtopicoId": "ddbeac41-6a4f-411b-80ce-33fe7a9a16bd",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O princípio da obrigatoriedade da ação penal pública incondicionada estabelece que, uma vez presentes os requisitos da justa causa (materialidade e indícios de autoria), o Ministério Público é obrigado a oferecer denúncia, não dispondo de discricionariedade para arquivar o inquérito, devendo, se entender pela não propositura, solicitar arquivamento ao juiz, que poderá determinar a instauração de novas diligências ou remeter os autos ao Procurador-Geral.",
+  "textoApoio": "Arts. 24 e 28 do CPP.",
+  "resolucao": "A assertiva está CERTA. O princípio da obrigatoriedade (ou legalidade) rege a ação penal pública incondicionada: o MP não pode escolher se processa ou não; uma vez presentes os requisitos, deve oferecer denúncia. Se entender que não deve processar, requer o arquivamento ao juiz (art. 28 do CPP). O juiz, discordando, remete os autos ao Procurador-Geral, que pode oferecer denúncia, designar outro promotor ou insistir no arquivamento (aí o juiz fica vinculado). A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. O princípio da obrigatoriedade impõe ao MP o dever de denunciar quando houver justa causa.",
+      "referencia": "CPP, arts. 24, 28; Doutrina de Eugênio Pacelli.",
+      "dica": "Decore: ação penal pública incondicionada = obrigatoriedade. Ação penal condicionada = pode haver discricionariedade regulamentada."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva descreve corretamente o princípio da obrigatoriedade.",
+      "referencia": "CPP, arts. 24, 28; Doutrina de Eugênio Pacelli.",
+      "dica": "Não confunda: princípio da obrigatoriedade ≠ princípio da oportunidade (ação penal privada)."
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "00105a84-81e5-4ebe-9600-0aab117062f1",
+  "topicoId": "3961753a-9643-44a0-bda6-58f7e056a491",
+  "subtopicoId": "0d7018e9-3174-49ad-892a-afb179288c43",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "No crime de roubo (art. 157 do CP), a consumação se dá com a posse da coisa subtraída, ainda que a posse seja momentânea e mesmo que o agente não tenha plena disponibilidade do bem, sendo o crime de roubo próprio classificado como crime material, exigindo o resultado naturalístico (subtração).",
+  "textoApoio": "O roubo é crime complexo, com elemento material e violento.",
+  "resolucao": "A assertiva está CERTA. O roubo é crime material, consuma-se com a inversão da posse da coisa (apreensão pelo agente), ainda que não tenha a posse mansa e pacífica ou que seja logo recuperado pela vítima. A jurisprudência do STJ é firme: 'o crime de roubo se consuma no momento em que o agente tem a posse da coisa, ainda que não tenha a disponibilidade plena' (HC 175.260/SP). A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. A consumação do roubo se dá com a posse da coisa, ainda que momentânea.",
+      "referencia": "Art. 157 do CP; STJ, HC 175.260/SP.",
+      "dica": "Decore: consumação do roubo = inversão da posse. Tentativa = se a vítima resiste e o agente não consegue levar a coisa."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O roubo se consuma com a posse, mesmo que breve.",
+      "referencia": "Art. 157 do CP; STJ, HC 175.260/SP.",
+      "dica": "Pegadinha: 'roubo só se consuma se o agente tiver disponibilidade plena' = FALSO."
+    }
+  ]
+}
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "4aba9175-b561-4434-abbc-fc3ae2475a51",
+  "topicoId": "9e45d174-9e4a-47ee-a870-f1fb5a1ee371",
+  "subtopicoId": "cbeab99a-818f-4bdf-81a4-51d4fba1c1ad",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A prisão preventiva pode ser decretada em qualquer fase da investigação policial ou do processo penal, de ofício pelo juiz, a requerimento do Ministério Público, do querelante ou do assistente, ou ainda por representação da autoridade policial.",
+  "textoApoio": "Art. 311 do CPP.",
+  "resolucao": "A assertiva está ERRADA. A prisão preventiva pode ser decretada em qualquer fase da investigação ou do processo, mas o juiz só pode decretá-la de ofício no curso da ação penal (após o recebimento da denúncia ou queixa), conforme §2º do art. 311 do CPP. Na fase do inquérito policial, o juiz não pode decretar preventiva de ofício; depende de representação da autoridade policial ou requerimento do MP/querelante. A assertiva erra ao dizer 'de ofício pelo juiz em qualquer fase'.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. Na fase inquisitorial, o juiz não pode decretar preventiva de ofício.",
+      "referencia": "CPP, art. 311, caput e §2º.",
+      "dica": "Decore: juiz decreta de ofício apenas depois de instaurada a ação penal. Antes, precisa de representação/requerimento."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao afirmar que o juiz pode decretar de ofício em qualquer fase.",
+      "referencia": "CPP, art. 311, caput e §2º.",
+      "dica": "Pegadinha clássica: 'juiz pode decretar preventiva de ofício em qualquer fase' = FALSO."
+    }
+  ]
+}
+{
+  "disciplinaId": "be68efdb-55ed-4b37-823c-260610cf1b11",
+  "assuntoId": "081878ce-9a40-4245-bda2-b3a1ef8a4128",
+  "topicoId": "1959a566-4917-4a82-bb29-e8dac0eed82e",
+  "subtopicoId": "0c257543-3679-4249-8e91-95b8c6f11381",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A competência para processar e julgar crimes cometidos em detrimento de bens, serviços ou interesses da União é da Justiça Federal, abrangendo também os crimes contra órgãos autárquicos federais, empresas públicas federais e sociedades de economia mista federais, independentemente da natureza da empresa prestar serviço público ou explorar atividade econômica.",
+  "textoApoio": "Art. 109, IV e V, da CF/88.",
+  "resolucao": "A assertiva está ERRADA. A Justiça Federal processa crimes contra bens, serviços ou interesses da União, autarquias e empresas públicas federais (art. 109, IV e V, CF/88). No entanto, a jurisprudência do STF e STJ tem diferenciado: se a empresa pública ou sociedade de economia mista federal explora atividade econômica (ex: Banco do Brasil, Petrobras em atividades não-monopólio), a competência pode ser da Justiça Estadual, salvo se houver interesse direto da União. A assertiva erra ao afirmar 'independentemente da natureza'.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. Para empresas públicas que exploram atividade econômica, a competência pode ser estadual.",
+      "referencia": "Art. 109, IV e V da CF/88; Súmula 42 do STJ; STF, RE 228.825.",
+      "dica": "Decore: empresas públicas prestadoras de serviço público → Justiça Federal. Empresas públicas exploradoras de atividade econômica → Justiça Estadual."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A competência da Justiça Federal depende da natureza da atividade da empresa.",
+      "referencia": "Art. 109, IV e V da CF/88; Súmula 42 do STJ; STF, RE 228.825.",
+      "dica": "Pegadinha: banca afirma 'sempre Justiça Federal' → FALSO quando empresa explora atividade econômica."
+    }
+  ]
+}
+{
+  "disciplinaId": "79598e72-7696-43ff-9ad6-adadfa6d0ec0",
+  "assuntoId": "a59302ed-b918-44af-bbab-e459309186b6",
+  "topicoId": "40dcac3d-5510-4b0f-a0e0-265ba1e148f2",
+  "subtopicoId": "8e9ddfe7-ed9a-4b96-a06b-0d35675d2d2d",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "As cláusulas exorbitantes nos contratos administrativos, como a possibilidade de alteração unilateral e de rescisão unilateral por interesse público, são prerrogativas da Administração Pública que decorrem do princípio da supremacia do interesse público, não sendo aplicáveis às empresas estatais que explorem atividade econômica em regime de concorrência.",
+  "textoApoio": "Lei 14.133/2021 e Lei 8.666/93.",
+  "resolucao": "A assertiva está CERTA. As cláusulas exorbitantes (alteração e rescisão unilateral, fiscalização, etc.) são inerentes aos contratos administrativos, com fundamento no princípio da supremacia do interesse público. No entanto, para as empresas estatais (empresas públicas e sociedades de economia mista) que explorem atividade econômica em sentido estrito (art. 173 da CF/88), o regime é de direito privado, e as cláusulas exorbitantes não são aplicáveis de forma automática, conforme entendimento do STF (ARE 766.618). A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. Empresas estatais exploradoras de atividade econômica sujeitam-se ao regime de direito privado, sem cláusulas exorbitantes.",
+      "referencia": "Art. 173 da CF/88; STF, ARE 766.618; Lei 14.133/2021, art. 1º, §2º.",
+      "dica": "Decore: contratos administrativos típicos → cláusulas exorbitantes. Empresas estatais econômicas → regime privado."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está de acordo com a jurisprudência do STF.",
+      "referencia": "Art. 173 da CF/88; STF, ARE 766.618; Lei 14.133/2021, art. 1º, §2º.",
+      "dica": "Cuidado: a banca pode afirmar que 'toda estatal tem cláusulas exorbitantes' — isso é FALSO para as econômicas."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "00105a84-81e5-4ebe-9600-0aab117062f1",
+  "topicoId": "db51f55a-53cb-424b-b740-f91456a9808a",
+  "subtopicoId": "2b0a4dc6-9fd0-477a-a7ae-485dd455dc30",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "No crime de corrupção passiva (art. 317 do CP), o funcionário público solicita ou recebe vantagem indevida; na corrupção ativa (art. 333 do CP), o particular oferece ou promete vantagem indevida. Se a promesa parte do funcionário (solicitação) e o particular apenas cede, o particular não responde por corrupção ativa, pois a iniciativa do crime foi do funcionário.",
+  "textoApoio": "Arts. 317 e 333 do CP.",
+  "resolucao": "A assertiva está ERRADA. Mesmo que a iniciativa seja do funcionário público (solicitação), o particular que aceita e oferece a vantagem incorre no crime de corrupção ativa. O art. 333 não exige que a iniciativa seja do particular; basta oferecer ou prometer vantagem indevida em razão da função. A jurisprudência é firme: 'responde por corrupção ativa o particular que, atendendo à solicitação do funcionário, oferece ou promete vantagem indevida' (STJ, HC 120.572). A assertiva erra ao afirmar que o particular não responde.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O particular responde por corrupção ativa mesmo se a iniciativa foi do funcionário.",
+      "referencia": "Arts. 317 e 333 do CP; STJ, HC 120.572.",
+      "dica": "Decore: corrupção é crime de mão dupla. Funcionário → passiva; particular → ativa, independentemente de quem iniciou."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. O particular que cede à solicitação também comete corrupção ativa.",
+      "referencia": "Arts. 317 e 333 do CP; STJ, HC 120.572.",
+      "dica": "Pegadinha clássica: 'se o funcionário pediu, o particular não responde' = FALSO."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "8d936de8-402d-46f1-b92f-eb38e1b89c09",
+  "assuntoId": "4a642a68-df22-499a-8352-330f1e99c581",
+  "topicoId": "9f6fef17-c827-4338-8406-3b5b6e64b708",
+  "subtopicoId": "9017cca4-b429-48d0-8ae8-d7db8a9795f8",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O habeas corpus é remédio constitucional destinado a proteger o direito de locomoção contra ato ilegal ou abusivo de autoridade, sendo cabível inclusive contra prisão civil por dívida, salvo a do depositário infiel, após a edição da Súmula Vinculante 25 e da Súmula 619 do STF.",
+  "textoApoio": "Art. 5º, LXVIII, da CF/88.",
+  "resolucao": "A assertiva está ERRADA. O habeas corpus é cabível para proteger o direito de locomoção. A prisão civil por dívida de depositário infiel foi considerada inconstitucional pelo STF (Súmula Vinculante 25: 'É ilícita a prisão civil de depositário infiel'). Atualmente, a única prisão civil cabível é a do devedor de alimentos (art. 5º, LXVII, CF/88). O depositário infiel não pode mais ser preso. A assertiva erra ao afirmar 'exceto a do depositário infiel' - esta é exceção que não existe mais.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "JURISPRUDENCIA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A prisão civil do depositário infiel foi abolida pela Súmula Vinculante 25.",
+      "referencia": "Art. 5º, LXVII e LXVIII da CF/88; Súmula Vinculante 25 do STF; Súmula 619 do STF.",
+      "dica": "Decore: única prisão civil atualmente: devedor de alimentos. Depositário infiel não pode ser preso."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao excluir o depositário infiel da proteção do habeas corpus.",
+      "referencia": "Art. 5º, LXVII e LXVIII da CF/88; Súmula Vinculante 25 do STF; Súmula 619 do STF.",
+      "dica": "Pegadinha: banca diz 'cabe HC para todo mundo, menos depositário infiel' → isso era antes da SV 25. Hoje não mais."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "7cbbec89-e04a-4964-9a72-a7a8d86e745e",
+  "assuntoId": "13e8dd9e-3e83-4b4a-80a5-dfd58d01b2b2",
+  "topicoId": "6bd1fc55-797e-4d30-9c92-6adc347b17d2",
+  "subtopicoId": "eda386e4-7cd9-4b59-8d24-d021bc9fe8a0",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A Lei de Abuso de Autoridade (Lei 13.869/2019) prevê como sujeito ativo do crime o agente público que exerce função típica de Estado, incluindo policiais civis e militares, mas exclui da sua incidência os membros do Ministério Público e da Magistratura, que respondem por crime de responsabilidade.",
+  "textoApoio": "Lei 13.869/2019, art. 1º.",
+  "resolucao": "A assertiva está ERRADA. A Lei de Abuso de Autoridade (Lei 13.869/2019) aplica-se a todos os agentes públicos, incluindo membros do Ministério Público e da Magistratura (art. 1º, §2º: 'Aplica-se aos membros do Ministério Público, da Magistratura e do Tribunal de Contas da União, no que couber'). Eles não estão excluídos; respondem por abuso de autoridade da mesma forma, ressalvadas as prerrogativas funcionais. A assertiva erra ao afirmar que são excluídos.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A lei se aplica também a magistrados e membros do MP.",
+      "referencia": "Lei 13.869/2019, art. 1º, §2º.",
+      "dica": "Decore: abuso de autoridade atinge todos os agentes públicos, sem exceção de magistrados ou MP."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva está errada ao excluir MP e magistratura.",
+      "referencia": "Lei 13.869/2019, art. 1º, §2º.",
+      "dica": "Pegadinha: banca diz 'MP e juízes não respondem por abuso de autoridade' → FALSO."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "7cbbec89-e04a-4964-9a72-a7a8d86e745e",
+  "assuntoId": "309518b5-6521-4a17-baeb-02d1c3eb95cf",
+  "topicoId": "0217c869-24f8-4606-a925-3c562e310834",
+  "subtopicoId": "c8e06526-fb40-466e-bf48-d05b33a250bb",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A Lei Maria da Penha (Lei 11.340/2006) define a violência doméstica e familiar como qualquer ação ou omissão baseada no gênero que lhe cause morte, lesão, sofrimento físico, sexual ou psicológico, dano moral ou patrimonial, sendo necessária, para sua caracterização, a existência de relação íntima de afeto entre a vítima e o agressor, com coabitação.",
+  "textoApoio": "Art. 5º da Lei 11.340/2006.",
+  "resolucao": "A assertiva está ERRADA. A Lei Maria da Penha define violência doméstica no art. 5º, e as relações de convivência ou afeto não exigem coabitação. O §2º do art. 5º é claro: 'As relações pessoais enunciadas neste artigo independem de orientação sexual'. Além disso, a relação pode ser apenas de parentesco, ou mesmo sem coabitação (ex: namorados que não moram juntos, ex-companheiros). A assertiva erra ao afirmar 'com coabitação' como necessária.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A coabitação não é exigida pela Lei Maria da Penha.",
+      "referencia": "Lei 11.340/2006, art. 5º, caput e §2º.",
+      "dica": "Decore: violência doméstica pode ocorrer sem coabitação (ex: namoro, ex-companheiros, pais que não moram com filhos)."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao condicionar a violência doméstica à coabitação.",
+      "referencia": "Lei 11.340/2006, art. 5º, caput e §2º.",
+      "dica": "Pegadinha clássica: banca afirma 'é necessário coabitação' → FALSO."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "7cbbec89-e04a-4964-9a72-a7a8d86e745e",
+  "assuntoId": "8000db81-fc2d-4a88-941b-a1bb6ea276ad",
+  "topicoId": "9e73d41f-81cb-4544-ba0d-dd1cd225aaef",
+  "subtopicoId": "f763ccce-2987-4805-a37f-ea068051b683",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O adolescente que pratica ato infracional análogo a crime hediondo está sujeito à medida socioeducativa de internação, por prazo determinado de até 3 (três) anos, sendo vedada a aplicação de qualquer medida restritiva de direitos anterior à internação, em razão da gravidade do ato.",
+  "textoApoio": "Lei 8.069/1990 (ECA), arts. 112 e 121.",
+  "resolucao": "A assertiva está ERRADA. A internação do adolescente (art. 121 do ECA) não tem prazo máximo de 3 anos, mas sim de 3 anos, salvo determinação judicial fundamentada (máximo de 3 anos, podendo ser prorrogada por mais 3 anos em casos excepcionais, até o máximo de 3 anos? Na verdade, o ECA prevê prazo máximo de 3 anos, mas a doutrina e jurisprudência admitem que, em casos de atos infracionais graves (inclusive hediondos), pode haver reavaliação a cada 6 meses, podendo ultrapassar 3 anos se necessário à ressocialização. Além disso, a assertiva erra ao dizer que 'é vedada qualquer medida restritiva de direitos anterior à internação' - o juiz pode aplicar outras medidas (semiliberdade, prestação de serviços, etc.) antes da internação, conforme art. 112 do ECA.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A internação pode ultrapassar 3 anos em casos excepcionais, e outras medidas podem antecedê-la.",
+      "referencia": "ECA, arts. 112 e 121.",
+      "dica": "Decore: prazo máximo de internação é 3 anos, mas pode ser prorrogado por mais 3 anos em casos excepcionais (total de 6 anos)."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao afirmar prazo fixo de 3 anos (pode ser prorrogado) e ao vedar outras medidas.",
+      "referencia": "ECA, arts. 112 e 121.",
+      "dica": "Cuidado: a banca pode dizer 'internação máxima 3 anos' ignorando a prorrogação excepcional."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "a6edd91e-2c37-4d2d-9cb8-9306b2cd45d4",
+  "assuntoId": "057f2250-f7c9-466c-972a-2b809014c3ff",
+  "topicoId": "66556bc5-4ece-4cbe-9d18-8d04cd6c44c5",
+  "subtopicoId": "ca2fc923-391a-43aa-92af-d279082a54c3",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O princípio da legalidade na atuação policial exige que o agente de segurança pública só pode agir com base em previsão legal, não sendo permitido o uso da força para prevenir um crime se não houver autorização expressa na lei, ainda que haja iminente perigo.",
+  "textoApoio": "Princípio da legalidade no uso da força (ONU, Código de Conduta).",
+  "resolucao": "A assertiva está ERRADA. O princípio da legalidade na atuação policial não é absoluto ao ponto de vedar a prevenção iminente de crime sem autorização legal expressa. Os agentes de segurança pública têm o dever de agir para proteger a vida e a integridade das pessoas, com base nos princípios da necessidade e proporcionalidade. O Código de Processo Penal (art. 284, 301, etc.) autoriza a prisão em flagrante e o uso moderado da força para impedir a prática de crime. Além disso, o estado de necessidade justifica o uso da força para evitar perigo iminente. A assertiva erra ao afirmar 'ainda que haja iminente perigo' - exatamente no iminente perigo o uso da força é autorizado.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O uso da força é permitido em situações de iminente perigo, mesmo sem autorização legal específica.",
+      "referencia": "CPP, arts. 284, 301; princípios da necessidade e proporcionalidade.",
+      "dica": "Decore: legalidade na polícia não exclui a atuação em estado de necessidade ou flagrante."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao vedar o uso da força em iminente perigo.",
+      "referencia": "CPP, arts. 284, 301; princípios da necessidade e proporcionalidade.",
+      "dica": "Pegadinha: banca diz 'não pode usar força sem autorização legal, mesmo em perigo' = FALSO."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "a27fc0f0-1bb2-4131-9177-f462e7144b4b",
+  "assuntoId": "a179cefd-35c4-47ee-9859-f1440ba7312c",
+  "topicoId": "c02d6619-172e-4eca-b9bf-c1258cc996e7",
+  "subtopicoId": "0afbb6d0-1077-4d93-b276-749570de5ff1",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A vitimologia, ramo da criminologia, classifica as vítimas em, por exemplo, vítima provocadora (aquela que, por sua conduta, incita o agente a cometer o crime) e vítima inocente (aquela que não contribui de forma alguma para o evento criminoso), sendo que a classificação pode influenciar na determinação da pena.",
+  "textoApoio": "Classificação de Mendelsohn e von Hentig.",
+  "resolucao": "A assertiva está CERTA. A vitimologia estuda o papel da vítima no crime. Classificações tradicionais (Mendelsohn, von Hentig) incluem: vítima completamente inocente, vítima provocadora, vítima por ignorância, vítima voluntária, etc. Essa classificação pode influenciar a dosimetria da pena, por exemplo, na atenuante genérica do art. 65, III, 'd' do CP (relevante valor social ou moral da vítima) ou na compensação de culpas. A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. A vitimologia classifica vítimas e essa classificação pode influenciar a pena.",
+      "referencia": "Doutrina de Mendelsohn e von Hentig; art. 65, III, 'd' do CP.",
+      "dica": "Decore: vítima contribuiu para o crime? Isso pode atenuar a pena do agente."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está alinhada com a doutrina vitimológica.",
+      "referencia": "Doutrina de Mendelsohn e von Hentig; art. 65, III, 'd' do CP.",
+      "dica": "Cuidado: a banca pode negar a relevância da classificação da vítima na pena."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "0828cbf9-a5f5-4a6f-a331-2940fa7220a2",
+  "assuntoId": "4511ed69-bc74-4df0-ab6d-d14095327a37",
+  "topicoId": "d4619e9a-5bf6-4711-9dac-b1f8b68b7c6f",
+  "subtopicoId": "704a5204-3903-4175-a067-9fc9eef676b0",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "O decoro na função pública, previsto nos códigos de ética e no Regime Jurídico dos Servidores, exige que o agente público mantenha conduta compatível com a moralidade administrativa, vedando práticas como o nepotismo, a utilização do cargo para fins particulares e o tratamento privilegiado a amigos ou familiares.",
+  "textoApoio": "Lei 8.112/90, arts. 116 e 117.",
+  "resolucao": "A assertiva está CERTA. O decoro é um dever ético do servidor público (art. 116, XI, da Lei 8.112/90: 'manter conduta compatível com a moralidade administrativa'). O nepotismo, o uso do cargo em benefício próprio ou de terceiros, e o tratamento privilegiado violam o decoro e os princípios da impessoalidade e moralidade. A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. O decoro exige conduta moral e vedação a favorecimentos pessoais.",
+      "referencia": "Lei 8.112/90, art. 116, XI e art. 117; Súmula Vinculante 13 do STF (nepotismo).",
+      "dica": "Decore: nepotismo é vedado pela Súmula Vinculante 13 do STF."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está em conformidade com os deveres éticos do servidor.",
+      "referencia": "Lei 8.112/90, art. 116, XI e art. 117; Súmula Vinculante 13 do STF.",
+      "dica": "Cuidado: a banca pode dizer que 'nepotismo não viola decoro' = FALSO."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "8faf47c4-d957-4899-bc94-e5efd7104c49",
+  "assuntoId": "cb2165d5-2395-4140-a9a9-e0bd585fc2b5",
+  "topicoId": "8d28ca9e-7702-4f9f-8e93-f1a9a08aedb3",
+  "subtopicoId": "4dbd2f74-46ec-4256-800a-17780cc3adf6",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A redação oficial, em conformidade com o Manual de Redação da Presidência da República, deve pautar-se pela impessoalidade, que significa que o texto não deve conter marcas de opinião pessoal ou emoções do redator, sendo vedado o uso da primeira pessoa do singular e admitido o uso da primeira pessoa do plural apenas em documentos que representem a voz de uma instituição.",
+  "textoApoio": "Manual de Redação da Presidência da República.",
+  "resolucao": "A assertiva está CERTA. A impessoalidade na redação oficial exige a ausência de opiniões pessoais, emoções ou juízos de valor. Evita-se o uso da primeira pessoa do singular ('eu'), e a primeira pessoa do plural ('nós') é admitida quando o redator fala em nome da instituição (ex: 'Consideramos que...'). O Manual de Redação é explícito quanto a isso. A assertiva está correta.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "DOUTRINA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. A impessoalidade veda primeira pessoa do singular e admite 'nós' institucional.",
+      "referencia": "Manual de Redação da Presidência da República (2018).",
+      "dica": "Decore: redação oficial = impessoal, clara, concisa, formal, padronizada."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está correta quanto aos princípios da redação oficial.",
+      "referencia": "Manual de Redação da Presidência da República (2018).",
+      "dica": "Pegadinha: banca diz 'pode usar eu na redação oficial' = FALSO."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "8d936de8-402d-46f1-b92f-eb38e1b89c09",
+  "assuntoId": "cd561c69-727e-4b0c-a5e3-09d25feffb87",
+  "topicoId": "ed74b589-5403-4f2c-ae23-30b20f0b4ee6",
+  "subtopicoId": "4b09648b-f460-4634-96c8-8bd7ae3007a5",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "3fbb946c-7e7f-4f97-95e0-19b0fa36a387",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A intervenção federal no Estado-membro, prevista no art. 34 da CF/88, pode ser decretada pelo Presidente da República, independentemente de autorização do Congresso Nacional, quando se tratar de 'garantir o livre exercício de qualquer dos Poderes nas unidades da Federação', sendo a autorização legislativa exigida apenas nas hipóteses de 'repelir invasão estrangeira' ou 'reorganizar as finanças'.",
+  "textoApoio": "Art. 34 da CF/88.",
+  "resolucao": "A assertiva está ERRADA. O art. 34 da CF/88 lista as hipóteses de intervenção federal. Em todas elas, é necessária a autorização do Congresso Nacional (art. 36, I), salvo na hipótese de 'repelir invasão estrangeira ou de uma unidade da Federação em outra' (art. 34, I) e 'garantir o livre exercício de qualquer dos Poderes' (art. 34, III) — estas duas excepcionam a autorização congressual, segundo o art. 36, §1º? Na verdade, o art. 36, §1º, diz que 'nos casos do art. 34, I e III, a intervenção pode ser decretada sem autorização do Congresso Nacional, devendo este a apreciar no prazo de 24 horas'. A assertiva diz que a autorização legislativa é exigida apenas nas hipóteses de 'repelir invasão estrangeira' ou 'reorganizar as finanças' — isso está invertido. As hipóteses que exigem autorização prévia são as outras (como 'reorganizar as finanças'). A assertiva erra ao afirmar que as duas mencionadas exigem autorização.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. As hipóteses do art. 34, I e III, dispensam autorização prévia do Congresso.",
+      "referencia": "CF/88, arts. 34 e 36, §1º.",
+      "dica": "Decore: intervenção federal sem autorização prévia: repelir invasão (art. 34, I) e garantir livre exercício dos Poderes (art. 34, III)."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao inverter as hipóteses que exigem ou não autorização.",
+      "referencia": "CF/88, arts. 34 e 36, §1º.",
+      "dica": "Pegadinha: banca diz 'repelir invasão precisa de autorização' = FALSO."
+    }
+  ]
+}
+
+{
+  "disciplinaId": "79598e72-7696-43ff-9ad6-adadfa6d0ec0",
+  "assuntoId": "218f34e0-a60c-4a53-8830-65141f2d5d02",
+  "topicoId": "cabfd043-7e30-441b-8db0-4b0199c727b7",
+  "subtopicoId": "749c6341-1910-4d46-9d57-9d5183813986",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "As empresas públicas, diferentemente das sociedades de economia mista, não podem ter capital privado, sendo o seu capital exclusivamente público, e ambas estão sujeitas ao regime de falência quando exploram atividade econômica em sentido estrito.",
+  "textoApoio": "Decreto-Lei 200/67 e Lei 13.303/2016.",
+  "resolucao": "A assertiva está ERRADA. As empresas públicas podem ter capital exclusivamente público (100% estatal). Já as sociedades de economia mista têm capital misto (maioria do capital votante do Estado, mas com participação privada). Ambas podem explorar atividade econômica, mas não se sujeitam à falência (Lei 11.101/2005, art. 2º, I: 'Não se aplica a recuperação judicial e a falência às empresas públicas e sociedades de economia mista'). Elas podem sofrer liquidação extrajudicial, mas não falência. A assertiva erra ao afirmar que estão sujeitas à falência.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": false,
+      "explicacao": "Incorreta. Empresas estatais não se submetem à falência.",
+      "referencia": "Lei 11.101/2005, art. 2º, I.",
+      "dica": "Decore: empresa pública e S.E.M. → não falência; podem ter liquidação extrajudicial."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva erra ao afirmar que empresas públicas e S.E.M. estão sujeitas à falência.",
+      "referencia": "Lei 11.101/2005, art. 2º, I.",
+      "dica": "Pegadinha: banca diz 'estatais podem falir' = FALSO."
+    }
+  ]
+}
+
+
+{
+  "disciplinaId": "ec374769-2fd4-410c-97d3-c3cf37933b98",
+  "assuntoId": "00105a84-81e5-4ebe-9600-0aab117062f1",
+  "topicoId": "e99a9ea8-4e59-48ae-925b-d165230fd742",
+  "subtopicoId": "903332d4-9100-4b6d-bd0c-c2c529ad7279",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "ac39611b-8fea-4913-9c37-e7ca6b0424d8",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A lesão corporal de natureza grave, prevista no art. 129, §1º, do CP, exige resultado naturalístico consistente em debilidade permanente de membro, sentido ou função, incapacidade para ocupações habituais por mais de trinta dias ou perigo de vida, sendo que a lesão corporal gravíssima (§2º) inclui a perda ou inutilização do membro, sentido ou função.",
+  "textoApoio": "Art. 129 do CP.",
+  "resolucao": "A assertiva está CERTA. A lesão grave (art. 129, §1º) exige: I - incapacidade para ocupações habituais por mais de 30 dias; II - perigo de vida; III - debilidade permanente de membro, sentido ou função; IV - antecipação de parto (redação atual). A lesão gravíssima (§2º) inclui: I - perda ou inutilização do membro, sentido ou função; II - incapacidade permanente para o trabalho; III - enfermidade incurável; etc. A assertiva está correta ao descrever os dois níveis.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "C",
+      "texto": "Certo",
+      "isCorreta": true,
+      "explicacao": "Correta. A assertiva descreve corretamente as lesões grave e gravíssima.",
+      "referencia": "CP, art. 129, §1º e §2º.",
+      "dica": "Decore: lesão grave = debilidade permanente; gravíssima = perda ou inutilização."
+    },
+    {
+      "letra": "E",
+      "texto": "Errado",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A assertiva está de acordo com o CP.",
+      "referencia": "CP, art. 129, §1º e §2º.",
+      "dica": "Cuidado: a banca pode trocar 'debilidade' por 'incapacidade' — são conceitos diferentes."
+    }
+  ]
+}

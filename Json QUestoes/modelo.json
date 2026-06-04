@@ -1,0 +1,56 @@
+{
+  "disciplinaId": "8d936de8-402d-46f1-b92f-eb38e1b89c09",
+  "assuntoId": "84f5cb6f-0784-4d7b-bccb-592f53b061a3",
+  "topicoId": "a2c9f22f-e5eb-42fd-81f1-b83835c715b0",
+  "subtopicoId": "f5b25802-10f9-4b6b-9ac1-aadfc2bb5062",
+  "bancaId": "ec831dac-64bf-4d5a-8ca3-54cdbd45d132",
+  "concursoId": "c97fbb6e-a1ad-4268-970a-421f7a0da997",
+  "carreiraId": "558da9cd-aa1c-43ce-b895-93b5b37c103d",
+  "nivelEducacionalId": "67e67bc5-fc0e-420e-9543-f2efe9b2595a",
+  "dificuldadeId": "8414056c-5e74-40b9-8c25-5829cce83ab7",
+  "tipoQuestaoId": "9440bee0-7611-4842-b832-2f5a638553c4",
+  "cargoId": "53d5e374-bf33-43b3-825a-b6a1bf2950bd",
+  "ano": 2026,
+  "isUnique": true,
+  "enunciado": "A respeito da disciplina constitucional da Segurança Pública, especificamente sobre a organização e competências das Polícias Civis (Art. 144, § 4º da CF/88), assinale a alternativa correta:",
+  "textoApoio": "A segurança pública, dever do Estado, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio.",
+  "resolucao": "O gabarito é a Letra C. Segundo o Art. 144, § 4º da CF/88, as polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+  "videoUrl": "",
+  "visibility": "publica",
+  "status": "PUBLICADA",
+  "tipoCobranca": "LEI_SECA",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "As polícias civis possuem competência concorrente com a Polícia Federal para a apuração de infrações penais militares.",
+      "isCorreta": false,
+      "explicacao": "Incorreta. O texto da CF expressamente excetua as infrações penais militares da atuação das Polícias Civis.",
+      "referencia": "Art. 144, § 4º da CF/88",
+      "dica": "Polícia Civil nunca apura crimes militares."
+    },
+    {
+      "letra": "B",
+      "texto": "A direção da Polícia Civil cabe, discricionariamente, a qualquer integrante de suas carreiras de nível superior.",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A direção das polícias civis é privativa de delegados de polícia de carreira.",
+      "referencia": "Art. 144, § 4º da CF/88",
+      "dica": "Direção = Exclusivo de Delegado de Carreira."
+    },
+    {
+      "letra": "C",
+      "texto": "Às polícias civis, dirigidas por delegados de polícia de carreira, incumbem as funções de polícia judiciária e a apuração de infrações penais, ressalvada a competência da União e excetuadas as infrações penais militares.",
+      "isCorreta": true,
+      "explicacao": "Correta. Alternativa que transcreve perfeitamente a literalidade e o sentido da previsão constitucional sobre a função das polícias civis dos Estados.",
+      "referencia": "Art. 144, § 4º da CF/88",
+      "dica": "Lembre-se da ressalva da União e exceção dos crimes militares!"
+    },
+    {
+      "letra": "D",
+      "texto": "Compete às polícias civis a patrulha ostensiva das rodovias estaduais, visando a preservação da incolumidade patrimonial.",
+      "isCorreta": false,
+      "explicacao": "Incorreta. A função de patrulhamento ostensivo rodoviário não é atribuída à Polícia Civil, mas sim aos órgãos de trânsito ou à Polícia Militar/Polícia Rodoviária Federal conforme o âmbito da via.",
+      "referencia": "Art. 144, § 2º e § 5º da CF/88",
+      "dica": "Polícia Civil é polícia judiciária/investigativa, não ostensiva."
+    }
+  ]
+}

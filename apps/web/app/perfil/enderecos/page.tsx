@@ -1,0 +1,37 @@
+import { AddressesManager } from "./addresses-manager"
+import { auth } from "@workspace/auth"
+import { prisma } from "@workspace/database"
+import { headers } from "next/headers"
+import { redirect } from "next/navigation"
+
+export default async function EnderecosPage() {
+  const session = await auth()
+
+  if (!session?.user?.id) {
+    redirect("/login")
+  }
+
+  const enderecos = await prisma.endereco.findMany({
+    where: { usuarioId: session.user.id },
+    orderBy: [
+      { principal: "desc" },
+      { criadoEm: "desc" },
+    ],
+  })
+
+  return (
+    <AddressesManager
+      initialAddresses={enderecos.map((endereco) => ({
+        id: endereco.id,
+        cep: endereco.cep,
+        logradouro: endereco.logradouro,
+        numero: endereco.numero,
+        complemento: endereco.complemento || "",
+        bairro: endereco.bairro,
+        cidade: endereco.cidade,
+        estado: endereco.estado,
+        principal: endereco.principal,
+      }))}
+    />
+  )
+}

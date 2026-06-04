@@ -7,7 +7,14 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "turbo format",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "db:push": "npm --workspace @workspace/database run db:push",
+    "db:migrate": "npm --workspace @workspace/database run db:migrate",
+    "db:generate": "npm --workspace @workspace/database run db:generate",
+    "db:studio": "npm --workspace @workspace/database run db:studio",
+    "download:provas:policia": "node scripts/download-pciconcursos-provas.mjs",
+    "seed:pm-ce-soldado-dev": "npm --workspace @workspace/database run seed:pm-ce-soldado-dev --",
+    "seed:users": "npm --workspace @workspace/database run seed:users"
   },
   "devDependencies": {
     "@workspace/eslint-config": "*",
@@ -24,5 +31,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "lucide-react": "^1.16.0"
+  }
 }

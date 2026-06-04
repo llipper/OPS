@@ -4,6 +4,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
+      "@workspace/auth": ["../../packages/auth/src/index.ts"],
+      "@workspace/database": ["../../packages/database/src/index.ts"],
+      "@workspace/permissions": ["../../packages/permissions/src/index.ts"],
       "@workspace/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
@@ -19,5 +22,5 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "scratch", "scratch/**/*.ts"]
 }
