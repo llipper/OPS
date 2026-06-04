@@ -5,15 +5,7 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "build": "prisma generate",
-    "db:push": "dotenv -e ../../.env -- prisma db push",
-    "db:migrate": "dotenv -e ../../.env -- prisma migrate deploy",
-    "db:generate": "dotenv -e ../../.env -- prisma generate",
-    "db:studio": "dotenv -e ../../.env -- prisma studio",
-    "seed:pm-ce-soldado-dev": "tsx prisma/seed-pm-ce-soldado-dev.ts",
-    "seed:taxonomy": "tsx prisma/seed-taxonomy.ts",
-    "seed:bancas": "tsx prisma/seed-bancas.ts",
-    "seed:users": "dotenv -e ../../.env -- tsx prisma/seed-users.ts"
+    "build": "prisma generate"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
