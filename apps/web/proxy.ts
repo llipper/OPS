@@ -99,6 +99,17 @@ function withSecurityHeaders(
   return response
 }
 
+function continueRequest(requestHeaders: Headers, nonce: string, options?: { private?: boolean }) {
+  return withSecurityHeaders(
+    NextResponse.next({
+      request: {
+        headers: requestHeaders,
+      },
+    }),
+    { private: options?.private, nonce }
+  )
+}
+
 function clearSessionCookies(response: NextResponse) {
   for (const name of [
     "authjs.session-token",
@@ -169,14 +180,7 @@ export async function proxy(req: NextRequest) {
   const routeArea = getRouteArea(pathname)
 
   if (routeArea === "auth-api") {
-    return withSecurityHeaders(
-      NextResponse.next({
-        request: {
-          headers: requestHeaders,
-        },
-      }),
-      { private: true, nonce }
-    )
+    return continueRequest(requestHeaders, nonce, { private: true })
   }
 
   const session = await auth()
@@ -185,6 +189,10 @@ export async function proxy(req: NextRequest) {
 
   if (session && !hasValidSession) {
     console.warn(`[SECURITY] Sessão inválida em ${pathname}: role ausente ou desconhecida.`)
+    if (routeArea === "public") {
+      return clearSessionCookies(continueRequest(requestHeaders, nonce))
+    }
+
     return unauthorized(pathname, nextUrl, nonce, { clearSession: true })
   }
 
@@ -196,14 +204,7 @@ export async function proxy(req: NextRequest) {
   }
 
   if (routeArea === "public") {
-    return withSecurityHeaders(
-      NextResponse.next({
-        request: {
-          headers: requestHeaders,
-        },
-      }),
-      { nonce }
-    )
+    return continueRequest(requestHeaders, nonce)
   }
 
   if (!hasValidSession) {
@@ -219,14 +220,7 @@ export async function proxy(req: NextRequest) {
     return forbidden(pathname, nextUrl, nonce)
   }
 
-  return withSecurityHeaders(
-    NextResponse.next({
-      request: {
-        headers: requestHeaders,
-      },
-    }),
-    { private: true, nonce }
-  )
+  return continueRequest(requestHeaders, nonce, { private: true })
 }
 
 export const config = {
