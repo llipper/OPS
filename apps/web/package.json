@@ -20,6 +20,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@hugeicons/core-free-icons": "^4.1.4",
     "@hugeicons/react": "^1.1.6",
+    "@prisma/nextjs-monorepo-workaround-plugin": "^7.8.0",
     "@tabler/icons-react": "^3.44.0",
     "@tanstack/react-table": "^8.21.3",
     "@tiptap/react": "^3.23.4",

@@ -1,7 +1,19 @@
+import { createRequire } from "node:module"
+
+const require = createRequire(import.meta.url)
+const { PrismaPlugin } = require("@prisma/nextjs-monorepo-workaround-plugin")
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   poweredByHeader: false,
   transpilePackages: ["@workspace/ui"],
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      config.plugins = [...config.plugins, new PrismaPlugin()]
+    }
+
+    return config
+  },
   async headers() {
     return [
       {
